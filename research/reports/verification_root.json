@@ -1,0 +1,362 @@
+{
+  "scope": "Analytical scenario and software regression checks only; no physical tests, detector training, model accuracy benchmarks, acquired sensor observations, or safety certification.",
+  "environment": {
+    "python": "3.12.14",
+    "implementation": "CPython",
+    "operating_system": "Windows",
+    "machine": "AMD64"
+  },
+  "suites": {
+    "engineering": {
+      "status": "PASS",
+      "test_count": 12,
+      "expected_test_count": 12,
+      "failures": 0,
+      "errors": 0,
+      "tests": [
+        {
+          "test": "engineering_checks.MissionConstraints.test_intermediate_capacity_saturation_conserves_curtailed_energy",
+          "status": "PASS"
+        },
+        {
+          "test": "engineering_checks.MissionConstraints.test_loss_of_energy_is_recorded_as_infeasible",
+          "status": "PASS"
+        },
+        {
+          "test": "engineering_checks.MissionConstraints.test_overloaded_capture_stream_requires_throttling",
+          "status": "PASS"
+        },
+        {
+          "test": "engineering_checks.MissionConstraints.test_published_six_hour_duties",
+          "status": "PASS"
+        },
+        {
+          "test": "engineering_checks.MissionConstraints.test_recharging_cannot_erase_an_intermediate_reserve_breach",
+          "status": "PASS"
+        },
+        {
+          "test": "engineering_checks.MissionConstraints.test_stationary_infeasibility_is_not_zero_duty",
+          "status": "PASS"
+        },
+        {
+          "test": "engineering_checks.Reproduction.test_baseline_auxiliary_and_pv_changes_propagate",
+          "status": "PASS"
+        },
+        {
+          "test": "engineering_checks.Reproduction.test_complete_clean_regeneration_is_deterministic",
+          "status": "PASS"
+        },
+        {
+          "test": "engineering_checks.Reproduction.test_component_energy_changes_propagate",
+          "status": "PASS"
+        },
+        {
+          "test": "engineering_checks.Reproduction.test_declared_headlines_remain_original_scenarios",
+          "status": "PASS"
+        },
+        {
+          "test": "engineering_checks.Reproduction.test_inconsistent_derived_geometry_fails_loudly",
+          "status": "PASS"
+        },
+        {
+          "test": "engineering_checks.Reproduction.test_mass_diameter_motor_and_arm_changes_propagate",
+          "status": "PASS"
+        }
+      ]
+    },
+    "ml_primitives": {
+      "status": "PASS",
+      "test_count": 33,
+      "expected_test_count": 33,
+      "failures": 0,
+      "errors": 0,
+      "tests": [
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_blank_group_rejected",
+          "status": "PASS"
+        },
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_class_mismatch",
+          "status": "PASS"
+        },
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_duplicate_penalty",
+          "status": "PASS"
+        },
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_empty_rates_are_undefined",
+          "status": "PASS"
+        },
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_gate_clock_offset_sign",
+          "status": "PASS"
+        },
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_gate_future_interval",
+          "status": "PASS"
+        },
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_gate_identity_and_quality",
+          "status": "PASS"
+        },
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_gate_nonfinite_and_negative_bound",
+          "status": "PASS"
+        },
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_gate_unknown_offset",
+          "status": "PASS"
+        },
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_gate_upper_boundary",
+          "status": "PASS"
+        },
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_group_known_sha_fixture",
+          "status": "PASS"
+        },
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_group_order_and_append_invariance",
+          "status": "PASS"
+        },
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_invalid_score",
+          "status": "PASS"
+        },
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_invalid_threshold",
+          "status": "PASS"
+        },
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_iou_boundary_inclusive",
+          "status": "PASS"
+        },
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_iou_contained",
+          "status": "PASS"
+        },
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_iou_degenerate",
+          "status": "PASS"
+        },
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_iou_identical",
+          "status": "PASS"
+        },
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_iou_nan",
+          "status": "PASS"
+        },
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_iou_partial",
+          "status": "PASS"
+        },
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_iou_reversed",
+          "status": "PASS"
+        },
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_iou_symmetry_translation_scale",
+          "status": "PASS"
+        },
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_iou_touching",
+          "status": "PASS"
+        },
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_iou_wrong_dimension",
+          "status": "PASS"
+        },
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_listings_match_and_execute",
+          "status": "PASS"
+        },
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_missed_object_rates",
+          "status": "PASS"
+        },
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_rates_numeric",
+          "status": "PASS"
+        },
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_rates_reject_negative_counts",
+          "status": "PASS"
+        },
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_repeated_frame_rejected",
+          "status": "PASS"
+        },
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_score_boundary_inclusive",
+          "status": "PASS"
+        },
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_score_sorting_affects_matching",
+          "status": "PASS"
+        },
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_stable_score_ties",
+          "status": "PASS"
+        },
+        {
+          "test": "ml_primitive_checks.ValidationChecks.test_threshold_filters_predictions",
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  "datasets": [
+    {
+      "path": "research/analysis/arm_torque_budget.csv",
+      "status": "PASS",
+      "rows": 7,
+      "columns": 6,
+      "committed_sha256": "1af04875f9255be917d69cd5e108a960f146072559ab7da33baf4ecc9798bbd9",
+      "regenerated_sha256": "1af04875f9255be917d69cd5e108a960f146072559ab7da33baf4ecc9798bbd9"
+    },
+    {
+      "path": "research/analysis/arm_unconstrained_workspace.csv",
+      "status": "PASS",
+      "rows": 722,
+      "columns": 5,
+      "committed_sha256": "43faea662ab322de06342fd9628110d13f1b361a2e31040b96608f81d3ab2bc3",
+      "regenerated_sha256": "43faea662ab322de06342fd9628110d13f1b361a2e31040b96608f81d3ab2bc3"
+    },
+    {
+      "path": "research/analysis/baseline_parameters.csv",
+      "status": "PASS",
+      "rows": 21,
+      "columns": 5,
+      "committed_sha256": "66bdcd904fbc2c722410f98ab6cd4379dacae8a0368f86b5fff98a707d11a267",
+      "regenerated_sha256": "66bdcd904fbc2c722410f98ab6cd4379dacae8a0368f86b5fff98a707d11a267"
+    },
+    {
+      "path": "research/analysis/energy_duty_sweep.csv",
+      "status": "PASS",
+      "rows": 404,
+      "columns": 8,
+      "committed_sha256": "847408e305bd83d8c6761befcf53f44b68cab1c4b94249094fbc4ab96dd4c46c",
+      "regenerated_sha256": "847408e305bd83d8c6761befcf53f44b68cab1c4b94249094fbc4ab96dd4c46c"
+    },
+    {
+      "path": "research/analysis/energy_mission_duty_limits.csv",
+      "status": "PASS",
+      "rows": 15,
+      "columns": 8,
+      "committed_sha256": "df6b214013e4a738a36155baa4e193739b59cc8370dc5ddc7e62f040cbf67ed3",
+      "regenerated_sha256": "df6b214013e4a738a36155baa4e193739b59cc8370dc5ddc7e62f040cbf67ed3"
+    },
+    {
+      "path": "research/analysis/gm_background_scenario.csv",
+      "status": "PASS",
+      "rows": 60,
+      "columns": 7,
+      "committed_sha256": "7dd4cb062e080dcd5ff2c49c5a6ff9830b6c1f8b659b376b2403c5384cb7eab5",
+      "regenerated_sha256": "7dd4cb062e080dcd5ff2c49c5a6ff9830b6c1f8b659b376b2403c5384cb7eab5"
+    },
+    {
+      "path": "research/analysis/gm_counting_time.csv",
+      "status": "PASS",
+      "rows": 40,
+      "columns": 6,
+      "committed_sha256": "1a86923cf29efddf8b2203703266f30f234281bfd3d49088433cd5e1b4028871",
+      "regenerated_sha256": "1a86923cf29efddf8b2203703266f30f234281bfd3d49088433cd5e1b4028871"
+    },
+    {
+      "path": "research/analysis/grade_load.csv",
+      "status": "PASS",
+      "rows": 21,
+      "columns": 12,
+      "committed_sha256": "dd10f768b9a4b98d330e6284cb7a0dade0643f699b0b82df9e6acfd772b83e20",
+      "regenerated_sha256": "dd10f768b9a4b98d330e6284cb7a0dade0643f699b0b82df9e6acfd772b83e20"
+    },
+    {
+      "path": "research/analysis/odometry_mismatch_paths.csv",
+      "status": "PASS",
+      "rows": 404,
+      "columns": 6,
+      "committed_sha256": "122333f76ec7d99d501d53780e1e8814da3261eeb77b0b8b7a55cde401f8da55",
+      "regenerated_sha256": "122333f76ec7d99d501d53780e1e8814da3261eeb77b0b8b7a55cde401f8da55"
+    },
+    {
+      "path": "research/analysis/pv_irradiance_temperature.csv",
+      "status": "PASS",
+      "rows": 204,
+      "columns": 5,
+      "committed_sha256": "502855961125ddf7924ec80d408115360a828445ca4e09dbefbf85d76cd80e9e",
+      "regenerated_sha256": "502855961125ddf7924ec80d408115360a828445ca4e09dbefbf85d76cd80e9e"
+    },
+    {
+      "path": "research/analysis/solar_recharge_lower_bound.csv",
+      "status": "PASS",
+      "rows": 5,
+      "columns": 4,
+      "committed_sha256": "8a5bab900d9301654f1a2b17c38ac4d0b0a21b09d8b2362b509b35f6fa8a59d4",
+      "regenerated_sha256": "8a5bab900d9301654f1a2b17c38ac4d0b0a21b09d8b2362b509b35f6fa8a59d4"
+    },
+    {
+      "path": "research/analysis/tds_fullscale_spec.csv",
+      "status": "PASS",
+      "rows": 9,
+      "columns": 5,
+      "committed_sha256": "520a0ffcbd4bb6b070f07fdd847099a852d5c66a851e3e529a72debfffca84d6",
+      "regenerated_sha256": "520a0ffcbd4bb6b070f07fdd847099a852d5c66a851e3e529a72debfffca84d6"
+    },
+    {
+      "path": "research/analysis/tds_partial_uncertainty.csv",
+      "status": "PASS",
+      "rows": 4,
+      "columns": 8,
+      "committed_sha256": "918deaf1ad2bc721f859efc797e47011f8a3f0b887440a4579561a707ff3d1eb",
+      "regenerated_sha256": "918deaf1ad2bc721f859efc797e47011f8a3f0b887440a4579561a707ff3d1eb"
+    },
+    {
+      "path": "research/analysis/vision_latency_scenarios.csv",
+      "status": "PASS",
+      "rows": 48,
+      "columns": 15,
+      "committed_sha256": "942f688861b672ae20973da457956160fc94291b1b8bf236d480bf6500b47ebe",
+      "regenerated_sha256": "942f688861b672ae20973da457956160fc94291b1b8bf236d480bf6500b47ebe"
+    },
+    {
+      "path": "research/analysis/wheel_diameter_speed.csv",
+      "status": "PASS",
+      "rows": 41,
+      "columns": 5,
+      "committed_sha256": "4e4f1c84d8ea9a209e64d9810baf319f65b5e659d700f03327e6438b5cc7263d",
+      "regenerated_sha256": "4e4f1c84d8ea9a209e64d9810baf319f65b5e659d700f03327e6438b5cc7263d"
+    },
+    {
+      "path": "research/analysis/zero_miss_confidence.csv",
+      "status": "PASS",
+      "rows": 200,
+      "columns": 5,
+      "committed_sha256": "66caedbfa90f675d64cda8239e11e77cd6bf435a4101851426b259cafdd0a431",
+      "regenerated_sha256": "66caedbfa90f675d64cda8239e11e77cd6bf435a4101851426b259cafdd0a431"
+    }
+  ],
+  "dataset_inventory_matches": true,
+  "summary_identical": true,
+  "input_snapshots_identical": true,
+  "figure_regeneration": {
+    "status": "NOT_REQUESTED"
+  },
+  "source_sha256": {
+    "research/build_engineering_analysis.py": "936017bdaa1dfd5b6c2c63b12fd132a229388c519af22b97bd6d7e53d70f63e8",
+    "research/build_engineering_figures.py": "e26ccec9c51d4d555f957b08b823c13a218ec957f70e7cee6494768b52ccadcd",
+    "research/engineering_caption_text.json": "eea5d2fc6f6a07525095fbb9361eff59289798daa15c196a384642e27c3cd440",
+    "research/engineering_models.py": "5f16239f5ed548fb4884b7de41176722263aa07e1645301292205594875403e3",
+    "research/engineering_scenarios.json": "1b9417203203e471ea984ccfb0e34e2cfe49a8c8e2492b68735915474987479f",
+    "research/ml/listing1_freshness.py": "6304c9364911854bd5ec15fc7dc18213d48869040dcc11936c1f5c228126241c",
+    "research/ml/listing2_matching.py": "f185b452c7c96b8d71bcc40475ffbb7ab2a6cd0db6706948bef3e78a02b692f8",
+    "research/ml/test_validation_primitives.py": "e25935eef4ef98981db85e09061a83909ef998d56caabb54041d0f47afaf163b",
+    "research/ml/validation_primitives.py": "92694b63cab588070bbd4feb2b1723f85b36fee083fcbf1c6ebbb85e419af67a",
+    "research/ml_methods_revision.md": "6e353b8ac36f4f71741cd360fd0c4bf3e9675818ecf50e2233640ab6778adfc2",
+    "research/new_design_baseline.json": "cf09866944dfa7c25d7b70b68ca4dd325da1c1d07093d92a7ee30757f95a805f",
+    "research/test_engineering_reproduction.py": "06ef57f10a5da275c00ecdadaf7976beaca3cdb9b7f746a046b9ce2897816171",
+    "scripts/verify_repository.py": "7d0069d948cb7d0270f31d8b95f980639e1638f37da6bada7a92e309edcdc817"
+  },
+  "test_count": 45,
+  "status": "PASS"
+}

@@ -1,0 +1,103 @@
+{
+  "environment": {
+    "python": "3.12.14",
+    "operating_system": "Windows",
+    "machine": "AMD64"
+  },
+  "dependencies": {
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2",
+    "contourpy": "1.4.0",
+    "cycler": "0.12.1",
+    "fonttools": "4.65.0",
+    "kiwisolver": "1.5.1",
+    "packaging": "26.3",
+    "pillow": "12.3.0",
+    "pyparsing": "3.3.3",
+    "python-dateutil": "2.9.0.post0",
+    "six": "1.17.0"
+  },
+  "png_pixel_checks": [
+    {
+      "path": "research/figures/ENG_F01_energy_duty.png",
+      "dimensions": [
+        1950,
+        1350
+      ],
+      "pixel_identical": true,
+      "regenerated_pixel_sha256": "f2b315bc333be4b91d973b33edf116cb8fbcd7ca85d9c6df3461590abae98cc9"
+    },
+    {
+      "path": "research/figures/ENG_F02_solar.png",
+      "dimensions": [
+        1950,
+        1350
+      ],
+      "pixel_identical": true,
+      "regenerated_pixel_sha256": "55fd4eead4e1c79c1e1d1f427912102831a41bff08f1f6994bb1ae14d5e64306"
+    },
+    {
+      "path": "research/figures/ENG_F03_grade_motor.png",
+      "dimensions": [
+        1950,
+        1350
+      ],
+      "pixel_identical": true,
+      "regenerated_pixel_sha256": "46349e51f2afdd6f97bf0118e6ef3cc456b024c83daa14e94cb8c2ee533b3941"
+    },
+    {
+      "path": "research/figures/ENG_F04_kinematic_sensitivity.png",
+      "dimensions": [
+        1950,
+        1350
+      ],
+      "pixel_identical": true,
+      "regenerated_pixel_sha256": "b4f3b4a444d97d5d8762b50c15ea5cdf89cb8f86d820df3af9ac3a1010cfd727"
+    },
+    {
+      "path": "research/figures/ENG_F05_arm.png",
+      "dimensions": [
+        1950,
+        1320
+      ],
+      "pixel_identical": true,
+      "regenerated_pixel_sha256": "1a47d274dfba227d14acf0cac3888386ffc81553d6ab955052682308d65bdc48"
+    },
+    {
+      "path": "research/figures/ENG_F06_gm_uncertainty.png",
+      "dimensions": [
+        1950,
+        1350
+      ],
+      "pixel_identical": true,
+      "regenerated_pixel_sha256": "70522548d830ea71284327a99f484fbc29ebd561d96a70a10fc3506f5838bc1d"
+    },
+    {
+      "path": "research/figures/ENG_F07_tds.png",
+      "dimensions": [
+        1950,
+        1350
+      ],
+      "pixel_identical": true,
+      "regenerated_pixel_sha256": "e5a03bf433b732c179cc6cad00fd6a3e75623afe17528ef9eb41bfa4c0ea85ee"
+    },
+    {
+      "path": "research/figures/ENG_F08_detection_confidence.png",
+      "dimensions": [
+        1950,
+        1200
+      ],
+      "pixel_identical": true,
+      "regenerated_pixel_sha256": "48e06fe1734b41045b7693cf604c7c811212fe7c2351f6c91471ea96a55f14ad"
+    },
+    {
+      "path": "research/figures/ENG_F09_vision_latency.png",
+      "dimensions": [
+        1950,
+        1380
+      ],
+      "pixel_identical": true,
+      "regenerated_pixel_sha256": "08aa7c20fa4085a8437b112158fb2eb0d37e057ae5051c0c18026c4f5dbe5d56"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "date": "2026-09-16",
+  "database": "Crossref public REST API",
+  "queries": [
+    {
+      "query_id": 1,
+      "query": "disaster rescue ground robot",
+      "requested_rows": 500,
+      "returned_rows": 500,
+      "reported_total_results": 641253,
+      "retrieved_utc": "2026-09-15T18:23:34.207060+00:00",
+      "request_url": "https://api.crossref.org/works?query.bibliographic=disaster+rescue+ground+robot&rows=500&filter=from-pub-date%3A1995-01-01%2Cuntil-pub-date%3A2026-09-16&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ccontainer-title%2Ctype%2CURL%2Cabstract%2Clicense%2Clink%2Csubject%2Cscore"
+    },
+    {
+      "query_id": 2,
+      "query": "mobile robot environmental monitoring gas sensing",
+      "requested_rows": 500,
+      "returned_rows": 500,
+      "reported_total_results": 4400349,
+      "retrieved_utc": "2026-09-15T18:23:38.175323+00:00",
+      "request_url": "https://api.crossref.org/works?query.bibliographic=mobile+robot+environmental+monitoring+gas+sensing&rows=500&filter=from-pub-date%3A1995-01-01%2Cuntil-pub-date%3A2026-09-16&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ccontainer-title%2Ctype%2CURL%2Cabstract%2Clicense%2Clink%2Csubject%2Cscore"
+    },
+    {
+      "query_id": 3,
+      "query": "robot radiological nuclear inspection mapping",
+      "requested_rows": 500,
+      "returned_rows": 500,
+      "reported_total_results": 1423970,
+      "retrieved_utc": "2026-09-15T18:23:42.337594+00:00",
+      "request_url": "https://api.crossref.org/works?query.bibliographic=robot+radiological+nuclear+inspection+mapping&rows=500&filter=from-pub-date%3A1995-01-01%2Cuntil-pub-date%3A2026-09-16&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ccontainer-title%2Ctype%2CURL%2Cabstract%2Clicense%2Clink%2Csubject%2Cscore"
+    },
+    {
+      "query_id": 4,
+      "query": "mobile robot water quality monitoring",
+      "requested_rows": 500,
+      "returned_rows": 500,
+      "reported_total_results": 4118660,
+      "retrieved_utc": "2026-09-15T18:23:46.076047+00:00",
+      "request_url": "https://api.crossref.org/works?query.bibliographic=mobile+robot+water+quality+monitoring&rows=500&filter=from-pub-date%3A1995-01-01%2Cuntil-pub-date%3A2026-09-16&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ccontainer-title%2Ctype%2CURL%2Cabstract%2Clicense%2Clink%2Csubject%2Cscore"
+    },
+    {
+      "query_id": 5,
+      "query": "low cost modular mobile robot architecture",
+      "requested_rows": 500,
+      "returned_rows": 500,
+      "reported_total_results": 2780855,
+      "retrieved_utc": "2026-09-15T18:23:49.764084+00:00",
+      "request_url": "https://api.crossref.org/works?query.bibliographic=low+cost+modular+mobile+robot+architecture&rows=500&filter=from-pub-date%3A1995-01-01%2Cuntil-pub-date%3A2026-09-16&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ccontainer-title%2Ctype%2CURL%2Cabstract%2Clicense%2Clink%2Csubject%2Cscore"
+    },
+    {
+      "query_id": 6,
+      "query": "mobile manipulator disaster response intervention",
+      "requested_rows": 500,
+      "returned_rows": 500,
+      "reported_total_results": 2185803,
+      "retrieved_utc": "2026-09-15T18:23:53.245497+00:00",
+      "request_url": "https://api.crossref.org/works?query.bibliographic=mobile+manipulator+disaster+response+intervention&rows=500&filter=from-pub-date%3A1995-01-01%2Cuntil-pub-date%3A2026-09-16&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ccontainer-title%2Ctype%2CURL%2Cabstract%2Clicense%2Clink%2Csubject%2Cscore"
+    },
+    {
+      "query_id": 7,
+      "query": "rough terrain unmanned ground vehicle navigation field",
+      "requested_rows": 500,
+      "returned_rows": 500,
+      "reported_total_results": 1664622,
+      "retrieved_utc": "2026-09-15T18:23:58.058300+00:00",
+      "request_url": "https://api.crossref.org/works?query.bibliographic=rough+terrain+unmanned+ground+vehicle+navigation+field&rows=500&filter=from-pub-date%3A1995-01-01%2Cuntil-pub-date%3A2026-09-16&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ccontainer-title%2Ctype%2CURL%2Cabstract%2Clicense%2Clink%2Csubject%2Cscore"
+    },
+    {
+      "query_id": 8,
+      "query": "search rescue robot human robot interaction field validation",
+      "requested_rows": 500,
+      "returned_rows": 500,
+      "reported_total_results": 4748674,
+      "retrieved_utc": "2026-09-15T18:24:02.193154+00:00",
+      "request_url": "https://api.crossref.org/works?query.bibliographic=search+rescue+robot+human+robot+interaction+field+validation&rows=500&filter=from-pub-date%3A1995-01-01%2Cuntil-pub-date%3A2026-09-16&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ccontainer-title%2Ctype%2CURL%2Cabstract%2Clicense%2Clink%2Csubject%2Cscore"
+    },
+    {
+      "query_id": 9,
+      "query": "gas source localization mobile robot",
+      "requested_rows": 500,
+      "returned_rows": 500,
+      "reported_total_results": 1847020,
+      "retrieved_utc": "2026-09-15T18:24:05.975622+00:00",
+      "request_url": "https://api.crossref.org/works?query.bibliographic=gas+source+localization+mobile+robot&rows=500&filter=from-pub-date%3A1995-01-01%2Cuntil-pub-date%3A2026-09-16&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ccontainer-title%2Ctype%2CURL%2Cabstract%2Clicense%2Clink%2Csubject%2Cscore"
+    },
+    {
+      "query_id": 10,
+      "query": "robotics subterranean exploration autonomous navigation",
+      "requested_rows": 500,
+      "returned_rows": 500,
+      "reported_total_results": 805647,
+      "retrieved_utc": "2026-09-15T18:24:09.929775+00:00",
+      "request_url": "https://api.crossref.org/works?query.bibliographic=robotics+subterranean+exploration+autonomous+navigation&rows=500&filter=from-pub-date%3A1995-01-01%2Cuntil-pub-date%3A2026-09-16&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ccontainer-title%2Ctype%2CURL%2Cabstract%2Clicense%2Clink%2Csubject%2Cscore"
+    }
+  ],
+  "retrieved_rows": 5000,
+  "unique_records": 4858,
+  "duplicate_rows": 142,
+  "metadata_candidates": 1630,
+  "not_flagged_by_heuristic": 3228,
+  "abstract_available_count": 802,
+  "method": "Top 500 relevance-ranked Crossref records per query; DOI deduplication (normalized-title fallback); automated title/available-abstract keyword screen. Not a systematic review, not full-text reading, not a quality assessment. False negatives and false positives expected.",
+  "full_texts_read": null,
+  "targeted_full_text_reviews": 25,
+  "review_scope_note": "Twenty-five manually curated sources received targeted methods/results/conclusion review; not 4,858 full texts. The broad metadata heuristic and focused review are distinct, not a PRISMA eligibility flow."
+}

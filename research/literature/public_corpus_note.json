@@ -1,0 +1,13 @@
+{
+  "retrieval_snapshot": "2026-09-15 UTC / 2026-09-16 Asia/Dhaka",
+  "unique_records": 4858,
+  "abstract_available_count": 802,
+  "metadata_candidates": 1630,
+  "removed_fields": [
+    "abstract",
+    "link",
+    "license transport metadata",
+    "author affiliations"
+  ],
+  "interpretation": "Stored screening flags were computed on the original title plus available abstract. Abstract text and raw responses are not redistributed. The public snapshot alone cannot independently recompute every original flag."
+}

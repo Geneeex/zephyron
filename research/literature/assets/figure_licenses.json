@@ -1,0 +1,156 @@
+[
+  {
+    "path": "research/literature/assets/Coal_mine_rescue_robot.png",
+    "source_key": "LIT_COAL2017",
+    "figure": 3,
+    "asset_url": "https://mdpi-res.com/sensors/sensors-17-02426/article_deploy/html/images/sensors-17-02426-g003.png",
+    "source_url": "https://europepmc.org/articles/PMC5677175",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license_evidence": "© 2017 by the authors. 2017 https://creativecommons.org/licenses/by/4.0/ Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license ( http://creativecommons.org/licenses/by/4.0/ ).",
+    "original_caption": "The coal mine search-and-rescue robot is shown in ( a , b ).",
+    "attribution": "Reproduced from Figure 3 of Jingchao Zhao et al. (2017), A Search-and-Rescue Robot System for Remotely Sensing the Underground Coal Mine Environment, DOI: 10.3390/s17102426, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). No content changes.",
+    "third_party_note": "Figure caption does not identify a third-party rights exception; article states CC BY 4.0.",
+    "credited_authors": [
+      "Jingchao Zhao",
+      "Junyao Gao",
+      "Fangzhou Zhao",
+      "Yi Liu"
+    ],
+    "publication_year": 2017,
+    "sha256": "f3b7233834e12e0d638d47e0192fbcf46089d4887b5fd374c267e5f7445f784f"
+  },
+  {
+    "path": "research/literature/assets/SmokeBot_gas_sensing_platform.png",
+    "source_key": "LIT_GAS2019",
+    "figure": 8,
+    "asset_url": "https://mdpi-res.com/sensors/sensors-19-00685/article_deploy/html/images/sensors-19-00685-g008.png",
+    "source_url": "https://europepmc.org/articles/PMC6387125",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license_evidence": "© 2019 by the authors. 2019 https://creativecommons.org/licenses/by/4.0/ Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license ( http://creativecommons.org/licenses/by/4.0/ ).",
+    "original_caption": "( a , b ): Real-world working environments for the SmokeBot, which are imitated in a firefighter training facility; ( c ): SmokeBot sensor set-ups; ( d ): Experimental environment.",
+    "attribution": "Reproduced from Figure 8 of Han Fan et al. (2019), Towards Gas Discrimination and Mapping in Emergency Response Scenarios Using a Mobile Robot with an Electronic Nose, DOI: 10.3390/s19030685, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). No content changes.",
+    "third_party_note": "Figure caption does not identify a third-party rights exception; article states CC BY 4.0.",
+    "credited_authors": [
+      "Han Fan",
+      "Victor Hernandez Bennetts",
+      "Erik Schaffernicht",
+      "Achim J. Lilienthal"
+    ],
+    "publication_year": 2019,
+    "sha256": "4e911800d06ac8beb22d9ee61fbea7754a3b92af029df0b9c30275c8f5f95904"
+  },
+  {
+    "path": "research/literature/assets/Published_MOX_drift.png",
+    "source_key": "LIT_GAS2019",
+    "figure": 9,
+    "panel": "",
+    "asset_url": "https://mdpi-res.com/sensors/sensors-19-00685/article_deploy/html/images/sensors-19-00685-g009.png",
+    "source_url": "https://doi.org/10.3390/s19030685",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license_evidence": "© 2019 by the authors.2019https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (http://creativecommons.org/licenses/by/4.0/).",
+    "original_caption": "(a): The responses of MOX sensors and corresponding assigned states in the trial Experiment 2. In this case, the ground-truth baseline is never fully recovered; (b): The baseline offsets learned in each periodic updates (TUB = 50 s) during the baseline states. The drift effect is observable for all three MOX sensors.",
+    "suggested_caption": "Published MOX sensor responses and baseline corrections in Experiment 2 of Fan et al. (2019). These are measurements on the authors’ gas-sensing platform, not Zephyron.",
+    "attribution": "Reproduced from Figure 9 of Han Fan et al. (2019), Towards Gas Discrimination and Mapping in Emergency Response Scenarios Using a Mobile Robot with an Electronic Nose, DOI: 10.3390/s19030685, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). No content changes.",
+    "third_party_note": "No third-party exception appears in this figure caption. Article permissions explicitly state CC BY 4.0.",
+    "pixel_size": [
+      3130,
+      3954
+    ],
+    "role": "published analytical result for another platform",
+    "credited_authors": [
+      "Han Fan",
+      "Victor Hernandez Bennetts",
+      "Erik Schaffernicht",
+      "Achim J. Lilienthal"
+    ],
+    "publication_year": 2019,
+    "sha256": "734a5c97bb37ecf513ab3c36ecf9d6768d2f071698427b79b1a4a38d5d29b284"
+  },
+  {
+    "path": "research/literature/assets/Published_gas_mapping_RMSE.png",
+    "source_key": "LIT_INFOMAP2023",
+    "figure": 10,
+    "panel": "",
+    "asset_url": "https://mdpi-res.com/sensors/sensors-23-05387/article_deploy/html/images/sensors-23-05387-g010.png",
+    "source_url": "https://doi.org/10.3390/s23125387",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license_evidence": "© 2023 by the authors.Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).",
+    "original_caption": "Comparison of the RMSE between the estimated gas map and the simulation ground truth with respect to the length of the robot’s exploration path. Each line represents the average RMSE obtained for the six starting positions (A–F) in each scenario, and the colored area around them represents one standard deviation.",
+    "suggested_caption": "Published gas-map RMSE against simulated ground truth as exploration distance increases, from Gongora et al. (2023). Curves and shaded dispersion summarize the authors’ simulations; they are not Zephyron experiments or predictions.",
+    "attribution": "Reproduced from Figure 10 of Andres Gongora et al. (2023), Information-Driven Gas Distribution Mapping for Autonomous Mobile Robots, DOI: 10.3390/s23125387, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). No content changes.",
+    "third_party_note": "No third-party exception appears in this figure caption. Article permissions explicitly state CC BY 4.0.",
+    "pixel_size": [
+      3317,
+      3939
+    ],
+    "role": "published analytical result for another platform",
+    "credited_authors": [
+      "Andres Gongora",
+      "Javier Monroy",
+      "Faezeh Rahbar",
+      "Chiara Ercolani",
+      "Javier Gonzalez-Jimenez",
+      "Alcherio Martinoli"
+    ],
+    "publication_year": 2023,
+    "sha256": "02ee0d41cf2c23990d6b6015f33e3177fc8b6ea681137651a180f49b7aa5b312"
+  },
+  {
+    "path": "research/literature/assets/Published_radiation_coverage_A.png",
+    "source_key": "LIT_RADHOT2019",
+    "figure": 18,
+    "panel": "a",
+    "asset_url": "https://mdpi-res.com/sensors/sensors-19-00292/article_deploy/html/images/sensors-19-00292-g018a.png",
+    "source_url": "https://doi.org/10.3390/s19020292",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license_evidence": "© 2019 by the authors.Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (http://creativecommons.org/licenses/by/4.0/).",
+    "original_caption": "Comparison of the coverage of the radiation covering map from the simulation, and from using the real robot, average over ten trials.",
+    "suggested_caption": "Published simulated-versus-physical-robot radiation-map coverage, panel (a), Ardiny et al. (2019), averaged over ten trials. Physical marXbot trials emulated radiation using infrared range-and-bearing signals (§6.3), not ionizing-radiation exposure. Not Zephyron data.",
+    "attribution": "Reproduced from Figure 18a of Hadi Ardiny et al. (2019), Autonomous Exploration for Radioactive Hotspots Localization Taking Account of Sensor Limitations, DOI: 10.3390/s19020292, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). No content changes.",
+    "third_party_note": "No third-party exception appears in this figure caption. Article permissions explicitly state CC BY 4.0.",
+    "pixel_size": [
+      1579,
+      1329
+    ],
+    "role": "published analytical result for another platform",
+    "credited_authors": [
+      "Hadi Ardiny",
+      "Stefan Witwicki",
+      "Francesco Mondada"
+    ],
+    "publication_year": 2019,
+    "sha256": "f7e1c8ff11a951a6d50f3517a447edf1090ac155a0eab022b3d2b5502cb3112f"
+  },
+  {
+    "path": "research/literature/assets/Published_radiation_coverage_B.png",
+    "source_key": "LIT_RADHOT2019",
+    "figure": 18,
+    "panel": "b",
+    "asset_url": "https://mdpi-res.com/sensors/sensors-19-00292/article_deploy/html/images/sensors-19-00292-g018b.png",
+    "source_url": "https://doi.org/10.3390/s19020292",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license_evidence": "© 2019 by the authors.Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (http://creativecommons.org/licenses/by/4.0/).",
+    "original_caption": "Comparison of the coverage of the radiation covering map from the simulation, and from using the real robot, average over ten trials.",
+    "suggested_caption": "Published simulated-versus-physical-robot radiation-map coverage, panel (b), Ardiny et al. (2019), averaged over ten trials. Physical marXbot trials emulated radiation using infrared range-and-bearing signals (§6.3), not ionizing-radiation exposure. Not Zephyron data.",
+    "attribution": "Reproduced from Figure 18b of Hadi Ardiny et al. (2019), Autonomous Exploration for Radioactive Hotspots Localization Taking Account of Sensor Limitations, DOI: 10.3390/s19020292, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). No content changes.",
+    "third_party_note": "No third-party exception appears in this figure caption. Article permissions explicitly state CC BY 4.0.",
+    "pixel_size": [
+      1546,
+      1318
+    ],
+    "role": "published analytical result for another platform",
+    "credited_authors": [
+      "Hadi Ardiny",
+      "Stefan Witwicki",
+      "Francesco Mondada"
+    ],
+    "publication_year": 2019,
+    "sha256": "203e025a8a3b7391c0a724f1f3b4c8404a583178dd823f30a197afdafce089ae"
+  }
+]

@@ -1,0 +1,191 @@
+{
+  "scope": "Four verified primary references for proposed ML methods; no trained model or experimental results claimed.",
+  "references": [
+    {
+      "key": "ENG_MOBILENETV3",
+      "title": "Searching for MobileNetV3",
+      "authors": "Andrew Howard; Mark Sandler; Grace Chu; Liang-Chieh Chen; Bo Chen; Mingxing Tan; Weijun Wang; Yukun Zhu; Ruoming Pang; Vijay Vasudevan; Quoc V. Le; Hartwig Adam",
+      "author_given_family": [
+        {
+          "given": "Andrew",
+          "family": "Howard"
+        },
+        {
+          "given": "Mark",
+          "family": "Sandler"
+        },
+        {
+          "given": "Grace",
+          "family": "Chu"
+        },
+        {
+          "given": "Liang-Chieh",
+          "family": "Chen"
+        },
+        {
+          "given": "Bo",
+          "family": "Chen"
+        },
+        {
+          "given": "Mingxing",
+          "family": "Tan"
+        },
+        {
+          "given": "Weijun",
+          "family": "Wang"
+        },
+        {
+          "given": "Yukun",
+          "family": "Zhu"
+        },
+        {
+          "given": "Ruoming",
+          "family": "Pang"
+        },
+        {
+          "given": "Vijay",
+          "family": "Vasudevan"
+        },
+        {
+          "given": "Quoc V.",
+          "family": "Le"
+        },
+        {
+          "given": "Hartwig",
+          "family": "Adam"
+        }
+      ],
+      "year": 2019,
+      "url": "https://openaccess.thecvf.com/content_ICCV_2019/html/Howard_Searching_for_MobileNetV3_ICCV_2019_paper.html",
+      "doi": null,
+      "source_type": "primary_paper",
+      "source_locator": "Sections 3, 5 and 6.3; Table 6",
+      "supported_claim": "MobileNetV3 provides Small and Large backbones; Section 6.3 evaluates both as SSDLite feature extractors at output strides 16 and 32. These support a concrete compact-detector comparison.",
+      "limitation": "No published phone latency or COCO score is assigned to the rover. DOI omitted because it was not directly verified at an accessible primary DOI record.",
+      "verified_on": "2026-09-16",
+      "verification": "Primary publisher or proceedings page and accessible author full text checked; no Zephyron benchmark transferred.",
+      "publication_type": "conference_paper",
+      "venue": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "pages": "1314-1324",
+      "publisher": "IEEE/CVF",
+      "verification_url": "https://arxiv.org/html/1905.02244v5",
+      "author_order_note": "Author order follows the CVF proceedings page and author manuscript, not reordered secondary indexes."
+    },
+    {
+      "key": "ENG_SSD",
+      "title": "SSD: Single Shot MultiBox Detector",
+      "authors": "Wei Liu; Dragomir Anguelov; Dumitru Erhan; Christian Szegedy; Scott Reed; Cheng-Yang Fu; Alexander C. Berg",
+      "author_given_family": [
+        {
+          "given": "Wei",
+          "family": "Liu"
+        },
+        {
+          "given": "Dragomir",
+          "family": "Anguelov"
+        },
+        {
+          "given": "Dumitru",
+          "family": "Erhan"
+        },
+        {
+          "given": "Christian",
+          "family": "Szegedy"
+        },
+        {
+          "given": "Scott",
+          "family": "Reed"
+        },
+        {
+          "given": "Cheng-Yang",
+          "family": "Fu"
+        },
+        {
+          "given": "Alexander C.",
+          "family": "Berg"
+        }
+      ],
+      "year": 2016,
+      "url": "https://link.springer.com/chapter/10.1007/978-3-319-46448-0_2",
+      "doi": "10.1007/978-3-319-46448-0_2",
+      "source_type": "primary_paper",
+      "source_locator": "Sections 2.1 and 2.2; training objective and hard negative mining",
+      "supported_claim": "SSD predicts default-box offsets and class scores at multiple feature-map resolutions. Its objective combines localization and confidence terms normalized by matched anchors, with a stated zero-match convention.",
+      "limitation": "The manuscript uses SSD to specify a proposed training objective; no architecture has been trained on Zephyron data.",
+      "verified_on": "2026-09-16",
+      "verification": "Primary publisher or proceedings page and accessible author full text checked; no Zephyron benchmark transferred.",
+      "publication_type": "conference_paper",
+      "venue": "Computer Vision - ECCV 2016",
+      "series": "Lecture Notes in Computer Science",
+      "volume": "9905",
+      "pages": "21-37",
+      "publisher": "Springer",
+      "verification_url": "https://arxiv.org/html/1512.02325v5"
+    },
+    {
+      "key": "ENG_RANDOMFOREST",
+      "title": "Random Forests",
+      "authors": "Leo Breiman",
+      "author_given_family": [
+        {
+          "given": "Leo",
+          "family": "Breiman"
+        }
+      ],
+      "year": 2001,
+      "url": "https://link.springer.com/article/10.1023/A:1010933404324",
+      "doi": "10.1023/A:1010933404324",
+      "source_type": "primary_paper",
+      "source_locator": "Abstract; regression forests discussion",
+      "supported_claim": "Random forests combine randomized tree predictors and extend to regression. This provides a candidate nonlinear comparison for independently referenced sensor calibration.",
+      "limitation": "This source does not establish conductivity calibration or gas discrimination for the proposed rover. Such use is a new conditional experimental proposal.",
+      "verified_on": "2026-09-16",
+      "verification": "Primary publisher or proceedings page and accessible author full text checked; no Zephyron benchmark transferred.",
+      "publication_type": "journal_article",
+      "venue": "Machine Learning",
+      "volume": "45",
+      "pages": "5-32",
+      "publisher": "Springer",
+      "verification_url": "https://link.springer.com/article/10.1023/A:1010933404324"
+    },
+    {
+      "key": "ENG_TEMPERATURECAL",
+      "title": "On Calibration of Modern Neural Networks",
+      "authors": "Chuan Guo; Geoff Pleiss; Yu Sun; Kilian Q. Weinberger",
+      "author_given_family": [
+        {
+          "given": "Chuan",
+          "family": "Guo"
+        },
+        {
+          "given": "Geoff",
+          "family": "Pleiss"
+        },
+        {
+          "given": "Yu",
+          "family": "Sun"
+        },
+        {
+          "given": "Kilian Q.",
+          "family": "Weinberger"
+        }
+      ],
+      "year": 2017,
+      "url": "https://proceedings.mlr.press/v70/guo17a.html",
+      "doi": null,
+      "source_type": "primary_paper",
+      "source_locator": "Section 4; temperature scaling; Proceedings of the 34th International Conference on Machine Learning",
+      "supported_claim": "Temperature scaling fits a scalar temperature on held-out data for class probabilities; classification scores are not automatically calibrated.",
+      "limitation": "Classification calibration does not establish bounding-box correctness, object recall, or rover safety. Applying it to the proposed detector requires a declared label and sampling definition.",
+      "verified_on": "2026-09-16",
+      "verification": "Primary publisher or proceedings page and accessible author full text checked; no Zephyron benchmark transferred.",
+      "publication_type": "conference_paper",
+      "venue": "Proceedings of the 34th International Conference on Machine Learning",
+      "series": "Proceedings of Machine Learning Research",
+      "volume": "70",
+      "pages": "1321-1330",
+      "publisher": "PMLR",
+      "verification_url": "https://proceedings.mlr.press/v70/guo17a/guo17a.pdf"
+    }
+  ]
+}

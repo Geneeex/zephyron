@@ -1,0 +1,19 @@
+{
+  "version": "ZEPHYRON-ANALYTICAL-SCENARIOS-2026-09-16",
+  "evidence_status": "Selected component specifications and declared analytical grids; no observations",
+  "component_specs": {
+    "motor": {"source_key": "ENG_MOTOR", "selected_product": "Pololu 4755", "count": 4, "nominal_voltage_V": 12, "free_speed_rpm": 100, "free_current_A": 0.2, "extrapolated_stall_current_A": 5.5, "extrapolated_stall_torque_kgf_cm": 34, "continuous_gearbox_torque_kgf_cm": 10, "continuous_current_fraction_of_stall": 0.25},
+    "battery": {"source_key": "ENG_BATTERY", "selected_product": "Bioenno BLF-1206A", "label_voltage_V": 12, "capacity_Ah": 6, "energy_convention": "Manufacturer 12 V label multiplied by 6 Ah; not measured delivered energy"},
+    "pv": {"source_key": "ENG_PANEL", "selected_product": "Newpowa NPA20S-12J", "nameplate_W": 20, "power_temperature_coefficient_per_K": -0.0038, "reference_cell_temperature_C": 25, "reference_irradiance_W_m2": 1000},
+    "tds": {"source_keys": ["ENG_TDS", "ENG_TDS_CODE"], "full_scale_ppm": 1000, "full_scale_spec_fraction": 0.1, "conversion_coefficients_descending": [133.42, -255.86, 857.39, 0], "conversion_multiplier": 0.5, "temperature_coefficient_per_C": 0.02, "reference_temperature_C": 25}
+  },
+  "constants": {"gravity_m_s2": 9.81, "kgf_cm_to_Nm": 0.0980665},
+  "energy": {"drive_duty_percent": [0, 100, 1], "irradiance_W_m2": [0, 250, 500, 1000], "mission_hours": [2, 4, 6, 8, 20], "plotted_mission_hours": [2, 4, 6, 8], "mission_irradiance_W_m2": [0, 500, 1000], "summary_duty_fraction": 0.25, "summary_mission_h": 6, "summary_irradiance_W_m2": 500},
+  "pv": {"cell_temperature_C": [25, 40, 50, 60], "irradiance_grid_W_m2": [0, 1000, 20], "standalone_controller_efficiency_assumed": 0.9, "standalone_efficiency_scope": "Separate temperature sensitivity column only; never multiplied by combined mission derating", "recharge_irradiance_W_m2": [200, 400, 600, 800, 1000]},
+  "mobility": {"grade_grid_deg": [0, 20, 1], "wheel_diameter_grid_mm": [145, 185, 1], "radius_mismatch_fraction": [0, 0.005, 0.01, 0.02], "center_path_grid_m": [0, 10, 0.1]},
+  "radiation": {"rate_counts_s": [0.2, 1, 5, 20], "integration_s": [1, 2, 5, 10, 20, 30, 60, 120, 300, 600], "background_signal_rate_cps": [0.2, 1, 5], "background_rate_cps": [0.2, 1], "sample_duration_s": [10, 30, 60, 120, 300], "background_duration_s": [60, 300]},
+  "tds": {"indicated_ppm": [50, 100, 200, 300, 400, 500, 600, 800, 1000], "voltage_V": [0.5, 1, 1.5, 2], "temperature_C": 25, "ADC_reference_V_assumed": 5, "ADC_bits_assumed": 10, "temperature_standard_uncertainty_C_assumed": 0.5},
+  "vision": {"capture_fps": [5, 10, 20], "link_Mbps": [1, 2, 5, 10], "inference_ms": [25, 50, 100, 200], "frame_size_bytes_assumed": 40000, "decode_ms_assumed": 20, "postprocessing_ms_assumed": 10, "display_ms_assumed": 20, "timing_scope": "Per accepted frame, zero prior queue; service overload requires throttling/discard; capture FPS is not delivered FPS", "partial_throughput_scope": "Upper bound from capture, transfer and inference bottlenecks only; excludes other stages, overhead, contention and concurrency constraints"},
+  "confidence": {"trial_grid": [1, 200, 1], "one_sided_confidence": 0.95, "upper_miss_probability_target": 0.05, "annotation_trials": [5, 15, 59]},
+  "arm": {"grasp_payload_kg": [0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3], "workspace_angle_grid_deg": [0, 360, 1], "plotted_payload_band_kg": [0.15, 0.25]}
+}

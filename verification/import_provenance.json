@@ -1,0 +1,7 @@
+{
+  "source_archive": "Zephyron_GitHub_Ready.zip",
+  "source_sha256": "cd0c1d444559be1a55acb27d6e21124914470e96c92372024c72331f741024fb",
+  "source_file_count": 188,
+  "original_manifest": "verification/source_archive_manifest.json",
+  "scope": "Original handoff archive; publication changes update repository metadata, documentation, CI and manifest maintenance. Scientific source data, manuscript assets and model files retain their supplied bytes."
+}

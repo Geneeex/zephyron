@@ -1,0 +1,16 @@
+mission_h,irradiance_W_m2,max_drive_duty_fraction,stationary_feasible,state,available_drive_power_W,equation,evidence
+2,0,0.68,True,feasible_under_constant_scenario,23.8,"B=E_usable/t+P_solar-P_aux; infeasible if B<0; otherwise d_max=min(1,B/P_drive)",MODELLED
+2,500,0.8942857142857142,True,feasible_under_constant_scenario,31.299999999999997,"B=E_usable/t+P_solar-P_aux; infeasible if B<0; otherwise d_max=min(1,B/P_drive)",MODELLED
+2,1000,1.0,True,feasible_under_constant_scenario,38.8,"B=E_usable/t+P_solar-P_aux; infeasible if B<0; otherwise d_max=min(1,B/P_drive)",MODELLED
+4,0,0.26857142857142857,True,feasible_under_constant_scenario,9.4,"B=E_usable/t+P_solar-P_aux; infeasible if B<0; otherwise d_max=min(1,B/P_drive)",MODELLED
+4,500,0.4828571428571428,True,feasible_under_constant_scenario,16.9,"B=E_usable/t+P_solar-P_aux; infeasible if B<0; otherwise d_max=min(1,B/P_drive)",MODELLED
+4,1000,0.6971428571428571,True,feasible_under_constant_scenario,24.4,"B=E_usable/t+P_solar-P_aux; infeasible if B<0; otherwise d_max=min(1,B/P_drive)",MODELLED
+6,0,0.13142857142857142,True,feasible_under_constant_scenario,4.6,"B=E_usable/t+P_solar-P_aux; infeasible if B<0; otherwise d_max=min(1,B/P_drive)",MODELLED
+6,500,0.34571428571428575,True,feasible_under_constant_scenario,12.100000000000001,"B=E_usable/t+P_solar-P_aux; infeasible if B<0; otherwise d_max=min(1,B/P_drive)",MODELLED
+6,1000,0.56,True,feasible_under_constant_scenario,19.6,"B=E_usable/t+P_solar-P_aux; infeasible if B<0; otherwise d_max=min(1,B/P_drive)",MODELLED
+8,0,0.06285714285714286,True,feasible_under_constant_scenario,2.2,"B=E_usable/t+P_solar-P_aux; infeasible if B<0; otherwise d_max=min(1,B/P_drive)",MODELLED
+8,500,0.27714285714285714,True,feasible_under_constant_scenario,9.7,"B=E_usable/t+P_solar-P_aux; infeasible if B<0; otherwise d_max=min(1,B/P_drive)",MODELLED
+8,1000,0.4914285714285714,True,feasible_under_constant_scenario,17.2,"B=E_usable/t+P_solar-P_aux; infeasible if B<0; otherwise d_max=min(1,B/P_drive)",MODELLED
+20,0,,False,infeasible_even_stationary,-2.12,"B=E_usable/t+P_solar-P_aux; infeasible if B<0; otherwise d_max=min(1,B/P_drive)",MODELLED
+20,500,0.1537142857142857,True,feasible_under_constant_scenario,5.379999999999999,"B=E_usable/t+P_solar-P_aux; infeasible if B<0; otherwise d_max=min(1,B/P_drive)",MODELLED
+20,1000,0.368,True,feasible_under_constant_scenario,12.879999999999999,"B=E_usable/t+P_solar-P_aux; infeasible if B<0; otherwise d_max=min(1,B/P_drive)",MODELLED

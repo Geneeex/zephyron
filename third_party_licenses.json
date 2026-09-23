@@ -1,0 +1,251 @@
+{
+  "schema_version": 1,
+  "scope": "Third-party figure files and their byte-identical manuscript aliases, plus the explicitly marked radiation-panel arrangement.",
+  "reviewed_on": "2026-09-23",
+  "repository_original_code_license": "MIT",
+  "repository_original_content_license": "CC-BY-4.0",
+  "repository_licensor": "Sabik Bin Sultan",
+  "paper_authors": [
+    "Sabik Bin Sultan",
+    "Shafi Bin Sultan",
+    "Safwan Sadad"
+  ],
+  "arxiv": {
+    "url": "https://arxiv.org/abs/2609.25709",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html",
+    "license_name": "arXiv non-exclusive distribution license",
+    "note": "The arXiv license is not CC BY. The repository grant is an additional grant for original content distributed here; it does not modify the arXiv record."
+  },
+  "license_text": {
+    "path": "LICENSES/CC-BY-4.0.txt",
+    "source_url": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+    "retrieved_on": "2026-09-23",
+    "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+    "modifications": "None"
+  },
+  "assets": [
+    {
+      "id": "Coal_mine_rescue_robot",
+      "kind": "reproduced_source_figure",
+      "paths": [
+        "research/literature/assets/Coal_mine_rescue_robot.png",
+        "manuscript/latex/assets/fig_02_Coal_mine_rescue_robot_1.png"
+      ],
+      "sha256": "f3b7233834e12e0d638d47e0192fbcf46089d4887b5fd374c267e5f7445f784f",
+      "paper_figure": 2,
+      "source_key": "LIT_COAL2017",
+      "source_figure": "3",
+      "creators": [
+        "Jingchao Zhao",
+        "Junyao Gao",
+        "Fangzhou Zhao",
+        "Yi Liu"
+      ],
+      "copyright": "Copyright 2017 by the original article authors.",
+      "license_spdx": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_text": "LICENSES/CC-BY-4.0.txt",
+      "source_url": "https://europepmc.org/articles/PMC5677175",
+      "asset_url": "https://mdpi-res.com/sensors/sensors-17-02426/article_deploy/html/images/sensors-17-02426-g003.png",
+      "attribution": "Reproduced from Figure 3 of Jingchao Zhao et al. (2017), A Search-and-Rescue Robot System for Remotely Sensing the Underground Coal Mine Environment, DOI: 10.3390/s17102426, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). No content changes.",
+      "modifications": "Original downloaded image file retained byte-for-byte. May be displayed at a different size in the manuscript.",
+      "rights_evidence": {
+        "reviewed_on": "2026-09-23",
+        "type": "Publisher permissions statement in archived primary-source article XML",
+        "statement": "Article licensed under Creative Commons Attribution 4.0 International.",
+        "figure_exception_check": "Figure caption does not identify a third-party rights exception; article states CC BY 4.0."
+      }
+    },
+    {
+      "id": "SmokeBot_gas_sensing_platform",
+      "kind": "reproduced_source_figure",
+      "paths": [
+        "research/literature/assets/SmokeBot_gas_sensing_platform.png",
+        "manuscript/latex/assets/fig_03_SmokeBot_gas_sensing_platform_1.png"
+      ],
+      "sha256": "4e911800d06ac8beb22d9ee61fbea7754a3b92af029df0b9c30275c8f5f95904",
+      "paper_figure": 3,
+      "source_key": "LIT_GAS2019",
+      "source_figure": "8",
+      "creators": [
+        "Han Fan",
+        "Victor Hernandez Bennetts",
+        "Erik Schaffernicht",
+        "Achim J. Lilienthal"
+      ],
+      "copyright": "Copyright 2019 by the original article authors.",
+      "license_spdx": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_text": "LICENSES/CC-BY-4.0.txt",
+      "source_url": "https://europepmc.org/articles/PMC6387125",
+      "asset_url": "https://mdpi-res.com/sensors/sensors-19-00685/article_deploy/html/images/sensors-19-00685-g008.png",
+      "attribution": "Reproduced from Figure 8 of Han Fan et al. (2019), Towards Gas Discrimination and Mapping in Emergency Response Scenarios Using a Mobile Robot with an Electronic Nose, DOI: 10.3390/s19030685, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). No content changes.",
+      "modifications": "Original downloaded image file retained byte-for-byte. May be displayed at a different size in the manuscript.",
+      "rights_evidence": {
+        "reviewed_on": "2026-09-23",
+        "type": "Publisher permissions statement in archived primary-source article XML",
+        "statement": "Article licensed under Creative Commons Attribution 4.0 International.",
+        "figure_exception_check": "Figure caption does not identify a third-party rights exception; article states CC BY 4.0."
+      }
+    },
+    {
+      "id": "Published_MOX_drift",
+      "kind": "reproduced_source_figure",
+      "paths": [
+        "research/literature/assets/Published_MOX_drift.png",
+        "manuscript/latex/assets/fig_04_Published_MOX_drift_1.png"
+      ],
+      "sha256": "734a5c97bb37ecf513ab3c36ecf9d6768d2f071698427b79b1a4a38d5d29b284",
+      "paper_figure": 4,
+      "source_key": "LIT_GAS2019",
+      "source_figure": "9",
+      "creators": [
+        "Han Fan",
+        "Victor Hernandez Bennetts",
+        "Erik Schaffernicht",
+        "Achim J. Lilienthal"
+      ],
+      "copyright": "Copyright 2019 by the original article authors.",
+      "license_spdx": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_text": "LICENSES/CC-BY-4.0.txt",
+      "source_url": "https://doi.org/10.3390/s19030685",
+      "asset_url": "https://mdpi-res.com/sensors/sensors-19-00685/article_deploy/html/images/sensors-19-00685-g009.png",
+      "attribution": "Reproduced from Figure 9 of Han Fan et al. (2019), Towards Gas Discrimination and Mapping in Emergency Response Scenarios Using a Mobile Robot with an Electronic Nose, DOI: 10.3390/s19030685, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). No content changes.",
+      "modifications": "Original downloaded image file retained byte-for-byte. May be displayed at a different size in the manuscript.",
+      "rights_evidence": {
+        "reviewed_on": "2026-09-23",
+        "type": "Publisher permissions statement in archived primary-source article XML",
+        "statement": "Article licensed under Creative Commons Attribution 4.0 International.",
+        "figure_exception_check": "No third-party exception appears in this figure caption. Article permissions explicitly state CC BY 4.0."
+      },
+      "interpretation_note": "Published results for another platform; not Zephyron measurements or predictions."
+    },
+    {
+      "id": "Published_gas_mapping_RMSE",
+      "kind": "reproduced_source_figure",
+      "paths": [
+        "research/literature/assets/Published_gas_mapping_RMSE.png",
+        "manuscript/latex/assets/fig_05_Published_gas_mapping_RMSE_1.png"
+      ],
+      "sha256": "02ee0d41cf2c23990d6b6015f33e3177fc8b6ea681137651a180f49b7aa5b312",
+      "paper_figure": 5,
+      "source_key": "LIT_INFOMAP2023",
+      "source_figure": "10",
+      "creators": [
+        "Andres Gongora",
+        "Javier Monroy",
+        "Faezeh Rahbar",
+        "Chiara Ercolani",
+        "Javier Gonzalez-Jimenez",
+        "Alcherio Martinoli"
+      ],
+      "copyright": "Copyright 2023 by the original article authors.",
+      "license_spdx": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_text": "LICENSES/CC-BY-4.0.txt",
+      "source_url": "https://doi.org/10.3390/s23125387",
+      "asset_url": "https://mdpi-res.com/sensors/sensors-23-05387/article_deploy/html/images/sensors-23-05387-g010.png",
+      "attribution": "Reproduced from Figure 10 of Andres Gongora et al. (2023), Information-Driven Gas Distribution Mapping for Autonomous Mobile Robots, DOI: 10.3390/s23125387, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). No content changes.",
+      "modifications": "Original downloaded image file retained byte-for-byte. May be displayed at a different size in the manuscript.",
+      "rights_evidence": {
+        "reviewed_on": "2026-09-23",
+        "type": "Publisher permissions statement in archived primary-source article XML",
+        "statement": "Article licensed under Creative Commons Attribution 4.0 International.",
+        "figure_exception_check": "No third-party exception appears in this figure caption. Article permissions explicitly state CC BY 4.0."
+      },
+      "interpretation_note": "Published results for another platform; not Zephyron measurements or predictions."
+    },
+    {
+      "id": "Published_radiation_coverage_A",
+      "kind": "reproduced_source_figure",
+      "paths": [
+        "research/literature/assets/Published_radiation_coverage_A.png"
+      ],
+      "sha256": "f7e1c8ff11a951a6d50f3517a447edf1090ac155a0eab022b3d2b5502cb3112f",
+      "paper_figure": 6,
+      "source_key": "LIT_RADHOT2019",
+      "source_figure": "18a",
+      "creators": [
+        "Hadi Ardiny",
+        "Stefan Witwicki",
+        "Francesco Mondada"
+      ],
+      "copyright": "Copyright 2019 by the original article authors.",
+      "license_spdx": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_text": "LICENSES/CC-BY-4.0.txt",
+      "source_url": "https://doi.org/10.3390/s19020292",
+      "asset_url": "https://mdpi-res.com/sensors/sensors-19-00292/article_deploy/html/images/sensors-19-00292-g018a.png",
+      "attribution": "Reproduced from Figure 18a of Hadi Ardiny et al. (2019), Autonomous Exploration for Radioactive Hotspots Localization Taking Account of Sensor Limitations, DOI: 10.3390/s19020292, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). No content changes.",
+      "modifications": "Original downloaded image file retained byte-for-byte. May be displayed at a different size in the manuscript.",
+      "rights_evidence": {
+        "reviewed_on": "2026-09-23",
+        "type": "Publisher permissions statement in archived primary-source article XML",
+        "statement": "Article licensed under Creative Commons Attribution 4.0 International.",
+        "figure_exception_check": "No third-party exception appears in this figure caption. Article permissions explicitly state CC BY 4.0."
+      },
+      "interpretation_note": "The source physical marXbot trials emulated radiation with infrared range-and-bearing signals. These are not Zephyron trials or physical ionizing-radiation exposure measurements."
+    },
+    {
+      "id": "Published_radiation_coverage_B",
+      "kind": "reproduced_source_figure",
+      "paths": [
+        "research/literature/assets/Published_radiation_coverage_B.png"
+      ],
+      "sha256": "203e025a8a3b7391c0a724f1f3b4c8404a583178dd823f30a197afdafce089ae",
+      "paper_figure": 6,
+      "source_key": "LIT_RADHOT2019",
+      "source_figure": "18b",
+      "creators": [
+        "Hadi Ardiny",
+        "Stefan Witwicki",
+        "Francesco Mondada"
+      ],
+      "copyright": "Copyright 2019 by the original article authors.",
+      "license_spdx": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_text": "LICENSES/CC-BY-4.0.txt",
+      "source_url": "https://doi.org/10.3390/s19020292",
+      "asset_url": "https://mdpi-res.com/sensors/sensors-19-00292/article_deploy/html/images/sensors-19-00292-g018b.png",
+      "attribution": "Reproduced from Figure 18b of Hadi Ardiny et al. (2019), Autonomous Exploration for Radioactive Hotspots Localization Taking Account of Sensor Limitations, DOI: 10.3390/s19020292, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). No content changes.",
+      "modifications": "Original downloaded image file retained byte-for-byte. May be displayed at a different size in the manuscript.",
+      "rights_evidence": {
+        "reviewed_on": "2026-09-23",
+        "type": "Publisher permissions statement in archived primary-source article XML",
+        "statement": "Article licensed under Creative Commons Attribution 4.0 International.",
+        "figure_exception_check": "No third-party exception appears in this figure caption. Article permissions explicitly state CC BY 4.0."
+      },
+      "interpretation_note": "The source physical marXbot trials emulated radiation with infrared range-and-bearing signals. These are not Zephyron trials or physical ionizing-radiation exposure measurements."
+    },
+    {
+      "id": "Radiation_coverage_comparison",
+      "kind": "arrangement_of_reproduced_panels",
+      "paths": [
+        "research/assets/Radiation_coverage_comparison.png",
+        "manuscript/latex/assets/fig_06_Radiation_comparison_1.png"
+      ],
+      "sha256": "971e90778a74b192d9f6ceea6504159ac47eb6a0c13ab6fd54f834aedc55ca46",
+      "paper_figure": 6,
+      "source_figure": "18(a,b)",
+      "creators": [
+        "Hadi Ardiny",
+        "Stefan Witwicki",
+        "Francesco Mondada"
+      ],
+      "arrangement_credit": "Zephyron authors; repository maintained by Sabik Bin Sultan",
+      "copyright": "Copyright 2019 by the original article authors; original panel arrangement contributed by the Zephyron authors.",
+      "license_spdx": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_text": "LICENSES/CC-BY-4.0.txt",
+      "source_url": "https://doi.org/10.3390/s19020292",
+      "derived_from": [
+        "Published_radiation_coverage_A",
+        "Published_radiation_coverage_B"
+      ],
+      "modifications": "Panels (a) and (b) arranged side by side with a 32-pixel white gutter. Original panel pixels and plotted data unchanged.",
+      "attribution": "Figure 18(a,b), Hadi Ardiny, Stefan Witwicki, and Francesco Mondada (2019), Autonomous Exploration for Radioactive Hotspots Localization Taking Account of Sensor Limitations, DOI: 10.3390/s19020292, CC BY 4.0. Panels arranged side by side; plotted data unchanged.",
+      "interpretation_note": "The source physical marXbot trials emulated radiation with infrared range-and-bearing signals. These are not Zephyron trials or physical ionizing-radiation exposure measurements."
+    }
+  ]
+}

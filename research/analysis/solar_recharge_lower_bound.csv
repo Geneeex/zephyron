@@ -1,0 +1,6 @@
+irradiance_W_m2,available_solar_W,recharge_label_energy_h,scope
+200,3.0,24.0,MODELLED_energy_only_empty_to_full_load_off_no_CV_tail
+400,6.0,12.0,MODELLED_energy_only_empty_to_full_load_off_no_CV_tail
+600,9.0,8.0,MODELLED_energy_only_empty_to_full_load_off_no_CV_tail
+800,12.0,6.0,MODELLED_energy_only_empty_to_full_load_off_no_CV_tail
+1000,15.0,4.8,MODELLED_energy_only_empty_to_full_load_off_no_CV_tail

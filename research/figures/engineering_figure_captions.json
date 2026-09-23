@@ -1,0 +1,182 @@
+[
+  {
+    "id": "ENG_F01_energy_duty",
+    "title": "Energy-limited mission duration",
+    "caption": "Analytical scenario; no experimental data. A 72 Wh label-based capacity, 80% usable fraction, 5 W auxiliary load, 35 W driving increment and 0.75 PV derating define the balance. Irradiance is constant. The top panel is displayed only to 12 h; non-depleting branches are conditional, not unlimited endurance. The lower panel shows the feasible 2\u20138 h scenarios; the archive also records an explicitly infeasible 20 h dark case. Additional arm, steering, light and pump demand is excluded.",
+    "data_files": [
+      "energy_duty_sweep.csv",
+      "energy_mission_duty_limits.csv"
+    ],
+    "source_keys": [
+      "ENG_BATTERY",
+      "ENG_PANEL",
+      "ENG_PVWATTS"
+    ],
+    "evidence_status": "CALCULATED_OR_MODELLED_NOT_OBSERVED",
+    "svg": "ENG_F01_energy_duty.svg",
+    "png": "ENG_F01_energy_duty.png",
+    "width_inches": 6.5,
+    "height_inches": 4.5,
+    "minimum_axis_legend_font_pt": 8.3,
+    "dpi": 300
+  },
+  {
+    "id": "ENG_F02_solar",
+    "title": "Solar power sensitivity and recharge lower bound",
+    "caption": "Analytical scenario; no experimental data. The upper panel uses the selected 20 W module temperature coefficient without the lumped mission derating. The lower panel separately assumes 0.75 combined derating, 72 Wh replacement and no rover load. These losses must not be counted twice. Recharge values are energy-only lower bounds; weather, charge taper, shading and controller headroom are omitted. The module power-temperature coefficient is \u22120.38% per kelvin.",
+    "data_files": [
+      "pv_irradiance_temperature.csv",
+      "solar_recharge_lower_bound.csv"
+    ],
+    "source_keys": [
+      "ENG_PANEL",
+      "ENG_BATTERY",
+      "ENG_BQ24650"
+    ],
+    "evidence_status": "CALCULATED_OR_MODELLED_NOT_OBSERVED",
+    "svg": "ENG_F02_solar.svg",
+    "png": "ENG_F02_solar.png",
+    "width_inches": 6.5,
+    "height_inches": 4.5,
+    "minimum_axis_legend_font_pt": 8.3,
+    "dpi": 300
+  },
+  {
+    "id": "ENG_F03_grade_motor",
+    "title": "Steady slope and motor sizing",
+    "caption": "Analytical scenario; no experimental data. Equal wheel loading, 12 kg gross mass, 165 mm wheels and rolling coefficient 0.04 are assumed. Wheel torque follows the steady grade model. Current is a linear estimate from the motor specifications at 12 V. Dashed lines are manufacturer recommendations. The 10\u00b0 marker is a proposed test condition. Starts, skid turning, sinkage, heat and PWM effects are excluded.",
+    "data_files": [
+      "grade_load.csv"
+    ],
+    "source_keys": [
+      "ENG_MOTOR",
+      "ENG_SKID"
+    ],
+    "evidence_status": "CALCULATED_OR_MODELLED_NOT_OBSERVED",
+    "svg": "ENG_F03_grade_motor.svg",
+    "png": "ENG_F03_grade_motor.png",
+    "width_inches": 6.5,
+    "height_inches": 4.5,
+    "minimum_axis_legend_font_pt": 8.3,
+    "dpi": 300
+  },
+  {
+    "id": "ENG_F04_kinematic_sensitivity",
+    "title": "Wheel diameter and systematic steering sensitivity",
+    "caption": "Analytical scenario; no experimental data. The top panel uses peripheral speed at 100 rpm, not loaded ground speed. The bottom panel assumes equal angular speeds, 538 mm effective track and 0\u20132% right-to-left rolling-radius mismatch over a 10 m centerline path. Skid turning and active steering require additional models. Wheel-diameter variation is a sensitivity study, not photographic measurement.",
+    "data_files": [
+      "wheel_diameter_speed.csv",
+      "odometry_mismatch_paths.csv"
+    ],
+    "source_keys": [
+      "ENG_MOTOR",
+      "ENG_ODOM",
+      "ENG_SKID"
+    ],
+    "evidence_status": "CALCULATED_OR_MODELLED_NOT_OBSERVED",
+    "svg": "ENG_F04_kinematic_sensitivity.svg",
+    "png": "ENG_F04_kinematic_sensitivity.png",
+    "width_inches": 6.5,
+    "height_inches": 4.5,
+    "minimum_axis_legend_font_pt": 8.3,
+    "dpi": 300
+  },
+  {
+    "id": "ENG_F05_arm",
+    "title": "Arm workspace envelope and torque budget",
+    "caption": "Analytical scenario; no experimental data or payload rating. The ideal annulus uses selected 146 mm and 264 mm links and ignores joint limits, collisions, cables and gripper length. Horizontal torque assumes 0.12/0.16 kg link masses and a 0.13 kg hand. The shaded 0.15\u20130.25 kg band is only a grasp-load scenario. The \u00d72 allowance does not validate dynamics or actuator thermal capability. Both annular boundaries and torque curves are generated from archived CSV data.",
+    "data_files": [
+      "arm_torque_budget.csv",
+      "arm_unconstrained_workspace.csv",
+      "baseline_parameters.csv"
+    ],
+    "source_keys": [],
+    "evidence_status": "CALCULATED_OR_MODELLED_NOT_OBSERVED",
+    "svg": "ENG_F05_arm.svg",
+    "png": "ENG_F05_arm.png",
+    "width_inches": 6.5,
+    "height_inches": 4.4,
+    "minimum_axis_legend_font_pt": 8.3,
+    "dpi": 300
+  },
+  {
+    "id": "ENG_F06_gm_uncertainty",
+    "title": "Count integration and background uncertainty",
+    "caption": "Analytical scenario; no experimental radiation data. The upper panel uses ideal Poisson expected counts without background or dead time. The lower panel assumes a 1 count/s net signal and 1 count/s background, with independent sample and background windows. Calibration, energy response and background drift are omitted. These curves support integration-time planning, not dose-rate or safety claims.",
+    "data_files": [
+      "gm_counting_time.csv",
+      "gm_background_scenario.csv"
+    ],
+    "source_keys": [
+      "ENG_IAEA_STATS",
+      "ENG_IAEA_GM"
+    ],
+    "evidence_status": "CALCULATED_OR_MODELLED_NOT_OBSERVED",
+    "svg": "ENG_F06_gm_uncertainty.svg",
+    "png": "ENG_F06_gm_uncertainty.png",
+    "width_inches": 6.5,
+    "height_inches": 4.5,
+    "minimum_axis_legend_font_pt": 8.3,
+    "dpi": 300
+  },
+  {
+    "id": "ENG_F07_tds",
+    "title": "Full-scale TDS specification and partial uncertainty",
+    "caption": "Calculated specification interpretation and analytical scenario; no experimental data. The SEN0244 specification is \u00b110% of its 1000 ppm full scale, equivalent to \u00b1100 ppm. The lower panel propagates selected 10-bit, 5 V ADC quantization and assumed 0.5 \u00b0C temperature standard uncertainty. Calibration, matrix effects, drift, reference voltage, fouling and covariance are excluded, so the result is only a partial uncertainty budget. The manufacturer full-scale limit is not a probabilistic standard uncertainty.",
+    "data_files": [
+      "tds_fullscale_spec.csv",
+      "tds_partial_uncertainty.csv"
+    ],
+    "source_keys": [
+      "ENG_TDS",
+      "ENG_TDS_CODE",
+      "ENG_GUM"
+    ],
+    "evidence_status": "CALCULATED_OR_MODELLED_NOT_OBSERVED",
+    "svg": "ENG_F07_tds.svg",
+    "png": "ENG_F07_tds.png",
+    "width_inches": 6.5,
+    "height_inches": 4.5,
+    "minimum_axis_legend_font_pt": 8.3,
+    "dpi": 300
+  },
+  {
+    "id": "ENG_F08_detection_confidence",
+    "title": "Detection trial count and uncertainty",
+    "caption": "Analytical sample-size calculation; no trials were performed. For zero misses in n independent positive Bernoulli trials, the exact one-sided 95% upper miss-probability bound is 1 \u2212 0.05^(1/n). At least 59 zero-miss trials are needed to place this bound below 5% for the tested condition distribution. Repeated frames or readings from one exposure are not necessarily independent trials.",
+    "data_files": [
+      "zero_miss_confidence.csv"
+    ],
+    "source_keys": [
+      "ENG_BINOM"
+    ],
+    "evidence_status": "CALCULATED_OR_MODELLED_NOT_OBSERVED",
+    "svg": "ENG_F08_detection_confidence.svg",
+    "png": "ENG_F08_detection_confidence.png",
+    "width_inches": 6.5,
+    "height_inches": 4.0,
+    "minimum_axis_legend_font_pt": 8.3,
+    "dpi": 300
+  },
+  {
+    "id": "ENG_F09_vision_latency",
+    "title": "Vision pipeline latency scenarios",
+    "caption": "Analytical scenario; no hardware timing data. Each sum combines ideal capture-opportunity wait 1/(2fc) with processing and transfer of an accepted frame: 8S/R for 40,000 bytes plus inference and 50 ms for other stages. Prior queueing, retransmission, jitter and missed detections are omitted. Capture rates exceeding network capacity require throttling or discard; skipped capture opportunities add waiting not modeled here. Thus overloaded cases are conditional timing sums, not sustainable event-to-display means. The 360 ms sum gives 0.126 m travel at 0.35 m/s, excluding braking and human response. Inference is assigned to a remote edge host; other pipeline time includes decoding, postprocessing and display.",
+    "data_files": [
+      "vision_latency_scenarios.csv"
+    ],
+    "source_keys": [
+      "ENG_CAMERA",
+      "ENG_MJPEG",
+      "ENG_SCALED",
+      "ENG_ONNX"
+    ],
+    "evidence_status": "CALCULATED_OR_MODELLED_NOT_OBSERVED",
+    "svg": "ENG_F09_vision_latency.svg",
+    "png": "ENG_F09_vision_latency.png",
+    "width_inches": 6.5,
+    "height_inches": 4.6,
+    "minimum_axis_legend_font_pt": 8.3,
+    "dpi": 300
+  }
+]

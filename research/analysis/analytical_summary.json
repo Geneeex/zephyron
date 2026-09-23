@@ -1,0 +1,12 @@
+{
+  "nominal_energy_Wh": 72,
+  "usable_energy_Wh": 57.6,
+  "no_load_speed_m_s": 0.8639379797371932,
+  "full_time_nominal_motion_dark_h": 1.44,
+  "quarter_duty_dark_h": 4.189090909090909,
+  "quarter_duty_500Wm2_h": 9.216000000000001,
+  "sixhour_dark_duty": 0.13142857142857142,
+  "sixhour_500Wm2_duty": 0.34571428571428575,
+  "recharge_full_sun_energy_lower_bound_h": 4.8,
+  "zero_miss_trials_for_upper5pct": 59
+}

@@ -1,0 +1,1015 @@
+[
+  {
+    "id": "F01",
+    "title": "Zephyron system architecture",
+    "status": "Proposed integration of requested features; interfaces require verification",
+    "blocks": [
+      [
+        "sensors",
+        "Environmental sensing",
+        "TDS · turbidity · MQ-2<br>UV · GM · ultrasonic",
+        70,
+        205,
+        365,
+        140
+      ],
+      [
+        "mcu",
+        "Arduino-class control",
+        "Acquisition · commands<br>basic avoidance",
+        580,
+        205,
+        390,
+        140
+      ],
+      [
+        "drive",
+        "Mobility & manipulation",
+        "4WD traction · steering<br>front robotic gripper",
+        1115,
+        205,
+        405,
+        140
+      ],
+      [
+        "gps",
+        "NEO-6M GNSS",
+        "Position · time · fix status",
+        70,
+        505,
+        365,
+        130
+      ],
+      [
+        "net",
+        "Telemetry / local display",
+        "Measurement records<br>supervised commands",
+        580,
+        505,
+        390,
+        130
+      ],
+      [
+        "vision",
+        "ESP32-CAM + external host",
+        "Video · external YOLO<br>SD recording · dashboard",
+        1115,
+        505,
+        405,
+        145
+      ]
+    ],
+    "edges": [
+      [
+        "sensors",
+        "mcu",
+        "data"
+      ],
+      [
+        "mcu",
+        "drive",
+        "control"
+      ],
+      [
+        "gps",
+        "net",
+        "geotags"
+      ],
+      [
+        "mcu",
+        "net",
+        "data"
+      ],
+      [
+        "net",
+        "vision",
+        "network / display"
+      ]
+    ],
+    "note": "Architecture overview, not a verified pin-level schematic. The camera inference workload is on an external laptop/edge server.",
+    "source": "Functional concept only: supplied paper and photographs; source measurements and performance claims are not accepted as evidence. Paper §§2.1–2.6 and conclusion; manipulator visible in supplied photographs."
+  },
+  {
+    "id": "F02",
+    "title": "Radio control, traction and steering",
+    "status": "Proposed radio-control architecture; mechanical steering is a separate actuation path",
+    "blocks": [
+      [
+        "tx",
+        "FlySky FS-i6",
+        "Operator transmitter",
+        60,
+        200,
+        310,
+        125
+      ],
+      [
+        "rx",
+        "FS-iA6B / FS-iA10B",
+        "RC receiver<br>CH1 / CH2",
+        465,
+        200,
+        310,
+        125
+      ],
+      [
+        "mcu",
+        "Arduino control",
+        "Throttle + differential<br>left / right mixing",
+        870,
+        200,
+        330,
+        125
+      ],
+      [
+        "left",
+        "Left BTS7960",
+        "Front-left + rear-left<br>DC gear motors",
+        710,
+        505,
+        355,
+        140
+      ],
+      [
+        "right",
+        "Right BTS7960",
+        "Front-right + rear-right<br>DC gear motors",
+        1160,
+        505,
+        355,
+        140
+      ],
+      [
+        "steer",
+        "Visible steering servos",
+        "Mechanical wheel-angle path<br>mapping to be documented",
+        60,
+        505,
+        465,
+        140,
+        "proposed"
+      ]
+    ],
+    "edges": [
+      [
+        "tx",
+        "rx",
+        "radio"
+      ],
+      [
+        "rx",
+        "mcu",
+        "RC data"
+      ],
+      [
+        "mcu",
+        "left",
+        "PWM / dir."
+      ],
+      [
+        "mcu",
+        "right",
+        "PWM / dir."
+      ]
+    ],
+    "note": "Four-wheel traction and wheel-angle steering are separate functions. The proposed design must document how steering servos and left/right motor-speed commands are coordinated.",
+    "source": "Functional concept only: supplied paper and photographs; source measurements and performance claims are not accepted as evidence. Paper §2.1; wheel steering servos visible in source photos."
+  },
+  {
+    "id": "F03",
+    "title": "Water-quality screening",
+    "status": "Proposed sensing flow; calibration is required for quantitative units",
+    "blocks": [
+      [
+        "sample",
+        "Water sample",
+        "Representative sampling<br>sensor contact",
+        50,
+        310,
+        320,
+        205
+      ],
+      [
+        "sensors",
+        "TDS + turbidity probes",
+        "Separate transducers<br>analog conditioning",
+        443,
+        310,
+        320,
+        205
+      ],
+      [
+        "mcu",
+        "Arduino acquisition",
+        "ADC → calibrated<br>TDS / turbidity estimates",
+        836,
+        310,
+        320,
+        205
+      ],
+      [
+        "out",
+        "Display / logging",
+        "Trends · flags · geotags",
+        1229,
+        310,
+        320,
+        205
+      ]
+    ],
+    "edges": [
+      [
+        "sample",
+        "sensors",
+        "contact"
+      ],
+      [
+        "sensors",
+        "mcu",
+        "voltage"
+      ],
+      [
+        "mcu",
+        "out",
+        "records"
+      ]
+    ],
+    "note": "TDS and turbidity are screening indicators; neither establishes potability or confirms pathogens. Temperature compensation depends on the actual installed sensor system.",
+    "source": "Functional concept only: supplied paper and photographs; source measurements and performance claims are not accepted as evidence. Paper §2.2 and §3.1. Sensor part numbers and deployed compensation implementation are not confirmed."
+  },
+  {
+    "id": "F04",
+    "title": "MQ-2 gas and smoke indication",
+    "status": "Proposed MQ-2 path; response is not gas-specific identification",
+    "blocks": [
+      [
+        "gas",
+        "Ambient sample",
+        "Combustible gases<br>and smoke exposure",
+        50,
+        310,
+        320,
+        205
+      ],
+      [
+        "mq",
+        "MQ-2 sensing module",
+        "Heated metal-oxide<br>sensor + load circuit",
+        443,
+        310,
+        320,
+        205
+      ],
+      [
+        "mcu",
+        "Arduino processing",
+        "ADC · baseline / calibration<br>alarm threshold",
+        836,
+        310,
+        320,
+        205
+      ],
+      [
+        "alarm",
+        "Indication / telemetry",
+        "Local warning<br>logged response",
+        1229,
+        310,
+        320,
+        205
+      ]
+    ],
+    "edges": [
+      [
+        "gas",
+        "mq",
+        "sample"
+      ],
+      [
+        "mq",
+        "mcu",
+        "signal"
+      ],
+      [
+        "mcu",
+        "alarm",
+        "flag / data"
+      ]
+    ],
+    "note": "Cross-sensitivity and environmental drift require calibration. The MQ-2 indicates gas/smoke response; it does not independently verify fire or measure selective CO concentration.",
+    "source": "Functional concept only: supplied paper and photographs; source measurements and performance claims are not accepted as evidence. Paper §2.3 and §3.2; corrected interpretation of MQ-2 capability."
+  },
+  {
+    "id": "F05",
+    "title": "Proposed protected solar power",
+    "status": "SELECTED DESIGN BASELINE — component ratings, not measured rover performance",
+    "blocks": [
+      [
+        "pv",
+        "20 W PV module",
+        "Vmp 19.08 V · Imp 1.05 A<br>Voc 22.35 V",
+        60,
+        185,
+        355,
+        145,
+        "proposed"
+      ],
+      [
+        "charger",
+        "Battery-matched solar charger",
+        "PV input protection<br>14.6 V CC–CV charge profile",
+        590,
+        185,
+        410,
+        145,
+        "proposed"
+      ],
+      [
+        "battery",
+        "12 V label / 6 Ah LiFePO4",
+        "Pack-integrated protection<br>and cell balancing",
+        1155,
+        185,
+        390,
+        145,
+        "proposed"
+      ],
+      [
+        "protect",
+        "Protection / isolation",
+        "Fuse · disconnect<br>protected load distribution",
+        1155,
+        510,
+        390,
+        145,
+        "proposed"
+      ],
+      [
+        "rails",
+        "Regulated supply rails",
+        "DC/DC rails selected for<br>logic, camera and servos",
+        590,
+        510,
+        410,
+        145,
+        "proposed"
+      ],
+      [
+        "loads",
+        "Rover loads",
+        "Traction motor drivers<br>control · sensors · communications",
+        60,
+        510,
+        355,
+        145,
+        "proposed"
+      ]
+    ],
+    "edges": [
+      [
+        "pv",
+        "charger",
+        "solar power"
+      ],
+      [
+        "charger",
+        "battery",
+        "charge"
+      ],
+      [
+        "battery",
+        "protect",
+        "battery bus"
+      ],
+      [
+        "protect",
+        "rails",
+        "power"
+      ],
+      [
+        "rails",
+        "loads",
+        "DC rails"
+      ],
+      [
+        "protect",
+        "loads",
+        "drive bus"
+      ]
+    ],
+    "note": "Selected component ratings define the proposed electrical interfaces. Charger implementation, delivered solar power, charging time and rover endurance require verification.",
+    "source": "Selected manufacturer baseline verified in ENG_PANEL (Newpowa NPA20S-12J), ENG_BATTERY (Bioenno BLF-1206A), ENG_BQ24650 and ENG_BQ76920. Charger and pack protection are distinct functions; no rover energy-performance result is claimed."
+  },
+  {
+    "id": "F06",
+    "title": "GNSS geolocation and geotagging",
+    "status": "Proposed GNSS receiver-to-record flow; receiver selection and interfaces to verify",
+    "blocks": [
+      [
+        "sat",
+        "GPS signals",
+        "Open-sky reception",
+        50,
+        310,
+        320,
+        205
+      ],
+      [
+        "gps",
+        "NEO-6M receiver",
+        "Position · UTC time<br>fix-quality fields",
+        443,
+        310,
+        320,
+        205
+      ],
+      [
+        "mcu",
+        "Controller / record builder",
+        "Read serial messages<br>associate valid time / position",
+        836,
+        310,
+        320,
+        205
+      ],
+      [
+        "records",
+        "Geotagged records",
+        "Measurements / map",
+        1229,
+        310,
+        320,
+        205
+      ]
+    ],
+    "edges": [
+      [
+        "sat",
+        "gps",
+        "RF"
+      ],
+      [
+        "gps",
+        "mcu",
+        "serial data"
+      ],
+      [
+        "mcu",
+        "records",
+        "fix data"
+      ]
+    ],
+    "note": "Position quality depends on sky visibility and receiver state. A nominal GNSS accuracy statement is not a rover localization validation result.",
+    "source": "Functional concept only: supplied paper and photographs; source measurements and performance claims are not accepted as evidence. Paper §2.5 and §3.4. Serial transfer is a functional module interface, not a verified pin assignment."
+  },
+  {
+    "id": "F07",
+    "title": "Ultraviolet sensing",
+    "status": "Proposed UV sensing flow; sensor module and calibration remain to be specified",
+    "blocks": [
+      [
+        "uv",
+        "Ambient ultraviolet",
+        "Exposure at sensor window",
+        50,
+        310,
+        320,
+        205
+      ],
+      [
+        "sensor",
+        "UV sensing module",
+        "Part number / spectral<br>response to be documented",
+        443,
+        310,
+        320,
+        205,
+        "proposed"
+      ],
+      [
+        "mcu",
+        "Controller acquisition",
+        "Module output → calibrated<br>UV quantity / UVI if supported",
+        836,
+        310,
+        320,
+        205,
+        "proposed"
+      ],
+      [
+        "out",
+        "Display / telemetry",
+        "UV record<br>configured risk indication",
+        1229,
+        310,
+        320,
+        205
+      ]
+    ],
+    "edges": [
+      [
+        "uv",
+        "sensor",
+        "UV input"
+      ],
+      [
+        "sensor",
+        "mcu",
+        "I/O TBD"
+      ],
+      [
+        "mcu",
+        "out",
+        "UV data"
+      ]
+    ],
+    "note": "UV Index requires an appropriate sensor response and validated conversion. Do not imply UVI accuracy or spectral coverage without the installed module and calibration record.",
+    "source": "Functional concept only: supplied paper and photographs; source measurements and performance claims are not accepted as evidence. Paper §3.6 and conclusion mention UV; no module, wiring or calibration method supplied."
+  },
+  {
+    "id": "F08",
+    "title": "Geiger–Müller radiation screening",
+    "status": "Proposed GM sensing flow; detector module and calibration remain to be specified",
+    "blocks": [
+      [
+        "rad",
+        "Incident radiation",
+        "Tube-dependent response",
+        50,
+        310,
+        320,
+        205
+      ],
+      [
+        "gm",
+        "GM detector module",
+        "Tube · matched HV supply<br>pulse conditioning",
+        443,
+        310,
+        320,
+        205,
+        "proposed"
+      ],
+      [
+        "mcu",
+        "Controller counting",
+        "Count pulses over<br>a defined time interval",
+        836,
+        310,
+        320,
+        205,
+        "proposed"
+      ],
+      [
+        "out",
+        "Radiation indication",
+        "Count rate / record<br>dose only after calibration",
+        1229,
+        310,
+        320,
+        205
+      ]
+    ],
+    "edges": [
+      [
+        "rad",
+        "gm",
+        "input"
+      ],
+      [
+        "gm",
+        "mcu",
+        "pulses"
+      ],
+      [
+        "mcu",
+        "out",
+        "count rate"
+      ]
+    ],
+    "note": "A generic GM count rate is not a calibrated dose rate. Tube type, background, measurement interval and calibration must be documented before dose-unit claims.",
+    "source": "Functional concept only: supplied paper and photographs; source measurements and performance claims are not accepted as evidence. Paper introduction and conclusion identify GM sensing without an implemented module or validation protocol."
+  },
+  {
+    "id": "F09",
+    "title": "Obstacle sensing with manual supervision",
+    "status": "Proposed supervised avoidance; command-arbitration behavior requires implementation",
+    "blocks": [
+      [
+        "us",
+        "Ultrasonic ranging",
+        "Distance estimate<br>validity / timeout status",
+        70,
+        205,
+        380,
+        145
+      ],
+      [
+        "avoid",
+        "Avoidance logic",
+        "Near-obstacle state<br>stop / limited-motion request",
+        610,
+        205,
+        410,
+        145,
+        "proposed"
+      ],
+      [
+        "super",
+        "Command supervisor",
+        "Manual mode / override<br>command arbitration",
+        1175,
+        205,
+        370,
+        145,
+        "proposed"
+      ],
+      [
+        "operator",
+        "RC operator input",
+        "Direction / throttle<br>mode request",
+        610,
+        520,
+        410,
+        130
+      ],
+      [
+        "drive",
+        "Mobility controller",
+        "Admitted motion command<br>to motor drivers",
+        1175,
+        520,
+        370,
+        130
+      ]
+    ],
+    "edges": [
+      [
+        "us",
+        "avoid",
+        "range"
+      ],
+      [
+        "avoid",
+        "super",
+        "limit"
+      ],
+      [
+        "operator",
+        "super",
+        "manual input"
+      ],
+      [
+        "super",
+        "drive",
+        "control"
+      ]
+    ],
+    "note": "The source characterizes autonomy as teleoperation with basic avoidance. This figure does not imply autonomous mapping, route planning or validated obstacle safety.",
+    "source": "Functional concept only: supplied paper and photographs; source measurements and performance claims are not accepted as evidence. Paper introduction, conclusion and final limitations; detailed arbitration algorithm not supplied."
+  },
+  {
+    "id": "F10",
+    "title": "Video streaming and external object detection",
+    "status": "Proposed processing location — object detection runs on an external host",
+    "blocks": [
+      [
+        "cam",
+        "ESP32-CAM / OV2640",
+        "JPEG frame capture<br>MJPEG stream",
+        50,
+        310,
+        320,
+        205
+      ],
+      [
+        "net",
+        "Wi-Fi link",
+        "Video transport",
+        443,
+        310,
+        320,
+        205
+      ],
+      [
+        "host",
+        "External laptop / edge server",
+        "OpenCV / Flask<br>YOLOv4-tiny inference",
+        836,
+        310,
+        320,
+        205
+      ],
+      [
+        "dash",
+        "Web dashboard",
+        "Detections / stream<br>operator interpretation",
+        1229,
+        310,
+        320,
+        205
+      ]
+    ],
+    "edges": [
+      [
+        "cam",
+        "net",
+        "MJPEG"
+      ],
+      [
+        "net",
+        "host",
+        "video frames"
+      ],
+      [
+        "host",
+        "dash",
+        "results"
+      ]
+    ],
+    "note": "The camera supplies frames to an external detector. Model classes, latency, precision and recall must be established through separate experiments on the selected hardware.",
+    "source": "Functional concept only: supplied paper and photographs; source measurements and performance claims are not accepted as evidence. Paper §2.6 and §3.7; ESP32-CAM → Wi-Fi → external inference server is explicit."
+  },
+  {
+    "id": "F11",
+    "title": "Onboard image recording",
+    "status": "Proposed onboard recording flow; firmware and recording settings require verification",
+    "blocks": [
+      [
+        "ov",
+        "OV2640 camera",
+        "JPEG frames",
+        60,
+        205,
+        335,
+        145
+      ],
+      [
+        "esp",
+        "ESP32-CAM firmware",
+        "ESP32-CAM_MJPEG2SD<br>frame handling",
+        550,
+        205,
+        420,
+        145
+      ],
+      [
+        "sd",
+        "MicroSD storage",
+        "JPEG frames in AVI<br>recorded video files",
+        1130,
+        205,
+        400,
+        145
+      ],
+      [
+        "wifi",
+        "Concurrent stream path",
+        "RTSP / MJPEG<br>when enabled in firmware",
+        550,
+        530,
+        420,
+        135
+      ],
+      [
+        "viewer",
+        "External viewer",
+        "Live stream / review",
+        1130,
+        530,
+        400,
+        135
+      ]
+    ],
+    "edges": [
+      [
+        "ov",
+        "esp",
+        "frame data"
+      ],
+      [
+        "esp",
+        "sd",
+        "file writes"
+      ],
+      [
+        "esp",
+        "wifi",
+        "frame output"
+      ],
+      [
+        "wifi",
+        "viewer",
+        "Wi-Fi"
+      ]
+    ],
+    "note": "Recording rate depends on resolution, compression, SD performance and concurrent workloads. Firmware documentation values must remain separate from rover test results.",
+    "source": "Functional concept only: supplied paper and photographs; source measurements and performance claims are not accepted as evidence. Paper §2.6 and §3.7 name firmware and recording / streaming features."
+  },
+  {
+    "id": "F12",
+    "title": "IoT telemetry and Blynk supervision",
+    "status": "Proposed telemetry architecture; network bridge and command path to be specified",
+    "blocks": [
+      [
+        "data",
+        "Rover measurements",
+        "Sensor values · GNSS<br>status / timestamps",
+        60,
+        200,
+        345,
+        145
+      ],
+      [
+        "bridge",
+        "Network bridge",
+        "Controller-to-Wi-Fi interface<br>implementation to confirm",
+        565,
+        200,
+        405,
+        145,
+        "proposed"
+      ],
+      [
+        "cloud",
+        "Blynk platform",
+        "Datastreams · events<br>historical records",
+        1130,
+        200,
+        405,
+        145
+      ],
+      [
+        "control",
+        "Command supervisor",
+        "Validate requests<br>admit control commands",
+        565,
+        530,
+        405,
+        140,
+        "proposed"
+      ],
+      [
+        "apps",
+        "Mobile / web dashboard",
+        "Charts · maps · controls<br>remote operator",
+        1130,
+        530,
+        405,
+        140
+      ]
+    ],
+    "edges": [
+      [
+        "data",
+        "bridge",
+        "data"
+      ],
+      [
+        "bridge",
+        "cloud",
+        "network API"
+      ],
+      [
+        "cloud",
+        "apps",
+        "data"
+      ],
+      [
+        "apps",
+        "control",
+        "control request"
+      ]
+    ],
+    "note": "Command return is a proposed supervised interface. The source does not specify the deployed gateway, transport security or control-arbitration implementation.",
+    "source": "Functional concept only: supplied paper and photographs; source measurements and performance claims are not accepted as evidence. Paper §2.6 and §3.7 mention Blynk, widgets, history and control; network bridge topology is unresolved."
+  },
+  {
+    "id": "F13",
+    "title": "Front manipulator and gripper control",
+    "status": "Proposed control path for the photo-observed arm and two-finger gripper",
+    "blocks": [
+      [
+        "operator",
+        "Operator request",
+        "Joint movement<br>grip / release",
+        50,
+        310,
+        320,
+        205,
+        "proposed"
+      ],
+      [
+        "controller",
+        "Manipulator controller",
+        "Servo command mapping<br>range and rate limits",
+        443,
+        310,
+        320,
+        205,
+        "proposed"
+      ],
+      [
+        "act",
+        "Joint servos / linkages",
+        "Front-mounted arm<br>articulated mechanism",
+        836,
+        310,
+        320,
+        205
+      ],
+      [
+        "grip",
+        "Two-finger gripper",
+        "Object grasp / release",
+        1229,
+        310,
+        320,
+        205
+      ]
+    ],
+    "edges": [
+      [
+        "operator",
+        "controller",
+        "request"
+      ],
+      [
+        "controller",
+        "act",
+        "servo signals"
+      ],
+      [
+        "act",
+        "grip",
+        "motion"
+      ]
+    ],
+    "note": "The front arm and gripper are visible in the supplied photos. Degrees of freedom, payload, grasp force, control mapping and validated tasks are not documented in the paper.",
+    "source": "Functional concept only: supplied paper and photographs; source measurements and performance claims are not accepted as evidence. Supplied photographs, especially extended arm view; not described in source paper methods."
+  },
+  {
+    "id": "F14",
+    "title": "Mission measurement and operator decision cycle",
+    "status": "Proposed operating sequence integrating the requested rover functions",
+    "blocks": [
+      [
+        "prepare",
+        "Configure mission",
+        "Sensor checks<br>power / link readiness",
+        50,
+        310,
+        320,
+        205,
+        "proposed"
+      ],
+      [
+        "travel",
+        "Teleoperate / approach",
+        "RC mobility<br>basic obstacle assistance",
+        443,
+        310,
+        320,
+        205
+      ],
+      [
+        "measure",
+        "Observe / sample",
+        "Environmental sensing<br>camera / GNSS records",
+        836,
+        310,
+        320,
+        205
+      ],
+      [
+        "review",
+        "Review and act",
+        "Operator interprets data<br>log / alert / return",
+        1229,
+        310,
+        320,
+        205,
+        "proposed"
+      ]
+    ],
+    "edges": [
+      [
+        "prepare",
+        "travel",
+        "deploy"
+      ],
+      [
+        "travel",
+        "measure",
+        "position"
+      ],
+      [
+        "measure",
+        "review",
+        "records"
+      ]
+    ],
+    "note": "This workflow organizes the described capabilities. It is not a validated autonomous mission planner or evidence that the rover has performed disaster-response deployments.",
+    "source": "Functional concept only: supplied paper and photographs; source measurements and performance claims are not accepted as evidence. Synthesis of paper §§2.1–2.6, conclusion and source photographs."
+  }
+]

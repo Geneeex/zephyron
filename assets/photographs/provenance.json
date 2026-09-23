@@ -1,0 +1,23 @@
+[
+  {
+    "file": "front.jpg",
+    "selection_reason": "Front view, folded manipulator and raised rear panel",
+    "sha256": "9541cf737be531ddec3ea3f4ab8d37f9425b589f53a052d797191304b1981055",
+    "pixel_editing": "None; original photographs placed directly into Word as separate images.",
+    "source": "Author-supplied photograph"
+  },
+  {
+    "file": "front_oblique.jpg",
+    "selection_reason": "Front oblique view, complete chassis and all four wheel locations",
+    "sha256": "59770af4f197d6574728113ad9b63a0ca59215f87106ba4a7d893226b8b9db5d",
+    "pixel_editing": "None; original photographs placed directly into Word as separate images.",
+    "source": "Author-supplied photograph"
+  },
+  {
+    "file": "side_outdoor.jpg",
+    "selection_reason": "Side view, electronics bay and solar support geometry",
+    "sha256": "491ef7449434b1b15535a78d334058fe6888993ae6e530441e166e0b7f946769",
+    "pixel_editing": "None; original photographs placed directly into Word as separate images.",
+    "source": "Author-supplied photograph"
+  }
+]

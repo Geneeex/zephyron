@@ -1,0 +1,936 @@
+{
+  "scope": "Literature evidence for a concept/design manuscript. No numerical specification or alleged result from the earlier AI-written Zephyron paper is treated as empirical evidence.",
+  "targeted_sources": 25,
+  "reviewed_utc": "2026-09-15T18:36:52.104366+00:00",
+  "sources": [
+    {
+      "key": "LIT_QUINCE2011",
+      "title": "Redesign of rescue mobile robot Quince: Toward emergency response to the nuclear accident at Fukushima Daiichi Nuclear Power Station on March 2011",
+      "authors": [
+        "Keiji Nagatani",
+        "Seiga Kiribayashi",
+        "Yoshito Okada",
+        "Satoshi Tadokoro",
+        "Takeshi Nishimura",
+        "Tomoaki Yoshida",
+        "Eiji Koyanagi",
+        "Yasushi Hada"
+      ],
+      "year": 2011,
+      "doi": "10.1109/SSRR.2011.6106794",
+      "url": "https://doi.org/10.1109/SSRR.2011.6106794",
+      "venue": "2011 IEEE International Symposium on Safety, Security, and Rescue Robotics",
+      "volume": null,
+      "issue": null,
+      "pages": "13–18",
+      "article_number": null,
+      "publication_type": "conference paper",
+      "topic": "Disaster intervention",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "Author manuscript, 6 PDF pages",
+      "claims": [
+        {
+          "claim": "Added mission hardware changed loading and stair behaviour; recovery provisions, operator interfaces and communication links required integrated redesign.",
+          "locator": "pp. 2–6; redesign, teleoperation and stairs sections"
+        }
+      ],
+      "limits": "Emergency-response platform, not a controlled comparison or evidence that Zephyron can climb stairs.",
+      "design_implication": "Evaluate the combined payload, arm clearance, power recovery and operator workflow.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_QUINCE2011.pdf",
+        "text_path": "research/literature/fulltext/LIT_QUINCE2011.txt"
+      }
+    },
+    {
+      "key": "LIT_COAL2017",
+      "title": "A Search-and-Rescue Robot System for Remotely Sensing the Underground Coal Mine Environment",
+      "authors": [
+        "Jingchao Zhao",
+        "Junyao Gao",
+        "Fangzhou Zhao",
+        "Yi Liu"
+      ],
+      "year": 2017,
+      "doi": "10.3390/s17102426",
+      "url": "https://doi.org/10.3390/s17102426",
+      "venue": "Sensors",
+      "volume": "17",
+      "issue": "10",
+      "pages": "2426",
+      "article_number": null,
+      "publication_type": "journal-article",
+      "topic": "Disaster field robotics",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "Published full text",
+      "claims": [
+        {
+          "claim": "Mine trials and responder training exposed wheel/track slip, trajectory deviation, relay/cable handling problems and requests for better camera coverage.",
+          "locator": "§§6.1–6.4 and 7"
+        }
+      ],
+      "limits": "Reported tests apply to that mine robot and do not establish certification or performance for another rover.",
+      "design_implication": "Include cables, communications, visibility and responder usability in terrain tests.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_COAL2017.pdf",
+        "fulltext_path": "research/literature/fulltext/LIT_COAL2017.xml",
+        "text_path": "research/literature/fulltext/LIT_COAL2017.txt"
+      }
+    },
+    {
+      "key": "LIT_DRZ2024",
+      "title": "Lessons from robot‐assisted disaster response deployments by the German Rescue Robotics Center task force",
+      "authors": [
+        "Hartmut Surmann",
+        "Kevin Daun",
+        "Marius Schnaubelt",
+        "Oskar von Stryk",
+        "Manuel Patchou",
+        "Stefan Böcker",
+        "Christian Wietfeld",
+        "Jan Quenzel",
+        "Daniel Schleich",
+        "Sven Behnke",
+        "Robert Grafe",
+        "Nils Heidemann",
+        "Dominik Slomma",
+        "Ivana Kruijff‐Korbayová"
+      ],
+      "year": 2024,
+      "doi": "10.1002/rob.22275",
+      "url": "https://doi.org/10.1002/rob.22275",
+      "venue": "Journal of Field Robotics",
+      "volume": "41",
+      "issue": "3",
+      "pages": "782-797",
+      "article_number": null,
+      "publication_type": "journal-article",
+      "topic": "Operational deployment",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "2022 arXiv preprint of later journal article",
+      "claims": [
+        {
+          "claim": "Fire and flood deployments emphasize rehearsed teams, operator training and independence from unavailable local infrastructure.",
+          "locator": "Preprint pp. 4–6, mission lessons"
+        }
+      ],
+      "limits": "The reviewed version predates the final journal article; some available robots were not used when trained operators were absent.",
+      "design_implication": "Define trained roles, offline procedures and mission abort/recovery arrangements.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_DRZ2024.pdf",
+        "text_path": "research/literature/fulltext/LIT_DRZ2024.txt"
+      },
+      "version_note": "Journal issue year 2024; first online 6 December 2023. Evidence reviewed in 2022 arXiv preprint, not final publisher layout."
+    },
+    {
+      "key": "LIT_CERBERUS2023",
+      "title": "Team CERBERUS Wins the DARPA Subterranean Challenge: Technical Overview and Lessons Learned",
+      "authors": [
+        "Marco Tranzatto",
+        "Mihir Dharmadhikari",
+        "Lukas Bernreiter",
+        "Marco Camurri",
+        "Shehryar Khattak",
+        "Frank Mascarich",
+        "Patrick Pfreundschuh",
+        "David Wisth",
+        "Samuel Zimmermann",
+        "Mihir Kulkarni",
+        "Victor Reijgwart",
+        "Benoit Casseau",
+        "Timon Hornberger",
+        "Paolo De Petris",
+        "Lionel Ott",
+        "Wayne Tubby",
+        "Gabriel Waibel",
+        "Huan Nguyen",
+        "Cesar Cadena",
+        "Russell Buchanan",
+        "Lorenz Wellhausen",
+        "Nikhil Khedekar",
+        "Olov Andersson",
+        "Lintong Zhang",
+        "Takahiro Miki",
+        "Tung Dang",
+        "Matias Mattamala",
+        "Markus Montenegro",
+        "Konrad Meyer",
+        "Xiangyu Wu",
+        "Adrien Briod",
+        "Mark Mueller",
+        "Maurice Fallon",
+        "Roland Siegwart",
+        "Marco Hutter",
+        "Kostas Alexis"
+      ],
+      "year": 2024,
+      "doi": "10.55417/fr.2024009",
+      "url": "https://doi.org/10.55417/fr.2024009",
+      "venue": "Field Robotics",
+      "volume": "4",
+      "issue": null,
+      "pages": "249-312",
+      "article_number": null,
+      "publication_type": "journal-article",
+      "topic": "Subterranean autonomy",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "arXiv author manuscript of 2024 article",
+      "claims": [
+        {
+          "claim": "Competition-scale field work combined heterogeneous platforms, multimodal perception, communications and supervised autonomy. Integration failures and degraded links remained consequential.",
+          "locator": "§5.1, PDF pp. 52–55"
+        }
+      ],
+      "limits": "The lessons distinguish deployed single-robot autonomy from broader multi-robot coordination research; resources and hardware differ markedly from Zephyron.",
+      "design_implication": "Treat robust sensing and communications as system requirements rather than a single navigation algorithm.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_CERBERUS2023.pdf",
+        "text_path": "research/literature/fulltext/LIT_CERBERUS2023.txt"
+      }
+    },
+    {
+      "key": "LIT_SCHWAIGER2024",
+      "title": "Semi-Autonomous Mobile Search and Rescue Robot for Radiation Disaster Scenarios",
+      "authors": [
+        "Simon Schwaiger",
+        "Lucas Muster",
+        "Georg Novotny",
+        "Michael Schebek",
+        "Wilfried Wöber",
+        "Stefan Thalhammer",
+        "Christoph Böhm"
+      ],
+      "year": 2024,
+      "doi": "10.48550/arXiv.2406.14385",
+      "url": "https://arxiv.org/abs/2406.14385v1",
+      "venue": "arXiv",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "article_number": null,
+      "publication_type": "preprint",
+      "topic": "CBRN mobile manipulation",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "arXiv:2406.14385v1 preprint, 2024",
+      "claims": [
+        {
+          "claim": "Priority-based command selection combines autonomous navigation and teleoperation. Sampling uses operator-triggered routines; valve handling is teleoperated.",
+          "locator": "§IV.B–C; §V.A–E, PDF pp. 4–7"
+        }
+      ],
+      "limits": "Width prevented entry to some rooms and outdoor mapping showed odometry drift; this is a preprint and not a Zephyron trial.",
+      "design_implication": "Provide explicit control authority, tool viewing and contamination-aware sample paths.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_SCHWAIGER2024.pdf",
+        "text_path": "research/literature/fulltext/LIT_SCHWAIGER2024.txt"
+      }
+    },
+    {
+      "key": "LIT_GAS2019",
+      "title": "Towards Gas Discrimination and Mapping in Emergency Response Scenarios Using a Mobile Robot with an Electronic Nose",
+      "authors": [
+        "Han Fan",
+        "Victor Hernandez Bennetts",
+        "Erik Schaffernicht",
+        "Achim J. Lilienthal"
+      ],
+      "year": 2019,
+      "doi": "10.3390/s19030685",
+      "url": "https://doi.org/10.3390/s19030685",
+      "venue": "Sensors",
+      "volume": "19",
+      "issue": "3",
+      "pages": "685",
+      "article_number": null,
+      "publication_type": "journal-article",
+      "topic": "Chemical sensing",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "Published full text",
+      "claims": [
+        {
+          "claim": "An electronic nose uses controlled sampling and baseline updates to handle MOX drift while classifying and mapping gases.",
+          "locator": "§§4.1–4.2, 5.1–5.3 and 6; Fig. 9"
+        }
+      ],
+      "limits": "Experiments used ethanol, propanol and acetone surrogates; results do not validate toxic-gas thresholds or arbitrary mixtures.",
+      "design_implication": "Log warm-up, baseline, airflow and exposure state; do not label raw sensor output as calibrated concentration.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_GAS2019.pdf",
+        "fulltext_path": "research/literature/fulltext/LIT_GAS2019.xml",
+        "text_path": "research/literature/fulltext/LIT_GAS2019.txt"
+      }
+    },
+    {
+      "key": "LIT_MULTIGAS2014",
+      "title": "Combining Non Selective Gas Sensors on a Mobile Robot for Identification and Mapping of Multiple Chemical Compounds",
+      "authors": [
+        "Victor Hernandez Bennetts",
+        "Erik Schaffernicht",
+        "Victor Pomareda",
+        "Achim Lilienthal",
+        "Santiago Marco",
+        "Marco Trincavelli"
+      ],
+      "year": 2014,
+      "doi": "10.3390/s140917331",
+      "url": "https://doi.org/10.3390/s140917331",
+      "venue": "Sensors",
+      "volume": "14",
+      "issue": "9",
+      "pages": "17331-17352",
+      "article_number": null,
+      "publication_type": "journal-article",
+      "topic": "Chemical mapping",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "Published full text",
+      "claims": [
+        {
+          "claim": "Sensor fusion combines concentration estimates and class probabilities to construct compound-specific mean and variance maps.",
+          "locator": "§3 and §6"
+        }
+      ],
+      "limits": "The authors do not quantitatively validate predictive map capability; pose uncertainty, drift and slow MOX recovery remain limitations.",
+      "design_implication": "Preserve class confidence and map uncertainty separately from concentration estimates.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_MULTIGAS2014.pdf",
+        "fulltext_path": "research/literature/fulltext/LIT_MULTIGAS2014.xml",
+        "text_path": "research/literature/fulltext/LIT_MULTIGAS2014.txt"
+      }
+    },
+    {
+      "key": "LIT_GADEN2017",
+      "title": "GADEN: A 3D Gas Dispersion Simulator for Mobile Robot Olfaction in Realistic Environments",
+      "authors": [
+        "Javier Monroy",
+        "Victor Hernandez-Bennetts",
+        "Han Fan",
+        "Achim Lilienthal",
+        "Javier Gonzalez-Jimenez"
+      ],
+      "year": 2017,
+      "doi": "10.3390/s17071479",
+      "url": "https://doi.org/10.3390/s17071479",
+      "venue": "Sensors",
+      "volume": "17",
+      "issue": "7",
+      "pages": "1479",
+      "article_number": null,
+      "publication_type": "journal-article",
+      "topic": "Gas simulation",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "Published full text",
+      "claims": [
+        {
+          "claim": "A modular ROS simulator couples gas dispersion and sensor response; wind-tunnel comparisons examine spatial concentration behaviour.",
+          "locator": "§§4–6"
+        }
+      ],
+      "limits": "Agreement is poorer in low-flow, turbulence-dominated conditions; robot-induced flow is not modelled.",
+      "design_implication": "Use simulation for reproducible algorithm tests while identifying missing physical effects.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_GADEN2017.pdf",
+        "fulltext_path": "research/literature/fulltext/LIT_GADEN2017.xml",
+        "text_path": "research/literature/fulltext/LIT_GADEN2017.txt"
+      }
+    },
+    {
+      "key": "LIT_INFOMAP2023",
+      "title": "Information-Driven Gas Distribution Mapping for Autonomous Mobile Robots",
+      "authors": [
+        "Andres Gongora",
+        "Javier Monroy",
+        "Faezeh Rahbar",
+        "Chiara Ercolani",
+        "Javier Gonzalez-Jimenez",
+        "Alcherio Martinoli"
+      ],
+      "year": 2023,
+      "doi": "10.3390/s23125387",
+      "url": "https://doi.org/10.3390/s23125387",
+      "venue": "Sensors",
+      "volume": "23",
+      "issue": "12",
+      "pages": "5387",
+      "article_number": null,
+      "publication_type": "journal-article",
+      "topic": "Active environmental sensing",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "Published full text",
+      "claims": [
+        {
+          "claim": "Information-driven gas mapping plans measurements using gas/wind estimates and uncertainty; results include simulation and physical wind-tunnel studies.",
+          "locator": "§§6.1–6.2 and 7; Figs. 10 and 13"
+        }
+      ],
+      "limits": "Figure 10 is simulation RMSE, not physical field accuracy; computation grows with planning horizon and map complexity.",
+      "design_implication": "Evaluate uncertainty reduction per path length and energy alongside raw spatial coverage.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_INFOMAP2023.pdf",
+        "fulltext_path": "research/literature/fulltext/LIT_INFOMAP2023.xml",
+        "text_path": "research/literature/fulltext/LIT_INFOMAP2023.txt"
+      }
+    },
+    {
+      "key": "LIT_SEMANTICGAS2018",
+      "title": "A Semantic-Based Gas Source Localization with a Mobile Robot Combining Vision and Chemical Sensing",
+      "authors": [
+        "Javier Monroy",
+        "Jose-Raul Ruiz-Sarmiento",
+        "Francisco-Angel Moreno",
+        "Francisco Melendez-Fernandez",
+        "Cipriano Galindo",
+        "Javier Gonzalez-Jimenez"
+      ],
+      "year": 2018,
+      "doi": "10.3390/s18124174",
+      "url": "https://doi.org/10.3390/s18124174",
+      "venue": "Sensors",
+      "volume": "18",
+      "issue": "12",
+      "pages": "4174",
+      "article_number": null,
+      "publication_type": "journal-article",
+      "topic": "Multimodal source search",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "Published full text",
+      "claims": [
+        {
+          "claim": "Vision-based object semantics guide chemical-source search through a decision model.",
+          "locator": "§§5.2–5.3, 6 and 7"
+        }
+      ],
+      "limits": "Safe surrogate chemicals replace hazardous target categories; physical source confirmation is assumed rather than experimentally validated.",
+      "design_implication": "Separate detection, contextual hypotheses and verified source confirmation.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_SEMANTICGAS2018.pdf",
+        "fulltext_path": "research/literature/fulltext/LIT_SEMANTICGAS2018.xml",
+        "text_path": "research/literature/fulltext/LIT_SEMANTICGAS2018.txt"
+      }
+    },
+    {
+      "key": "LIT_NEXTSMELL2018",
+      "title": "A Next-Best-Smell Approach for Remote Gas Detection with a Mobile Robot",
+      "authors": [
+        "Riccardo Polvara",
+        "Marco Trabattoni",
+        "Tomasz Piotr Kucner",
+        "Erik Schaffernicht",
+        "Francesco Amigoni",
+        "Achim J. Lilienthal"
+      ],
+      "year": 2018,
+      "doi": "10.48550/arXiv.1801.06819",
+      "url": "https://doi.org/10.48550/arXiv.1801.06819",
+      "venue": "arXiv",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "article_number": null,
+      "publication_type": "preprint",
+      "topic": "Active gas coverage",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "arXiv:1801.06819 preprint",
+      "claims": [
+        {
+          "claim": "A next-best-view-style strategy balances remote gas coverage, travel and sensing time in physical corridor trials.",
+          "locator": "§IV, PDF pp. 5–7"
+        }
+      ],
+      "limits": "The TDLAS system used methane in transparent bottles; quantitative source estimation is outside the reported scope.",
+      "design_implication": "Plan sensing time explicitly, but do not transfer remote-beam geometry to point MOX sensors.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_NEXTSMELL2018.pdf",
+        "text_path": "research/literature/fulltext/LIT_NEXTSMELL2018.txt"
+      }
+    },
+    {
+      "key": "LIT_CARMA2023",
+      "title": "CARMA II: A ground vehicle for autonomous surveying of alpha, beta and gamma radiation",
+      "authors": [
+        "Bahman Nouri Rahmat Abadi",
+        "Andrew West",
+        "Harriet Peel",
+        "Matthew Nancekievill",
+        "Christopher Ballard",
+        "Barry Lennox",
+        "Ognjen Marjanovic",
+        "Keir Groves"
+      ],
+      "year": 2023,
+      "doi": "10.3389/frobt.2023.1137750",
+      "url": "https://doi.org/10.3389/frobt.2023.1137750",
+      "venue": "Frontiers in Robotics and AI",
+      "volume": "10",
+      "issue": null,
+      "pages": null,
+      "article_number": "1137750",
+      "publication_type": "journal-article",
+      "topic": "Radiation-aware coverage",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "Published full text",
+      "claims": [
+        {
+          "claim": "Different behaviours address near-surface contamination avoidance and gamma dose-aware routing; sensor look-ahead and update timing constrain travel speed.",
+          "locator": "§5; PDF pp. 8–11"
+        }
+      ],
+      "limits": "Experiments used simulated alpha and gamma sources; coverage avoidance is not proof of nuclear qualification.",
+      "design_implication": "Link sensor placement, latency and stop distance; keep dose and contamination concepts distinct.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_CARMA2023.pdf",
+        "text_path": "research/literature/fulltext/LIT_CARMA2023.txt"
+      }
+    },
+    {
+      "key": "LIT_RADNAV2021",
+      "title": "Robotic Exploration of an Unknown Nuclear Environment Using Radiation Informed Autonomous Navigation",
+      "authors": [
+        "Keir Groves",
+        "Emili Hernandez",
+        "Andrew West",
+        "Thomas Wright",
+        "Barry Lennox"
+      ],
+      "year": 2021,
+      "doi": "10.3390/robotics10020078",
+      "url": "https://doi.org/10.3390/robotics10020078",
+      "venue": "Robotics",
+      "volume": "10",
+      "issue": "2",
+      "pages": "78",
+      "article_number": null,
+      "publication_type": "journal-article",
+      "topic": "Radiation-aware navigation",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "Published full text",
+      "claims": [
+        {
+          "claim": "Layered radiation costmaps associate delayed detector readings with earlier robot poses and support recovery near high-cost regions.",
+          "locator": "§4.3 and §§5.1–5.2, PDF pp. 8–11"
+        }
+      ],
+      "limits": "Safe-MiniSource radiofrequency devices emulate gamma response; no calibrated gamma field was measured, and RF multipath affected maps.",
+      "design_implication": "Timestamp and latency-correct sensor measurements; validate the hazard model independently.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_RADNAV2021.pdf",
+        "text_path": "research/literature/fulltext/LIT_RADNAV2021.txt"
+      }
+    },
+    {
+      "key": "LIT_RADHOT2019",
+      "title": "Autonomous Exploration for Radioactive Hotspots Localization Taking Account of Sensor Limitations",
+      "authors": [
+        "Hadi Ardiny",
+        "Stefan Witwicki",
+        "Francesco Mondada"
+      ],
+      "year": 2019,
+      "doi": "10.3390/s19020292",
+      "url": "https://doi.org/10.3390/s19020292",
+      "venue": "Sensors",
+      "volume": "19",
+      "issue": "2",
+      "pages": "292",
+      "article_number": null,
+      "publication_type": "journal-article",
+      "topic": "Sensing-constrained exploration",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "Published full text",
+      "claims": [
+        {
+          "claim": "Detector field of view, angular resolution and acquisition stops affect exploration and coverage; simulation is compared with marXbot trials.",
+          "locator": "§6.3; §§7.1–7.2 and 8; Fig. 18"
+        }
+      ],
+      "limits": "Physical trials emulate radioactive sources using infrared range-and-bearing signals; decision weights were manually chosen.",
+      "design_implication": "Measure dwell time and coverage uncertainty; do not infer radiation certification from navigation demonstrations.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_RADHOT2019.pdf",
+        "fulltext_path": "research/literature/fulltext/LIT_RADHOT2019.xml",
+        "text_path": "research/literature/fulltext/LIT_RADHOT2019.txt"
+      }
+    },
+    {
+      "key": "LIT_RADSEARCH2020",
+      "title": "Autonomous Search of Radioactive Sources through Mobile Robots",
+      "authors": [
+        "Jianwen Huo",
+        "Manlu Liu",
+        "Konstantin A. Neusypin",
+        "Haojie Liu",
+        "Mingming Guo",
+        "Yufeng Xiao"
+      ],
+      "year": 2020,
+      "doi": "10.3390/s20123461",
+      "url": "https://doi.org/10.3390/s20123461",
+      "venue": "Sensors",
+      "volume": "20",
+      "issue": "12",
+      "pages": "3461",
+      "article_number": null,
+      "publication_type": "journal-article",
+      "topic": "Radiation source estimation",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "Published full text",
+      "claims": [
+        {
+          "claim": "A probabilistic source-search method combines Bayesian estimation and information-based action selection, tested in simulation and a real experiment.",
+          "locator": "§5.1 and §6"
+        }
+      ],
+      "limits": "The experiment is barrier-free; obstacle-rich and multiple-source extensions remain future work.",
+      "design_implication": "State geometry assumptions and count-statistical uncertainty in any proposed source estimator.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_RADSEARCH2020.pdf",
+        "fulltext_path": "research/literature/fulltext/LIT_RADSEARCH2020.xml",
+        "text_path": "research/literature/fulltext/LIT_RADSEARCH2020.txt"
+      }
+    },
+    {
+      "key": "LIT_RADADAPT2025",
+      "title": "A Behavioral Robotics Approach to Radiation Mapping Using Adaptive Sampling",
+      "authors": [
+        "Joel Adams",
+        "Brendon Cintas",
+        "Nakwon Sung",
+        "Anthony Abrahao",
+        "Leonel Lagos",
+        "Dwayne McDaniel"
+      ],
+      "year": 2025,
+      "doi": "10.3390/app15042050",
+      "url": "https://doi.org/10.3390/app15042050",
+      "venue": "Applied Sciences",
+      "volume": "15",
+      "issue": "4",
+      "pages": "2050",
+      "article_number": null,
+      "publication_type": "journal-article",
+      "topic": "Adaptive inspection",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "Published full text",
+      "claims": [
+        {
+          "claim": "Adaptive sampling on a manipulator-equipped mobile platform addresses unreachable sampling targets and repeated motion/contact problems.",
+          "locator": "Results, PDF pp. 11–14"
+        }
+      ],
+      "limits": "Seven trials and a small testbed do not establish broad reliability; contact triggers can include robot motion effects.",
+      "design_implication": "Log feasibility rejection, contact events and termination conditions, not only completed samples.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_RADADAPT2025.pdf",
+        "text_path": "research/literature/fulltext/LIT_RADADAPT2025.txt"
+      }
+    },
+    {
+      "key": "LIT_WATER2021",
+      "title": "Autonomous Water Quality Monitoring and Water Surface Cleaning for Unmanned Surface Vehicle",
+      "authors": [
+        "Hsing-Cheng Chang",
+        "Yu-Liang Hsu",
+        "San-Shan Hung",
+        "Guan-Ru Ou",
+        "Jia-Ron Wu",
+        "Chuan Hsu"
+      ],
+      "year": 2021,
+      "doi": "10.3390/s21041102",
+      "url": "https://doi.org/10.3390/s21041102",
+      "venue": "Sensors",
+      "volume": "21",
+      "issue": "4",
+      "pages": "1102",
+      "article_number": null,
+      "publication_type": "journal-article",
+      "topic": "Water monitoring workflow",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "Published full text",
+      "claims": [
+        {
+          "claim": "A surface vehicle combines positioned water monitoring, bottle sampling and surface collection; the sampling sequence flushes residual liquid.",
+          "locator": "§§5.1–5.2 and 6"
+        }
+      ],
+      "limits": "USV results do not transfer to ground-rover mobility, and pH thresholding alone cannot establish water safety.",
+      "design_implication": "Specify rinse/blank procedures, sample identity, location and analysis limitations.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_WATER2021.pdf",
+        "fulltext_path": "research/literature/fulltext/LIT_WATER2021.xml",
+        "text_path": "research/literature/fulltext/LIT_WATER2021.txt"
+      }
+    },
+    {
+      "key": "LIT_IDRONE2022",
+      "title": "Prototyping a low-cost open-source autonomous unmanned surface vehicle for real-time water quality monitoring and visualization",
+      "authors": [
+        "Jae Hyeon Ryu"
+      ],
+      "year": 2022,
+      "doi": "10.1016/j.ohx.2022.e00369",
+      "url": "https://doi.org/10.1016/j.ohx.2022.e00369",
+      "venue": "HardwareX",
+      "volume": "12",
+      "issue": null,
+      "pages": "e00369",
+      "article_number": "e00369",
+      "publication_type": "journal-article",
+      "topic": "Open water sensing",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "Published full text",
+      "claims": [
+        {
+          "claim": "The open USV logs multiparameter water measurements locally and through cellular telemetry; mapping uses positioned observations.",
+          "locator": "Validation and characterization section"
+        }
+      ],
+      "limits": "Sensor cloud records lacked coordinates, so position was matched using external GPS timestamps in post-processing.",
+      "design_implication": "Synchronize environmental data, pose and time in a unified record at acquisition.",
+      "source_files": {
+        "fulltext_path": "research/literature/fulltext/LIT_IDRONE2022.xml",
+        "text_path": "research/literature/fulltext/LIT_IDRONE2022.txt"
+      }
+    },
+    {
+      "key": "LIT_ROMR2023",
+      "title": "ROMR: A ROS-based open-source mobile robot",
+      "authors": [
+        "Linus Nwankwo",
+        "Clemens Fritze",
+        "Konrad Bartsch",
+        "Elmar Rueckert"
+      ],
+      "year": 2023,
+      "doi": "10.1016/j.ohx.2023.e00426",
+      "url": "https://doi.org/10.1016/j.ohx.2023.e00426",
+      "venue": "HardwareX",
+      "volume": "14",
+      "issue": null,
+      "pages": "e00426",
+      "article_number": "e00426",
+      "publication_type": "journal-article",
+      "topic": "Reproducible low-cost hardware",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "Published full text",
+      "claims": [
+        {
+          "claim": "Published CAD, assembly, software and hardware information supports reproducing an open mobile platform.",
+          "locator": "§§7.1–7.2.1 and 8"
+        }
+      ],
+      "limits": "Payload characterization is on flat ground and cannot establish uneven-terrain capability or Zephyron payload limits.",
+      "design_implication": "Publish interface drawings, bill of materials and reproducible test conditions.",
+      "source_files": {
+        "fulltext_path": "research/literature/fulltext/LIT_ROMR2023.xml",
+        "text_path": "research/literature/fulltext/LIT_ROMR2023.txt"
+      }
+    },
+    {
+      "key": "LIT_SMART2022",
+      "title": "SMARTmBOT: A ROS2-based Low-cost and Open-source Mobile Robot Platform",
+      "authors": [
+        "Wonse Jo",
+        "Jaeeun Kim",
+        "Ruiqi Wang",
+        "Jeremy Pan",
+        "Revanth Krishna Senthilkumaran",
+        "Byung-Cheol Min"
+      ],
+      "year": 2022,
+      "doi": "10.48550/arXiv.2203.08903",
+      "url": "https://doi.org/10.48550/arXiv.2203.08903",
+      "venue": "arXiv",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "article_number": null,
+      "publication_type": "preprint",
+      "topic": "Open ROS2 platform",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "arXiv:2203.08903 preprint",
+      "claims": [
+        {
+          "claim": "A small ROS2 platform exposes camera and sensor topics and demonstrates repeatable builds and trajectory-control tasks.",
+          "locator": "PDF pp. 4–6, platform tests"
+        }
+      ],
+      "limits": "Localization in evaluated control tasks uses external motion capture; this is a preprint, not evidence of standalone field autonomy.",
+      "design_implication": "Separate embedded sensing interfaces from the external infrastructure required by a demonstration.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_SMART2022.pdf",
+        "text_path": "research/literature/fulltext/LIT_SMART2022.txt"
+      }
+    },
+    {
+      "key": "LIT_MODULAR2024",
+      "title": "Enabling robustness to failure with modular field robots",
+      "authors": [
+        "Troy Cordie",
+        "Jonathan Roberts",
+        "Matthew Dunbabin",
+        "Ross Dungavell",
+        "Tirthankar Bandyopadhyay"
+      ],
+      "year": 2024,
+      "doi": "10.3389/frobt.2024.1225297",
+      "url": "https://doi.org/10.3389/frobt.2024.1225297",
+      "venue": "Frontiers in Robotics and AI",
+      "volume": "11",
+      "issue": null,
+      "pages": null,
+      "article_number": "1225297",
+      "publication_type": "journal article",
+      "topic": "Failure-tolerant mobility",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "Published full text",
+      "claims": [
+        {
+          "claim": "Steering-failure accommodation and module removal are examined in simulations and physical warehouse/leaf-litter trials.",
+          "locator": "§§4.1–4.6 and 5; Fig. 16"
+        }
+      ],
+      "limits": "Physical failed-module decoupling was manual; continued mobility has configuration and energy tradeoffs.",
+      "design_implication": "Design serviceability and degraded modes without describing manual repairs as autonomous self-repair.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_MODULAR2024.pdf",
+        "text_path": "research/literature/fulltext/LIT_MODULAR2024.txt"
+      }
+    },
+    {
+      "key": "LIT_RESQBOT2019",
+      "title": "ResQbot: A Mobile Rescue Robot with Immersive Teleperception for Casualty Extraction",
+      "authors": [
+        "Roni Permana Saputra",
+        "Petar Kormushev"
+      ],
+      "year": 2018,
+      "doi": "10.1007/978-3-319-96728-8_18",
+      "url": "https://doi.org/10.1007/978-3-319-96728-8_18",
+      "venue": "Lecture Notes in Computer Science",
+      "volume": null,
+      "issue": null,
+      "pages": "209-220",
+      "article_number": null,
+      "publication_type": "book-chapter",
+      "topic": "Manipulation and operator evaluation",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "arXiv manuscript of 2018 conference chapter",
+      "claims": [
+        {
+          "claim": "Dummy-based casualty-loading trials compare viewing conditions using instrumented motion and task outcomes.",
+          "locator": "§§6–7, PDF pp. 7–11"
+        }
+      ],
+      "limits": "The study is not clinical human validation and does not establish casualty-handling capability for a small gripper rover.",
+      "design_implication": "Use instrumented surrogates and task-specific metrics for any intervention evaluation.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_RESQBOT2019.pdf",
+        "text_path": "research/literature/fulltext/LIT_RESQBOT2019.txt"
+      }
+    },
+    {
+      "key": "LIT_LIOSAM2020",
+      "title": "LIO-SAM: Tightly-coupled Lidar Inertial Odometry via Smoothing and Mapping",
+      "authors": [
+        "Tixiao Shan",
+        "Brendan Englot",
+        "Drew Meyers",
+        "Wei Wang",
+        "Carlo Ratti",
+        "Daniela Rus"
+      ],
+      "year": 2020,
+      "doi": "10.1109/IROS45743.2020.9341176",
+      "url": "https://doi.org/10.1109/IROS45743.2020.9341176",
+      "venue": "2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "volume": null,
+      "issue": null,
+      "pages": "5135-5142",
+      "article_number": null,
+      "publication_type": "proceedings-article",
+      "topic": "LiDAR–inertial localization",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "arXiv author manuscript of IROS paper",
+      "claims": [
+        {
+          "claim": "Factor-graph LiDAR–inertial estimation is evaluated with different platform datasets and loop-closure/GNSS configurations.",
+          "locator": "§V, PDF pp. 5–7"
+        }
+      ],
+      "limits": "Reported performance depends on LiDAR, IMU, calibration, compute and scene conditions unavailable from a camera module alone.",
+      "design_implication": "Treat localization hardware and synchronization as requirements for a selected algorithm.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_LIOSAM2020.pdf",
+        "text_path": "research/literature/fulltext/LIT_LIOSAM2020.txt"
+      }
+    },
+    {
+      "key": "LIT_ORBSLAM2021",
+      "title": "ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual–Inertial, and Multimap SLAM",
+      "authors": [
+        "Carlos Campos",
+        "Richard Elvira",
+        "Juan J. Gómez Rodríguez",
+        "José M. M. Montiel",
+        "Juan D. Tardós"
+      ],
+      "year": 2021,
+      "doi": "10.1109/TRO.2021.3075644",
+      "url": "https://doi.org/10.1109/TRO.2021.3075644",
+      "venue": "IEEE Transactions on Robotics",
+      "volume": "37",
+      "issue": "6",
+      "pages": "1874-1890",
+      "article_number": null,
+      "publication_type": "journal-article",
+      "topic": "Visual–inertial localization",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "arXiv author manuscript of journal paper",
+      "claims": [
+        {
+          "claim": "Visual and visual–inertial configurations are benchmarked on EuRoC and TUM-VI with repeated-run trajectory-error evaluation.",
+          "locator": "§VII, PDF p. 11 onward"
+        }
+      ],
+      "limits": "Alignment conventions and sensor configuration matter; benchmark accuracy is not a Zephyron measurement.",
+      "design_implication": "Specify calibration, ground truth and trajectory-alignment rules before comparing localization methods.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_ORBSLAM2021.pdf",
+        "text_path": "research/literature/fulltext/LIT_ORBSLAM2021.txt"
+      }
+    },
+    {
+      "key": "LIT_MARATHON2020",
+      "title": "The Marathon 2: A Navigation System",
+      "authors": [
+        "Steve Macenski",
+        "Francisco Martín",
+        "Ruffin White",
+        "Jonatan Ginés Clavero"
+      ],
+      "year": 2020,
+      "doi": "10.1109/IROS45743.2020.9341207",
+      "url": "https://doi.org/10.1109/IROS45743.2020.9341207",
+      "venue": "2020 IEEE/RSJ International Conference on Intelligent Robots and Systems",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "article_number": null,
+      "publication_type": "conference paper",
+      "topic": "Navigation architecture and evaluation",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "arXiv author manuscript of IROS paper",
+      "claims": [
+        {
+          "claim": "Behaviour-tree navigation and recovery are exercised on repeated populated-campus waypoint routes with event and trajectory logging.",
+          "locator": "§§V–VI, PDF pp. 5–7"
+        }
+      ],
+      "limits": "The paper evaluates its historical implementation and platforms; recoveries and interventions must be distinguished.",
+      "design_implication": "Report mission completion, recovery events, human interventions and travelled distance separately.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_MARATHON2020.pdf",
+        "text_path": "research/literature/fulltext/LIT_MARATHON2020.txt"
+      }
+    }
+  ]
+}

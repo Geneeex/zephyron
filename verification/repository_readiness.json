@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "checked_date": "2026-09-23",
+  "scope": "Local supporting-material packaging and integrity checks; not physical rover validation or a hosted GitHub Actions run.",
+  "citation_schema": {
+    "status": "PASS",
+    "url": "https://raw.githubusercontent.com/citation-file-format/citation-file-format/main/schema.json",
+    "schema_sha256": "0b8d22140da702d766df318dcff3a91af2f39521298dcf36d76315fd99cc169b",
+    "cff_version": "1.2.0"
+  },
+  "workflow_yaml": {
+    "status": "PASS",
+    "events": [
+      "push",
+      "pull_request",
+      "workflow_dispatch"
+    ],
+    "runner": "windows-latest",
+    "hosted_execution": "Not run during local preparation"
+  },
+  "local_markdown_links_checked": 150,
+  "python_files_parsed": 11,
+  "json_files_parsed": 29,
+  "private_local_path_and_signed_url_scan": "PASS for public text files",
+  "manuscript_hashes_match_frozen_delivery": {
+    "manuscript/word/Zephyron_Research_Manuscript.docx": "525a2843d1bb9c3b4816f52127a79d5b82d7478e5f337137c654b24f96bf4ff9",
+    "manuscript/latex/main.tex": "d23e4df6728748b3894a90d716f042ddc2fb1fb0b439160578f145dee6402f2c",
+    "manuscript/latex/references.tex": "71e41b356bea81b2ac273f1e77586ccc89389fc77c6deaf37ac430414ccbbfa4"
+  },
+  "word_author_order": [
+    "Sabik Bin Sultan",
+    "Shafi Bin Sultan",
+    "Safwan Sadad"
+  ],
+  "software_check_reports": [
+    "research/reports/verification_root.json",
+    "research/reports/verification_other_cwd.json",
+    "research/reports/verification_figures.json"
+  ],
+  "software_tests_passed": 45,
+  "reproduced_csvs": 16,
+  "native_blender_scenes": 9,
+  "canva_render_count": 15,
+  "figure_attribution": "All 12 third-party file paths/hashes and 40 manuscript image aliases independently checked against source/provenance records.",
+  "blender_report": "research/blender/model_verification.json",
+  "all_individual_files_below_github_100_mib": true,
+  "pdf_files_in_release": 0,
+  "remote_repository_created": false,
+  "git_commit_or_push_performed": false,
+  "reproduction_limits": "CSV byte parity and analytical PNG pixel parity observed on recorded Windows CPython 3.12.14 environment. Blender illustrations were not rerendered after the disclosed Bfont substitution."
+}

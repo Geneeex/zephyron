@@ -1,0 +1,389 @@
+Figure 9. Zephyron system architecture
+Proposed integration of requested features; interfaces require verification
+▶
+data
+▶
+control
+▶
+geotags
+▶
+data
+▶
+link
+Environmental sensing
+TDS · turbidity · MQ-2UV · GM · ultrasonic
+Arduino control
+Acquisition · commandsobstacle assistance
+Mobility / arm
+4WD · wheel steeringfront gripper
+NEO-6M GNSS
+Position · time · fix status
+Telemetry / local display
+Measurement recordssupervised commands
+Camera + external host
+ESP32-CAM · YOLOSD · dashboard
+Arrows
+Data / measured signal
+Control command / limit
+▶
+▶
+Arrowhead: flow direction. Solid box: function. Dashed box: implementation to verify.
+Proposed architecture; external YOLO inference runs on a laptop or edge host. Pin-level wiring requires verification.
+Figure 8. Radio control, traction and steering
+Proposed radio-control architecture; mechanical steering is a separate actuation path
+▶
+radio
+▶
+RC data
+▶
+▶
+▶
+steering targets
+PWM / dir.
+PWM / dir.
+FlySky FS-i6
+Operator transmitter
+RC receiver
+FS-iA6B / FS-iA10BCH1 / CH2
+Arduino control
+Traction mixingsteering targets
+Left BTS7960
+Front-left + rear-leftDC gear motors
+Right BTS7960
+Front-right + rear-rightDC gear motors
+Wheel-steering servos
+Calibrated zeroangle / rate limits
+Arrows
+Radio-frequency link
+Data / measured signal
+Control command / limit
+▶
+▶
+▶
+Arrowhead: flow direction. Solid box: function. Dashed box: implementation to verify.
+Proposed coordination only; calibrate servo zeros and verify command interfaces, pin mapping and turning response.
+Figure 18. Water-quality screening
+Proposed sensing flow; calibration is required for quantitative units
+▶
+contact
+▶
+voltage
+▶
+records
+Water sample
+Representativesensor contact
+TDS + turbidity
+Probes · analogconditioning
+Acquisition
+ADC · calibrationTDS / turbidity
+Display / log
+Trends · flagsgeotags
+Arrows
+Physical input / contact
+Data / measured signal
+▶
+▶
+Arrowhead: flow direction. Solid box: function. Dashed box: implementation to verify.
+Calibration is required. TDS and turbidity indicate water condition; they do not establish drinking-water safety.
+Figure 17. MQ-2 gas and smoke indication
+Proposed MQ-2 path; response is not gas-specific identification
+▶
+sample
+▶
+signal
+▶
+flag/data
+Ambient sample
+Gas / smokeexposure
+MQ-2 module
+Heated sensorload circuit
+Processing
+ADC · calibrationalarm threshold
+Indication
+Local warningtelemetry / log
+Arrows
+Physical input / contact
+Data / measured signal
+▶
+▶
+Arrowhead: flow direction. Solid box: function. Dashed box: implementation to verify.
+MQ-2 response is cross-sensitive. Calibration is required; gas identity and fire are not independently confirmed.
+Figure 10. Proposed protected solar power
+SELECTED DESIGN BASELINE — component ratings, not measured rover performance
+▶
+PV power
+▶
+charge
+▶
+DC bus
+▶
+power
+▶
+DC rails
+drive
+▶
+20 W PV module
+Vmp 19.08 VImp 1.05 AVoc 22.35 V
+Solar charger
+PV protection14.6 V CC–CV
+12 V label / 6 Ah LiFePO4
+Pack-integrated protectionand cell balancing
+Protection / isolation
+Fuse · disconnectprotected load distribution
+DC/DC supply rails
+Logic · cameraservo supplies
+Rover loads
+Traction driverslogic · sensors · links
+Arrows
+Electrical power flow
+▶
+Arrowhead: flow direction. Solid box: function. Dashed box: implementation to verify.
+Selected component ratings define a proposed interface. Charging, solar yield and rover endurance require verification.
+Figure 23. GNSS geolocation and geotagging
+Proposed GNSS receiver-to-record flow; receiver selection and interfaces to verify
+▶
+RF
+▶
+serial
+▶
+fix data
+GPS signals
+Open-skyreception
+NEO-6M
+Position · UTCfix quality
+Record builder
+Serial messagesvalid time / fix
+Geotagged data
+Measurementsmap records
+Arrows
+Radio-frequency link
+Data / measured signal
+▶
+▶
+Arrowhead: flow direction. Solid box: function. Dashed box: implementation to verify.
+Validate fix quality and timestamps before geotagging. Receiver specifications are not measured rover accuracy.
+Figure 22. Ultraviolet sensing
+Proposed UV sensing flow; sensor module and calibration remain to be specified
+▶
+UV
+▶
+I/O
+▶
+UV data
+Ultraviolet
+Exposure atsensor window
+UV module
+Part / spectralresponse TBD
+Acquisition
+Calibrated UVUVI if supported
+Display / link
+UV recordrisk indication
+Arrows
+Physical input / contact
+Data / measured signal
+▶
+▶
+Arrowhead: flow direction. Solid box: function. Dashed box: implementation to verify.
+Specify the sensor and calibration. UV Index requires a suitable spectral response and validated conversion.
+Figure 20. Geiger–Müller radiation screening
+Proposed GM sensing flow; detector module and calibration remain to be specified
+▶
+input
+▶
+pulses
+▶
+counts
+Radiation
+Tube-dependentinteraction
+GM module
+Tube · HV supplypulse shaping
+Pulse counter
+Counts / definedtime interval
+Indication
+Count raterecord / alert
+Arrows
+Physical input / contact
+Data / measured signal
+▶
+▶
+Arrowhead: flow direction. Solid box: function. Dashed box: implementation to verify.
+Specify the tube and calibration. Count rate is not a validated dose rate or identification of radiation type.
+Figure 37. Obstacle sensing with manual supervision
+Proposed supervised avoidance; command-arbitration behavior requires implementation
+▶
+range
+▶
+limit
+▶
+manual
+▶
+control
+Ultrasonic ranging
+Distance estimatevalidity / timeout status
+Avoidance logic
+Near-obstacle statestop / limited-motion request
+Command supervisor
+Manual mode / overridecommand arbitration
+RC operator input
+Direction / throttlemode request
+Mobility controller
+Admitted motion commandto motor drivers
+Arrows
+Data / measured signal
+Control command / limit
+▶
+▶
+Arrowhead: flow direction. Solid box: function. Dashed box: implementation to verify.
+Manual supervision remains active. Stale data, link loss and stop response require validation.
+Figure 31. Video streaming and external object detection
+Proposed processing location — object detection runs on an external host
+▶
+MJPEG
+▶
+frames
+▶
+results
+ESP32-CAM / OV2640
+JPEG frame captureMJPEG stream
+Wi-Fi link
+Video transport
+External laptop / edge server
+OpenCV / FlaskYOLOv4-tiny inference
+Web dashboard
+Detections / streamoperator interpretation
+Arrows
+Data / measured signal
+▶
+Arrowhead: flow direction. Solid box: function. Dashed box: implementation to verify.
+The ESP32-CAM supplies images. YOLO runs externally; evaluate accuracy, frame age and end-to-end latency.
+Figure 32. Onboard image recording
+Proposed onboard recording flow; firmware and recording settings require verification
+▶
+frames
+▶
+files
+▶
+frames
+▶
+Wi-Fi
+OV2640 camera
+JPEG frames
+ESP32-CAM firmware
+ESP32-CAM_MJPEG2SDframe handling
+MicroSD storage
+JPEG frames in AVIrecorded video files
+Concurrent stream path
+RTSP / MJPEGwhen enabled in firmware
+External viewer
+Live stream / review
+Arrows
+Data / measured signal
+Radio-frequency link
+▶
+▶
+Arrowhead: flow direction. Solid box: function. Dashed box: implementation to verify.
+Recording and streaming share camera resources. Verify storage capacity, frame drops and concurrent operation.
+Figure 33. IoT telemetry and Blynk supervision
+Proposed telemetry architecture; network bridge and command path to be specified
+▶
+data
+▶
+API
+▶
+data
+▶
+request
+Rover measurements
+Sensor values · GNSSstatus / timestamps
+Network bridge
+Controller-to-Wi-Fi interfaceimplementation to confirm
+Blynk platform
+Datastreams · eventshistorical records
+Command supervisor
+Validate requestsadmit control commands
+Mobile / web dashboard
+Charts · maps · controlsremote operator
+Arrows
+Data / measured signal
+Control command / limit
+▶
+▶
+Arrowhead: flow direction. Solid box: function. Dashed box: implementation to verify.
+The command-return path is proposed. Validate gateway security, request admission and control arbitration.
+Figure 13. Front manipulator and gripper control
+Proposed control path for the photo-observed arm and two-finger gripper
+▶
+request
+▶
+servo
+▶
+motion
+Operator
+Move jointgrip / release
+Arm controller
+Servo mappingrange / rate limits
+Servos / links
+Front-mountedarticulated arm
+Two-finger grip
+Grasp / release
+Arrows
+Control command / limit
+Mechanical transmission
+▶
+▶
+Arrowhead: flow direction. Solid box: function. Dashed box: implementation to verify.
+The front arm is photo-observed. Joint limits, payload, grasp force and command mapping require verification.
+Figure 34. Mission measurement and operator decision cycle
+Proposed operating sequence integrating the requested rover functions
+▶
+deploy
+▶
+position
+▶
+records
+Configure
+Sensor checkspower / link ready
+Approach
+RC mobilityobstacle assist
+Observe / sample
+Sensors · cameraGNSS records
+Review / act
+Operator decisionlog · alert · return
+Arrows
+Mission sequence
+Data / measured signal
+▶
+▶
+Arrowhead: flow direction. Solid box: function. Dashed box: implementation to verify.
+Proposed supervised workflow; no validated autonomous planner or disaster-response deployment is claimed.
+Figure 38. Work lamps and local status indication
+Proposed control and power interfaces for photo-observed lamps and local displays
+▶
+on / off
+▶
+power
+▶
+output
+▶
+data
+Controller commands
+Lamp on / off requestadmission / limits
+Proposed lamp driver
+Protected switchingrating to be verified
+Paired front lamps
+Forward illuminationmounted at body front
+Protected power rail
+Fuse / current limitbranch to be designed
+Status data
+Controller / mission statelocal measurements
+LED matrix / display
+Local indicationoperator-readable state
+Arrows
+Control command / limit
+Electrical power flow
+Data / measured signal
+▶
+▶
+▶
+Arrowhead: flow direction. Solid box: function. Dashed box: implementation to verify.
+Lamp switching and the protected power branch are proposed. Verify current, thermal limits and local-status mapping.

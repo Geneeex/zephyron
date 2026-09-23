@@ -1,0 +1,8 @@
+# Research checks and provenance depend on exact archived file bytes.
+# Preserve original line endings; -text still permits ordinary source diffs.
+* -text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.docx binary
+*.blend binary

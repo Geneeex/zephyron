@@ -1,0 +1,150 @@
+{
+  "status": "PASS",
+  "checked_date": "2026-09-23",
+  "blender_version": "4.3.2",
+  "model": "research/blender/Zephyron_Research_Missions.blend",
+  "sha256": "ff12d8a9344ff69900c4589675c1bf099a942bea256dd6ed4ff09589a123032c",
+  "bytes": 2023358,
+  "source_sha256": "4908dbd849fd558ce8a332dd8a18b6c2e8860c22c858ec2cbbf08bbb619d99e3",
+  "source_unchanged": true,
+  "geometry_camera_scene_fingerprint_sha256": "dd097b32045d3f511005a66e598503b49264b661084f5e7c668e8dd8a7b28c36",
+  "nontext_geometry_cameras_scene_frames_preserved": true,
+  "font_settings_and_generated_text_outlines_in_fingerprint": false,
+  "label_typeface_change": "Bahnschrift Regular replaced with Blender builtin Bfont; text remains editable",
+  "text_curves_with_font_substitution": 73,
+  "proprietary_font_bytes_included": false,
+  "editable_text_preserved": true,
+  "packed_texture_bytes_preserved": true,
+  "scene_count": 9,
+  "scenes": [
+    {
+      "id": "M01",
+      "name": "M01 | Environmental water sampling",
+      "frame": 1,
+      "camera": "M01 | Environmental water sampling camera",
+      "render_path": "//renders/M01.png",
+      "resolution": [
+        1800,
+        1200
+      ]
+    },
+    {
+      "id": "M02",
+      "name": "M02 | Controlled obstacle approach",
+      "frame": 1,
+      "camera": "M02 | Controlled obstacle approach camera",
+      "render_path": "//renders/M02.png",
+      "resolution": [
+        1800,
+        1200
+      ]
+    },
+    {
+      "id": "M03",
+      "name": "M03 | Gas leak reconnaissance",
+      "frame": 1,
+      "camera": "M03 | Gas leak reconnaissance camera",
+      "render_path": "//renders/M03.png",
+      "resolution": [
+        1800,
+        1200
+      ]
+    },
+    {
+      "id": "M04",
+      "name": "M04 | Radiation survey",
+      "frame": 1,
+      "camera": "M04 | Radiation survey camera",
+      "render_path": "//renders/M04.png",
+      "resolution": [
+        1800,
+        1200
+      ]
+    },
+    {
+      "id": "M05",
+      "name": "M05 | Stationary solar and UV monitoring",
+      "frame": 1,
+      "camera": "M05 | Stationary solar and UV monitoring camera",
+      "render_path": "//renders/M05.png",
+      "resolution": [
+        1800,
+        1200
+      ]
+    },
+    {
+      "id": "M06",
+      "name": "M06 | Supervised visual reconnaissance",
+      "frame": 1,
+      "camera": "M06 | Supervised visual reconnaissance camera",
+      "render_path": "//renders/M06.png",
+      "resolution": [
+        1800,
+        1200
+      ]
+    },
+    {
+      "id": "M07",
+      "name": "M07 | Manipulator retrieval",
+      "frame": 96,
+      "camera": "M07 | Manipulator retrieval camera",
+      "render_path": "//renders/M07.png",
+      "resolution": [
+        1800,
+        1200
+      ]
+    },
+    {
+      "id": "M08",
+      "name": "M08 | Communications and logging",
+      "frame": 1,
+      "camera": "M08 | Communications and logging camera",
+      "render_path": "//renders/M08.png",
+      "resolution": [
+        1800,
+        1200
+      ]
+    },
+    {
+      "id": "M09",
+      "name": "M09 | Orthographic design baseline",
+      "frame": 1,
+      "camera": "M09 | Orthographic design baseline camera",
+      "render_path": "//renders/M09.png",
+      "resolution": [
+        1800,
+        1200
+      ]
+    }
+  ],
+  "packed_images": [
+    {
+      "name": "Black 2x2 twill carbon composite | woven carbon tile.001",
+      "source": "FILE",
+      "filepath": "//textures/Black_2x2_twill_carbon_composite_woven_carbon_tile.001.png",
+      "packed": true,
+      "sha256": "2c6ded338dd2c78c02b4a944d2879988970abbc9d44a365a71a6dd89220f21b1"
+    },
+    {
+      "name": "Gold-black 2x2 twill nose accent | woven carbon tile",
+      "source": "FILE",
+      "filepath": "//textures/Gold-black_2x2_twill_nose_accent_woven_carbon_tile.png",
+      "packed": true,
+      "sha256": "f14a910675a84d6f9eb33a28a20927c94baf826470ba5a222ea3daa847edd197"
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Bfont Regular",
+      "filepath": "<builtin>",
+      "packed": false,
+      "builtin": true
+    }
+  ],
+  "external_libraries": [],
+  "unpacked_external_texture_images": [],
+  "embedded_notes": "READ ME | PUBLIC MODEL NOTES",
+  "historical_embedded_scripts_removed": true,
+  "render_performed": false,
+  "scope": "Saved-model reopen, non-text geometry/camera preservation, packed-texture preservation, builtin-font-only and path-portability checks. Typeface settings intentionally differ from the manuscript renders. No physical performance, dynamics simulation or pixel-identical rerender validation is claimed."
+}

@@ -1,0 +1,4 @@
+# Optional analytical figure regeneration; tests/CSV generation use the standard library.
+# Versions observed in the verified plotting environment. Python 3.12 recommended.
+numpy==2.5.3
+matplotlib==3.11.2

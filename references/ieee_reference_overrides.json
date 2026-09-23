@@ -1,0 +1,1448 @@
+{
+  "guide_url": "https://journals.ieeeauthorcenter.ieee.org/wp-content/uploads/sites/7/IEEE_Reference_Guide.pdf",
+  "guide_version": "3.28.2025",
+  "verified_on": "2026-09-16",
+  "policy": "Metadata overlay only; original evidence unchanged; unknown dates/DOIs are not invented.",
+  "overrides": {
+    "LIT_QUINCE2011": {
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.1109/SSRR.2011.6106794",
+      "verification_note": "Publisher-deposited Crossref metadata and previously inspected source full text; special corrections documented in IEEE audit.",
+      "author_given_family": [
+        {
+          "given": "Keiji",
+          "family": "Nagatani"
+        },
+        {
+          "given": "Seiga",
+          "family": "Kiribayashi"
+        },
+        {
+          "given": "Yoshito",
+          "family": "Okada"
+        },
+        {
+          "given": "Satoshi",
+          "family": "Tadokoro"
+        },
+        {
+          "given": "Takeshi",
+          "family": "Nishimura"
+        },
+        {
+          "given": "Tomoaki",
+          "family": "Yoshida"
+        },
+        {
+          "given": "Eiji",
+          "family": "Koyanagi"
+        },
+        {
+          "given": "Yasushi",
+          "family": "Hada"
+        }
+      ],
+      "pages": "13-18",
+      "month": 11,
+      "ieee_title": "Redesign of rescue mobile robot Quince: Toward emergency response to the nuclear accident at Fukushima Daiichi Nuclear Power Station on March 2011",
+      "ieee_type": "conference",
+      "venue_abbrev": "Proc. IEEE Int. Symp. Safety, Security, Rescue Robot. (SSRR)"
+    },
+    "LIT_COAL2017": {
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.3390/s17102426",
+      "verification_note": "Source article header and DOI identify an electronic article number, not a one-page article; MDPI Crossref page field normalized to Art. no.",
+      "author_given_family": [
+        {
+          "given": "Jingchao",
+          "family": "Zhao"
+        },
+        {
+          "given": "Junyao",
+          "family": "Gao"
+        },
+        {
+          "given": "Fangzhou",
+          "family": "Zhao"
+        },
+        {
+          "given": "Yi",
+          "family": "Liu"
+        }
+      ],
+      "volume": "17",
+      "issue": "10",
+      "pages": null,
+      "month": 10,
+      "article_number": "2426",
+      "ieee_title": "A search-and-rescue robot system for remotely sensing the underground coal mine environment"
+    },
+    "LIT_DRZ2024": {
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.1002/rob.22275",
+      "verification_note": "Publisher-deposited Crossref metadata and previously inspected source full text; special corrections documented in IEEE audit.",
+      "author_given_family": [
+        {
+          "given": "Hartmut",
+          "family": "Surmann"
+        },
+        {
+          "given": "Kevin",
+          "family": "Daun"
+        },
+        {
+          "given": "Marius",
+          "family": "Schnaubelt"
+        },
+        {
+          "given": "Oskar",
+          "family": "von Stryk"
+        },
+        {
+          "given": "Manuel",
+          "family": "Patchou"
+        },
+        {
+          "given": "Stefan",
+          "family": "Böcker"
+        },
+        {
+          "given": "Christian",
+          "family": "Wietfeld"
+        },
+        {
+          "given": "Jan",
+          "family": "Quenzel"
+        },
+        {
+          "given": "Daniel",
+          "family": "Schleich"
+        },
+        {
+          "given": "Sven",
+          "family": "Behnke"
+        },
+        {
+          "given": "Robert",
+          "family": "Grafe"
+        },
+        {
+          "given": "Nils",
+          "family": "Heidemann"
+        },
+        {
+          "given": "Dominik",
+          "family": "Slomma"
+        },
+        {
+          "given": "Ivana",
+          "family": "Kruijff‐Korbayová"
+        }
+      ],
+      "volume": "41",
+      "issue": "3",
+      "pages": "782-797",
+      "month": 5,
+      "ieee_title": "Lessons from robot-assisted disaster response deployments by the German Rescue Robotics Center task force",
+      "venue_abbrev": "J. Field Robot."
+    },
+    "LIT_CERBERUS2023": {
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.55417/fr.2024009",
+      "verification_note": "Publisher-deposited Crossref metadata and previously inspected source full text; special corrections documented in IEEE audit.",
+      "author_given_family": [
+        {
+          "given": "Marco",
+          "family": "Tranzatto"
+        },
+        {
+          "given": "Mihir",
+          "family": "Dharmadhikari"
+        },
+        {
+          "given": "Lukas",
+          "family": "Bernreiter"
+        },
+        {
+          "given": "Marco",
+          "family": "Camurri"
+        },
+        {
+          "given": "Shehryar",
+          "family": "Khattak"
+        },
+        {
+          "given": "Frank",
+          "family": "Mascarich"
+        },
+        {
+          "given": "Patrick",
+          "family": "Pfreundschuh"
+        },
+        {
+          "given": "David",
+          "family": "Wisth"
+        },
+        {
+          "given": "Samuel",
+          "family": "Zimmermann"
+        },
+        {
+          "given": "Mihir",
+          "family": "Kulkarni"
+        },
+        {
+          "given": "Victor",
+          "family": "Reijgwart"
+        },
+        {
+          "given": "Benoit",
+          "family": "Casseau"
+        },
+        {
+          "given": "Timon",
+          "family": "Hornberger"
+        },
+        {
+          "given": "Paolo",
+          "family": "De Petris"
+        },
+        {
+          "given": "Lionel",
+          "family": "Ott"
+        },
+        {
+          "given": "Wayne",
+          "family": "Tubby"
+        },
+        {
+          "given": "Gabriel",
+          "family": "Waibel"
+        },
+        {
+          "given": "Huan",
+          "family": "Nguyen"
+        },
+        {
+          "given": "Cesar",
+          "family": "Cadena"
+        },
+        {
+          "given": "Russell",
+          "family": "Buchanan"
+        },
+        {
+          "given": "Lorenz",
+          "family": "Wellhausen"
+        },
+        {
+          "given": "Nikhil",
+          "family": "Khedekar"
+        },
+        {
+          "given": "Olov",
+          "family": "Andersson"
+        },
+        {
+          "given": "Lintong",
+          "family": "Zhang"
+        },
+        {
+          "given": "Takahiro",
+          "family": "Miki"
+        },
+        {
+          "given": "Tung",
+          "family": "Dang"
+        },
+        {
+          "given": "Matias",
+          "family": "Mattamala"
+        },
+        {
+          "given": "Markus",
+          "family": "Montenegro"
+        },
+        {
+          "given": "Konrad",
+          "family": "Meyer"
+        },
+        {
+          "given": "Xiangyu",
+          "family": "Wu"
+        },
+        {
+          "given": "Adrien",
+          "family": "Briod"
+        },
+        {
+          "given": "Mark",
+          "family": "Mueller"
+        },
+        {
+          "given": "Maurice",
+          "family": "Fallon"
+        },
+        {
+          "given": "Roland",
+          "family": "Siegwart"
+        },
+        {
+          "given": "Marco",
+          "family": "Hutter"
+        },
+        {
+          "given": "Kostas",
+          "family": "Alexis"
+        }
+      ],
+      "volume": "4",
+      "pages": "249-312",
+      "month": 4,
+      "ieee_title": "Team CERBERUS wins the DARPA Subterranean Challenge: Technical overview and lessons learned",
+      "venue_abbrev": "Field Robot."
+    },
+    "LIT_SCHWAIGER2024": {
+      "accessed": "2026-09-16",
+      "verification_url": "https://arxiv.org/abs/2406.14385v1",
+      "verification_note": "Explicitly retains reviewed 2024 v1 title and seven-author order. Later arXiv versions change the title; not silently substituted.",
+      "author_given_family": [
+        {
+          "family": "Schwaiger",
+          "given": "Simon"
+        },
+        {
+          "family": "Muster",
+          "given": "Lucas"
+        },
+        {
+          "family": "Novotny",
+          "given": "Georg"
+        },
+        {
+          "family": "Schebek",
+          "given": "Michael"
+        },
+        {
+          "family": "Wöber",
+          "given": "Wilfried"
+        },
+        {
+          "family": "Thalhammer",
+          "given": "Stefan"
+        },
+        {
+          "family": "Böhm",
+          "given": "Christoph"
+        }
+      ],
+      "ieee_title": "Semi-autonomous mobile search and rescue robot for radiation disaster scenarios",
+      "ieee_type": "preprint",
+      "arxiv_id": "2406.14385v1",
+      "include_version_url": true
+    },
+    "LIT_GAS2019": {
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.3390/s19030685",
+      "verification_note": "Source article header and DOI identify an electronic article number, not a one-page article; MDPI Crossref page field normalized to Art. no.",
+      "author_given_family": [
+        {
+          "given": "Han",
+          "family": "Fan"
+        },
+        {
+          "given": "Victor",
+          "family": "Hernandez Bennetts"
+        },
+        {
+          "given": "Erik",
+          "family": "Schaffernicht"
+        },
+        {
+          "given": "Achim J.",
+          "family": "Lilienthal"
+        }
+      ],
+      "volume": "19",
+      "issue": "3",
+      "pages": null,
+      "month": 2,
+      "article_number": "685",
+      "ieee_title": "Towards gas discrimination and mapping in emergency response scenarios using a mobile robot with an electronic nose"
+    },
+    "LIT_MULTIGAS2014": {
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.3390/s140917331",
+      "verification_note": "Publisher-deposited Crossref metadata and previously inspected source full text; special corrections documented in IEEE audit.",
+      "author_given_family": [
+        {
+          "given": "Victor",
+          "family": "Hernandez Bennetts"
+        },
+        {
+          "given": "Erik",
+          "family": "Schaffernicht"
+        },
+        {
+          "given": "Victor",
+          "family": "Pomareda"
+        },
+        {
+          "given": "Achim",
+          "family": "Lilienthal"
+        },
+        {
+          "given": "Santiago",
+          "family": "Marco"
+        },
+        {
+          "given": "Marco",
+          "family": "Trincavelli"
+        }
+      ],
+      "volume": "14",
+      "issue": "9",
+      "pages": "17331-17352",
+      "month": 9,
+      "ieee_title": "Combining non selective gas sensors on a mobile robot for identification and mapping of multiple chemical compounds"
+    },
+    "LIT_GADEN2017": {
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.3390/s17071479",
+      "verification_note": "Source article header and DOI identify an electronic article number, not a one-page article; MDPI Crossref page field normalized to Art. no.",
+      "author_given_family": [
+        {
+          "given": "Javier",
+          "family": "Monroy"
+        },
+        {
+          "given": "Victor",
+          "family": "Hernandez-Bennetts"
+        },
+        {
+          "given": "Han",
+          "family": "Fan"
+        },
+        {
+          "given": "Achim",
+          "family": "Lilienthal"
+        },
+        {
+          "given": "Javier",
+          "family": "Gonzalez-Jimenez"
+        }
+      ],
+      "volume": "17",
+      "issue": "7",
+      "pages": null,
+      "month": 6,
+      "article_number": "1479",
+      "ieee_title": "GADEN: A 3D gas dispersion simulator for mobile robot olfaction in realistic environments"
+    },
+    "LIT_INFOMAP2023": {
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.3390/s23125387",
+      "verification_note": "Source article header and DOI identify an electronic article number, not a one-page article; MDPI Crossref page field normalized to Art. no.",
+      "author_given_family": [
+        {
+          "given": "Andres",
+          "family": "Gongora"
+        },
+        {
+          "given": "Javier",
+          "family": "Monroy"
+        },
+        {
+          "given": "Faezeh",
+          "family": "Rahbar"
+        },
+        {
+          "given": "Chiara",
+          "family": "Ercolani"
+        },
+        {
+          "given": "Javier",
+          "family": "Gonzalez-Jimenez"
+        },
+        {
+          "given": "Alcherio",
+          "family": "Martinoli"
+        }
+      ],
+      "volume": "23",
+      "issue": "12",
+      "pages": null,
+      "month": 6,
+      "article_number": "5387",
+      "ieee_title": "Information-driven gas distribution mapping for autonomous mobile robots"
+    },
+    "LIT_SEMANTICGAS2018": {
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.3390/s18124174",
+      "verification_note": "Source article header and DOI identify an electronic article number, not a one-page article; MDPI Crossref page field normalized to Art. no.",
+      "author_given_family": [
+        {
+          "given": "Javier",
+          "family": "Monroy"
+        },
+        {
+          "given": "Jose-Raul",
+          "family": "Ruiz-Sarmiento"
+        },
+        {
+          "given": "Francisco-Angel",
+          "family": "Moreno"
+        },
+        {
+          "given": "Francisco",
+          "family": "Melendez-Fernandez"
+        },
+        {
+          "given": "Cipriano",
+          "family": "Galindo"
+        },
+        {
+          "given": "Javier",
+          "family": "Gonzalez-Jimenez"
+        }
+      ],
+      "volume": "18",
+      "issue": "12",
+      "pages": null,
+      "month": 11,
+      "article_number": "4174",
+      "ieee_title": "A semantic-based gas source localization with a mobile robot combining vision and chemical sensing"
+    },
+    "LIT_NEXTSMELL2018": {
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.48550/arXiv.1801.06819",
+      "verification_note": "Publisher-deposited Crossref metadata and previously inspected source full text; special corrections documented in IEEE audit.",
+      "author_given_family": [
+        {
+          "family": "Polvara",
+          "given": "Riccardo"
+        },
+        {
+          "family": "Trabattoni",
+          "given": "Marco"
+        },
+        {
+          "family": "Kucner",
+          "given": "Tomasz Piotr"
+        },
+        {
+          "family": "Schaffernicht",
+          "given": "Erik"
+        },
+        {
+          "family": "Amigoni",
+          "given": "Francesco"
+        },
+        {
+          "family": "Lilienthal",
+          "given": "Achim J."
+        }
+      ],
+      "ieee_title": "A next-best-smell approach for remote gas detection with a mobile robot",
+      "ieee_type": "preprint",
+      "arxiv_id": "1801.06819"
+    },
+    "LIT_CARMA2023": {
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.3389/frobt.2023.1137750",
+      "verification_note": "Publisher-deposited Crossref metadata and previously inspected source full text; special corrections documented in IEEE audit.",
+      "author_given_family": [
+        {
+          "given": "Bahman",
+          "family": "Nouri Rahmat Abadi"
+        },
+        {
+          "given": "Andrew",
+          "family": "West"
+        },
+        {
+          "given": "Harriet",
+          "family": "Peel"
+        },
+        {
+          "given": "Matthew",
+          "family": "Nancekievill"
+        },
+        {
+          "given": "Christopher",
+          "family": "Ballard"
+        },
+        {
+          "given": "Barry",
+          "family": "Lennox"
+        },
+        {
+          "given": "Ognjen",
+          "family": "Marjanovic"
+        },
+        {
+          "given": "Keir",
+          "family": "Groves"
+        }
+      ],
+      "volume": "10",
+      "article_number": "1137750",
+      "month": 3,
+      "pages": null,
+      "ieee_title": "CARMA II: A ground vehicle for autonomous surveying of alpha, beta and gamma radiation",
+      "venue_abbrev": "Front. Robot. AI"
+    },
+    "LIT_RADNAV2021": {
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.3390/robotics10020078",
+      "verification_note": "Source article header and DOI identify an electronic article number, not a one-page article; MDPI Crossref page field normalized to Art. no.",
+      "author_given_family": [
+        {
+          "given": "Keir",
+          "family": "Groves"
+        },
+        {
+          "given": "Emili",
+          "family": "Hernandez"
+        },
+        {
+          "given": "Andrew",
+          "family": "West"
+        },
+        {
+          "given": "Thomas",
+          "family": "Wright"
+        },
+        {
+          "given": "Barry",
+          "family": "Lennox"
+        }
+      ],
+      "volume": "10",
+      "issue": "2",
+      "pages": null,
+      "month": 5,
+      "article_number": "78",
+      "ieee_title": "Robotic exploration of an unknown nuclear environment using radiation informed autonomous navigation"
+    },
+    "LIT_RADHOT2019": {
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.3390/s19020292",
+      "verification_note": "Source article header and DOI identify an electronic article number, not a one-page article; MDPI Crossref page field normalized to Art. no.",
+      "author_given_family": [
+        {
+          "given": "Hadi",
+          "family": "Ardiny"
+        },
+        {
+          "given": "Stefan",
+          "family": "Witwicki"
+        },
+        {
+          "given": "Francesco",
+          "family": "Mondada"
+        }
+      ],
+      "volume": "19",
+      "issue": "2",
+      "pages": null,
+      "month": 1,
+      "article_number": "292",
+      "ieee_title": "Autonomous exploration for radioactive hotspots localization taking account of sensor limitations"
+    },
+    "LIT_RADSEARCH2020": {
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.3390/s20123461",
+      "verification_note": "Source article header and DOI identify an electronic article number, not a one-page article; MDPI Crossref page field normalized to Art. no.",
+      "author_given_family": [
+        {
+          "given": "Jianwen",
+          "family": "Huo"
+        },
+        {
+          "given": "Manlu",
+          "family": "Liu"
+        },
+        {
+          "given": "Konstantin A.",
+          "family": "Neusypin"
+        },
+        {
+          "given": "Haojie",
+          "family": "Liu"
+        },
+        {
+          "given": "Mingming",
+          "family": "Guo"
+        },
+        {
+          "given": "Yufeng",
+          "family": "Xiao"
+        }
+      ],
+      "volume": "20",
+      "issue": "12",
+      "pages": null,
+      "month": 6,
+      "article_number": "3461",
+      "ieee_title": "Autonomous search of radioactive sources through mobile robots"
+    },
+    "LIT_RADADAPT2025": {
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.3390/app15042050",
+      "verification_note": "Source article header and DOI identify an electronic article number, not a one-page article; MDPI Crossref page field normalized to Art. no.",
+      "author_given_family": [
+        {
+          "given": "Joel",
+          "family": "Adams"
+        },
+        {
+          "given": "Brendon",
+          "family": "Cintas"
+        },
+        {
+          "given": "Nakwon",
+          "family": "Sung"
+        },
+        {
+          "given": "Anthony",
+          "family": "Abrahao"
+        },
+        {
+          "given": "Leonel",
+          "family": "Lagos"
+        },
+        {
+          "given": "Dwayne",
+          "family": "McDaniel"
+        }
+      ],
+      "volume": "15",
+      "issue": "4",
+      "pages": null,
+      "month": 2,
+      "article_number": "2050",
+      "ieee_title": "A behavioral robotics approach to radiation mapping using adaptive sampling",
+      "venue_abbrev": "Appl. Sci."
+    },
+    "LIT_WATER2021": {
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.3390/s21041102",
+      "verification_note": "Source article header and DOI identify an electronic article number, not a one-page article; MDPI Crossref page field normalized to Art. no.",
+      "author_given_family": [
+        {
+          "given": "Hsing-Cheng",
+          "family": "Chang"
+        },
+        {
+          "given": "Yu-Liang",
+          "family": "Hsu"
+        },
+        {
+          "given": "San-Shan",
+          "family": "Hung"
+        },
+        {
+          "given": "Guan-Ru",
+          "family": "Ou"
+        },
+        {
+          "given": "Jia-Ron",
+          "family": "Wu"
+        },
+        {
+          "given": "Chuan",
+          "family": "Hsu"
+        }
+      ],
+      "volume": "21",
+      "issue": "4",
+      "pages": null,
+      "month": 2,
+      "article_number": "1102",
+      "ieee_title": "Autonomous water quality monitoring and water surface cleaning for unmanned surface vehicle"
+    },
+    "LIT_IDRONE2022": {
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.1016/j.ohx.2022.e00369",
+      "verification_note": "Publisher-deposited Crossref metadata and previously inspected source full text; special corrections documented in IEEE audit.",
+      "author_given_family": [
+        {
+          "given": "Jae Hyeon",
+          "family": "Ryu"
+        }
+      ],
+      "volume": "12",
+      "pages": null,
+      "article_number": "e00369",
+      "month": 10,
+      "ieee_title": "Prototyping a low-cost open-source autonomous unmanned surface vehicle for real-time water quality monitoring and visualization"
+    },
+    "LIT_ROMR2023": {
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.1016/j.ohx.2023.e00426",
+      "verification_note": "Publisher-deposited Crossref metadata and previously inspected source full text; special corrections documented in IEEE audit.",
+      "author_given_family": [
+        {
+          "given": "Linus",
+          "family": "Nwankwo"
+        },
+        {
+          "given": "Clemens",
+          "family": "Fritze"
+        },
+        {
+          "given": "Konrad",
+          "family": "Bartsch"
+        },
+        {
+          "given": "Elmar",
+          "family": "Rueckert"
+        }
+      ],
+      "volume": "14",
+      "pages": null,
+      "article_number": "e00426",
+      "month": 6,
+      "ieee_title": "ROMR: A ROS-based open-source mobile robot"
+    },
+    "LIT_SMART2022": {
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.48550/arXiv.2203.08903",
+      "verification_note": "Publisher-deposited Crossref metadata and previously inspected source full text; special corrections documented in IEEE audit.",
+      "author_given_family": [
+        {
+          "family": "Jo",
+          "given": "Wonse"
+        },
+        {
+          "family": "Kim",
+          "given": "Jaeeun"
+        },
+        {
+          "family": "Wang",
+          "given": "Ruiqi"
+        },
+        {
+          "family": "Pan",
+          "given": "Jeremy"
+        },
+        {
+          "family": "Senthilkumaran",
+          "given": "Revanth Krishna"
+        },
+        {
+          "family": "Min",
+          "given": "Byung-Cheol"
+        }
+      ],
+      "ieee_title": "SMARTmBOT: A ROS2-based low-cost and open-source mobile robot platform",
+      "ieee_type": "preprint",
+      "arxiv_id": "2203.08903"
+    },
+    "LIT_MODULAR2024": {
+      "accessed": "2026-09-16",
+      "verification_url": "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2024.1225297/full",
+      "verification_note": "Publisher-deposited Crossref metadata and previously inspected source full text; special corrections documented in IEEE audit.",
+      "pages": null,
+      "ieee_title": "Enabling robustness to failure with modular field robots",
+      "venue_abbrev": "Front. Robot. AI",
+      "volume": "11",
+      "month": 3,
+      "article_number": "1225297",
+      "author_given_family": [
+        {
+          "given": "Troy",
+          "family": "Cordie"
+        },
+        {
+          "given": "Jonathan",
+          "family": "Roberts"
+        },
+        {
+          "given": "Matthew",
+          "family": "Dunbabin"
+        },
+        {
+          "given": "Ross",
+          "family": "Dungavell"
+        },
+        {
+          "given": "Tirthankar",
+          "family": "Bandyopadhyay"
+        }
+      ]
+    },
+    "LIT_RESQBOT2019": {
+      "accessed": "2026-09-16",
+      "verification_url": "https://link.springer.com/chapter/10.1007/978-3-319-96728-8_18",
+      "verification_note": "Publisher-deposited Crossref metadata and previously inspected source full text; special corrections documented in IEEE audit.",
+      "author_given_family": [
+        {
+          "given": "Roni Permana",
+          "family": "Saputra"
+        },
+        {
+          "given": "Petar",
+          "family": "Kormushev"
+        }
+      ],
+      "pages": "209-220",
+      "ieee_title": "ResQbot: A mobile rescue robot with immersive teleperception for casualty extraction",
+      "ieee_type": "chapter",
+      "venue": "Towards Autonomous Robotic Systems",
+      "series": "Lecture Notes in Computer Science",
+      "series_abbrev": "Lecture Notes Comput. Sci.",
+      "volume": "10965",
+      "month": null,
+      "publisher": "Springer",
+      "publisher_location": "Cham, Switzerland",
+      "editors": [
+        {
+          "given": "Manuel",
+          "family": "Giuliani"
+        },
+        {
+          "given": "Tareq",
+          "family": "Assaf"
+        },
+        {
+          "given": "Maria Elena",
+          "family": "Giannaccini"
+        }
+      ]
+    },
+    "LIT_LIOSAM2020": {
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.1109/IROS45743.2020.9341176",
+      "verification_note": "Publisher-deposited Crossref metadata and previously inspected source full text; special corrections documented in IEEE audit.",
+      "author_given_family": [
+        {
+          "given": "Tixiao",
+          "family": "Shan"
+        },
+        {
+          "given": "Brendan",
+          "family": "Englot"
+        },
+        {
+          "given": "Drew",
+          "family": "Meyers"
+        },
+        {
+          "given": "Wei",
+          "family": "Wang"
+        },
+        {
+          "given": "Carlo",
+          "family": "Ratti"
+        },
+        {
+          "given": "Daniela",
+          "family": "Rus"
+        }
+      ],
+      "pages": "5135-5142",
+      "month": 10,
+      "ieee_title": "LIO-SAM: Tightly-coupled lidar inertial odometry via smoothing and mapping",
+      "ieee_type": "conference",
+      "venue_abbrev": "Proc. IEEE/RSJ Int. Conf. Intell. Robots Syst. (IROS)"
+    },
+    "LIT_ORBSLAM2021": {
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.1109/TRO.2021.3075644",
+      "verification_note": "Author manuscript and arXiv title page preserve Gómez Rodríguez as a compound surname and Tardós diacritic, correcting ambiguous publisher metadata split.",
+      "author_given_family": [
+        {
+          "given": "Carlos",
+          "family": "Campos"
+        },
+        {
+          "given": "Richard",
+          "family": "Elvira"
+        },
+        {
+          "given": "Juan J.",
+          "family": "Gómez Rodríguez"
+        },
+        {
+          "given": "José M. M.",
+          "family": "Montiel"
+        },
+        {
+          "given": "Juan D.",
+          "family": "Tardós"
+        }
+      ],
+      "volume": "37",
+      "issue": "6",
+      "pages": "1874-1890",
+      "month": 12,
+      "ieee_title": "ORB-SLAM3: An accurate open-source library for visual, visual–inertial, and multimap SLAM",
+      "venue_abbrev": "IEEE Trans. Robot."
+    },
+    "LIT_MARATHON2020": {
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.1109/IROS45743.2020.9341207",
+      "verification_note": "Publisher-deposited Crossref metadata and previously inspected source full text; special corrections documented in IEEE audit.",
+      "author_given_family": [
+        {
+          "given": "Steve",
+          "family": "Macenski"
+        },
+        {
+          "given": "Francisco",
+          "family": "Martín"
+        },
+        {
+          "given": "Ruffin",
+          "family": "White"
+        },
+        {
+          "given": "Jonatan Ginés",
+          "family": "Clavero"
+        }
+      ],
+      "pages": "2718-2725",
+      "month": 10,
+      "ieee_title": "The Marathon 2: A navigation system",
+      "ieee_type": "conference",
+      "venue_abbrev": "Proc. IEEE/RSJ Int. Conf. Intell. Robots Syst. (IROS)"
+    },
+    "ENG_MQ2": {
+      "ieee_type": "manual",
+      "organization": "Zhengzhou Winsen Electronics Technology Co., Ltd.",
+      "accessed": "2026-09-16",
+      "verification_url": "https://www.winsen-sensor.com/d/files/newpdf/mq-2-%28ver1_6%29---manual.pdf",
+      "verification_note": "Official PDF cover gives version 1.6, valid from 2021-07-01.",
+      "ieee_title": "Flammable Gas Sensor (Model MQ-2) Manual",
+      "version": "1.6",
+      "date_text": "Jul. 1, 2021"
+    },
+    "ENG_TDS": {
+      "ieee_type": "website",
+      "organization": "DFRobot",
+      "accessed": "2026-09-16",
+      "verification_url": "https://wiki.dfrobot.com/sen0244",
+      "verification_note": "Official source page/document checked on Sep. 16, 2026; undated pages remain n.d.",
+      "website": "DFRobot Wiki",
+      "ieee_title": "Gravity: Analog TDS sensor/meter for Arduino (SEN0244)"
+    },
+    "ENG_TDS_CODE": {
+      "ieee_type": "website",
+      "organization": "DFRobot",
+      "accessed": "2026-09-16",
+      "verification_url": "https://wiki.dfrobot.com/sen0244/docs/20305",
+      "verification_note": "Official source page/document checked on Sep. 16, 2026; undated pages remain n.d.",
+      "website": "DFRobot Wiki",
+      "ieee_title": "Gravity: Analog TDS sensor/meter for Arduino—Example code for Arduino: Measure TDS value"
+    },
+    "ENG_TURB": {
+      "ieee_type": "website",
+      "organization": "DFRobot",
+      "accessed": "2026-09-16",
+      "verification_url": "https://wiki.dfrobot.com/sen0189",
+      "verification_note": "Official source page/document checked on Sep. 16, 2026; undated pages remain n.d.",
+      "website": "DFRobot Wiki",
+      "ieee_title": "Gravity: Analog turbidity sensor for Arduino (SEN0189)"
+    },
+    "ENG_TURB_FAQ": {
+      "ieee_type": "website",
+      "organization": null,
+      "accessed": "2026-09-16",
+      "verification_url": "https://www.dfrobot.com/forum/topic/315216",
+      "verification_note": "Official DFRobot forum JSON-LD and visible byline identify Winster; no evidence that this user is formal DFRobot technical support.",
+      "website": "DFRobot Forum",
+      "author_given_family": [
+        {
+          "literal": "Winster"
+        }
+      ],
+      "date_text": "Aug. 19, 2022",
+      "ieee_title": "Turbidity sensor FAQ [SEN0189]"
+    },
+    "ENG_EPA1801": {
+      "ieee_type": "report",
+      "organization": "U.S. Environmental Protection Agency",
+      "accessed": "2026-09-16",
+      "verification_url": "https://www.epa.gov/sites/default/files/2015-08/documents/method_180-1_1993.pdf",
+      "verification_note": "Official method cover identifies agency and James W. O’Dell as editor, revision 2.0, August 1993. Corporate authorship retained; editor not misattributed as sole author.",
+      "ieee_title": "Determination of turbidity by nephelometry",
+      "report_number": "Method 180.1, rev. 2.0",
+      "publisher_location": "Cincinnati, OH, USA",
+      "month": 8
+    },
+    "ENG_WHO_TURB": {
+      "ieee_type": "report",
+      "organization": "World Health Organization",
+      "accessed": "2026-09-16",
+      "verification_url": "https://www.who.int/publications/i/item/WHO-FWC-WSH-17.01",
+      "verification_note": "Official source page/document checked on Sep. 16, 2026; undated pages remain n.d.",
+      "ieee_title": "Water quality and health: Review of turbidity",
+      "report_number": "WHO/FWC/WSH/17.01",
+      "month": 2
+    },
+    "ENG_USGS_EC": {
+      "ieee_type": "report",
+      "organization": "U.S. Geological Survey",
+      "accessed": "2026-09-16",
+      "verification_url": "https://pubs.usgs.gov/publication/tm9A6.3",
+      "verification_note": "Official USGS citation metadata confirms institutional author, 2019, report 9-A6.3 and DOI 10.3133/tm9A6.3.",
+      "ieee_title": "Chapter A6.3. Specific conductance",
+      "report_number": "Techniques and Methods 9-A6.3",
+      "doi": "10.3133/tm9A6.3"
+    },
+    "ENG_EPA_TDS": {
+      "ieee_type": "website",
+      "organization": "U.S. Environmental Protection Agency",
+      "accessed": "2026-09-16",
+      "verification_url": "https://www.epa.gov/sdwa/secondary-drinking-water-standards-guidance-nuisance-chemicals",
+      "verification_note": "Official source page/document checked on Sep. 16, 2026; undated pages remain n.d.",
+      "website": "United States Environmental Protection Agency",
+      "ieee_title": "Secondary drinking water standards: Guidance for nuisance chemicals"
+    },
+    "ENG_UVI": {
+      "ieee_type": "manual",
+      "organization": "World Health Organization",
+      "accessed": "2026-09-16",
+      "verification_url": "https://www.who.int/publications/i/item/9241590076",
+      "verification_note": "WHO publication record identifies WHO as editor/publisher and describes WMO, UNEP, ICNIRP and BfS as collaborators, not personal authors. Corporate author used consistently.",
+      "ieee_title": "Global Solar UV Index: A Practical Guide",
+      "year": 2002
+    },
+    "ENG_IAEA_GM": {
+      "ieee_type": "manual",
+      "organization": "International Atomic Energy Agency",
+      "accessed": "2026-09-16",
+      "verification_url": "https://nucleus.iaea.org/sites/orpnet/training/ExternalRadiation/Shared%20Documents/5_workplace%20monitoring%20-%20Final.pdf",
+      "verification_note": "IAEA slide deck title page; no publication year shown, so n.d. retained.",
+      "ieee_title": "Assessment of Occupational Exposure Due to External Radiation Sources: Workplace Monitoring"
+    },
+    "ENG_IAEA_STATS": {
+      "ieee_type": "report",
+      "organization": "International Atomic Energy Agency",
+      "accessed": "2026-09-16",
+      "verification_url": "https://pub.iaea.org/MTCD/Publications/PDF/te_1401_web.pdf",
+      "verification_note": "Official source page/document checked on Sep. 16, 2026; undated pages remain n.d.",
+      "ieee_title": "Quantifying uncertainty in nuclear analytical measurements",
+      "report_number": "IAEA-TECDOC-1401",
+      "publisher_location": "Vienna, Austria",
+      "month": 7
+    },
+    "ENG_GUM": {
+      "ieee_type": "report",
+      "organization": "Joint Committee for Guides in Metrology",
+      "accessed": "2026-09-16",
+      "verification_url": "https://www.bipm.org/doi/10.59161/JCGM100-2008E",
+      "verification_note": "Official BIPM JCGM record identifies document number, corporate author, 2008 and DOI.",
+      "ieee_title": "Evaluation of measurement data—Guide to the expression of uncertainty in measurement",
+      "report_number": "JCGM 100:2008"
+    },
+    "ENG_BINOM": {
+      "ieee_type": "website",
+      "organization": "National Institute of Standards and Technology",
+      "accessed": "2026-09-16",
+      "verification_url": "https://itl.nist.gov/div898/software/dataplot/refman2/auxillar/exacbici.htm",
+      "verification_note": "Official NIST page states date created and last updated 10/5/2010; retrieved with web tool after local TLS failure.",
+      "website": "NIST Dataplot",
+      "year": 2010,
+      "date_text": "Oct. 5, 2010",
+      "ieee_title": "Exact binomial confidence limits"
+    },
+    "ENG_BQ24650": {
+      "ieee_type": "manual",
+      "organization": "Texas Instruments",
+      "accessed": "2026-09-16",
+      "verification_url": "https://www.ti.com/lit/ds/symlink/bq24650.pdf",
+      "verification_note": "Official PDF header: July 2010, revised January 2020, SLUSA75B.",
+      "ieee_title": "BQ24650 Stand-Alone Synchronous Buck Battery Charge Controller for Solar Power With Maximum Power Point Tracking",
+      "document_number": "SLUSA75B",
+      "year": 2020,
+      "month": 1
+    },
+    "ENG_BQ76920": {
+      "ieee_type": "website",
+      "organization": "Texas Instruments",
+      "accessed": "2026-09-16",
+      "verification_url": "https://www.ti.com/product/BQ76920",
+      "verification_note": "Official source page/document checked on Sep. 16, 2026; undated pages remain n.d.",
+      "website": "Texas Instruments",
+      "ieee_title": "BQ76920: 3 to 5 series cell battery monitor"
+    },
+    "ENG_PVWATTS": {
+      "ieee_type": "report",
+      "organization": null,
+      "accessed": "2026-09-16",
+      "verification_url": "https://research-hub.nlr.gov/en/publications/pvwatts-version-5-manual/",
+      "verification_note": "Official laboratory record and PDF cover verify author, title, September 2014 report number and DOI. Historical NREL publisher name retained.",
+      "author_given_family": [
+        {
+          "given": "Aron P.",
+          "family": "Dobos"
+        }
+      ],
+      "ieee_title": "PVWatts version 5 manual",
+      "institution": "National Renewable Energy Laboratory",
+      "publisher_location": "Golden, CO, USA",
+      "report_number": "NREL/TP-6A20-62641",
+      "month": 9
+    },
+    "ENG_NEO6": {
+      "ieee_type": "manual",
+      "organization": "u-blox AG",
+      "accessed": "2026-09-16",
+      "verification_url": "https://content.u-blox.com/sites/default/files/products/documents/NEO-6_DataSheet_(GPS.G6-HW-09005).pdf",
+      "verification_note": "Official PDF p. 24 revision table identifies revision E dated 05/12/2011.",
+      "ieee_title": "NEO-6: u-blox 6 GPS Modules Data Sheet",
+      "document_number": "GPS.G6-HW-09005-E",
+      "date_text": "Dec. 5, 2011"
+    },
+    "ENG_ODOM": {
+      "ieee_type": "journal",
+      "organization": null,
+      "accessed": "2026-09-16",
+      "verification_url": "https://web.cecs.pdx.edu/~mperkows/CLASS_479/S2006/Paper-correction-odometry-error.pdf",
+      "verification_note": "IEEE-deposited Crossref record confirms volume/issue/pages; full source is cited, not a conference. Structured names repair Crossref family-only Liqiang Feng.",
+      "author_given_family": [
+        {
+          "given": "Johann",
+          "family": "Borenstein"
+        },
+        {
+          "given": "Liqiang",
+          "family": "Feng"
+        }
+      ],
+      "venue": "IEEE Transactions on Robotics and Automation",
+      "venue_abbrev": "IEEE Trans. Robot. Automat.",
+      "volume": "12",
+      "issue": "6",
+      "pages": "869-880",
+      "month": 12
+    },
+    "ENG_SKID": {
+      "ieee_type": "conference",
+      "organization": null,
+      "accessed": "2026-09-16",
+      "verification_url": "https://babel.isa.uma.es/_utils/downloads/logdownloads.php?f=downloads%2Fjafma%2Fpapers%2Fmandow2007ekw.pdf&t=pdf&u=jafma",
+      "verification_note": "Official source page/document checked on Sep. 16, 2026; undated pages remain n.d.",
+      "author_given_family": [
+        {
+          "given": "Anthony",
+          "family": "Mandow"
+        },
+        {
+          "given": "Jorge L.",
+          "family": "Martínez"
+        },
+        {
+          "given": "Jesús",
+          "family": "Morales"
+        },
+        {
+          "given": "José L.",
+          "family": "Blanco"
+        },
+        {
+          "given": "Alfonso",
+          "family": "García-Cerezo"
+        },
+        {
+          "given": "Javier",
+          "family": "González"
+        }
+      ],
+      "venue_abbrev": "Proc. IEEE/RSJ Int. Conf. Intell. Robots Syst. (IROS)",
+      "pages": "1222-1227",
+      "month": 10
+    },
+    "ENG_ESP32": {
+      "ieee_type": "manual",
+      "organization": "Espressif Systems",
+      "accessed": "2026-09-16",
+      "verification_url": "https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf",
+      "verification_note": "Official current PDF cover and revision history identify v5.3, July 2026; original undated evidence is enriched only in this overlay.",
+      "ieee_title": "ESP32 Series Datasheet",
+      "version": "5.3",
+      "year": 2026,
+      "month": 7
+    },
+    "ENG_CAMERA": {
+      "ieee_type": "software",
+      "organization": "Espressif Systems",
+      "accessed": "2026-09-16",
+      "verification_url": "https://github.com/espressif/esp32-camera",
+      "verification_note": "Official source page/document checked on Sep. 16, 2026; undated pages remain n.d.",
+      "website": "GitHub",
+      "ieee_title": "ESP32 camera driver"
+    },
+    "ENG_MJPEG": {
+      "ieee_type": "software",
+      "organization": null,
+      "accessed": "2026-09-16",
+      "verification_url": "https://github.com/s60sc/ESP32-CAM_MJPEG2SD",
+      "verification_note": "Official source page/document checked on Sep. 16, 2026; undated pages remain n.d.",
+      "website": "GitHub",
+      "author_given_family": [
+        {
+          "literal": "s60sc and contributors"
+        }
+      ]
+    },
+    "ENG_SCALED": {
+      "ieee_type": "conference",
+      "organization": null,
+      "accessed": "2026-09-16",
+      "verification_url": "https://openaccess.thecvf.com/content/CVPR2021/html/Wang_Scaled-YOLOv4_Scaling_Cross_Stage_Partial_Network_CVPR_2021_paper.html",
+      "verification_note": "IEEE DOI publication pagination is 13024-13033; CVF repository counterpart is 13029-13038. Bibliography uses the DOI publication and its consistent pagination, with the same title/authors/year.",
+      "author_given_family": [
+        {
+          "given": "Chien-Yao",
+          "family": "Wang"
+        },
+        {
+          "given": "Alexey",
+          "family": "Bochkovskiy"
+        },
+        {
+          "given": "Hong-Yuan Mark",
+          "family": "Liao"
+        }
+      ],
+      "venue_abbrev": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
+      "pages": "13024-13033",
+      "month": 6,
+      "ieee_title": "Scaled-YOLOv4: Scaling cross stage partial network",
+      "doi": "10.1109/CVPR46437.2021.01283"
+    },
+    "ENG_QUANT": {
+      "ieee_type": "conference",
+      "organization": null,
+      "accessed": "2026-09-16",
+      "verification_url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Jacob_Quantization_and_Training_CVPR_2018_paper.html",
+      "verification_note": "IEEE-deposited Crossref DOI/title/authors/venue/pages match the independently checked CVF version.",
+      "author_given_family": [
+        {
+          "given": "Benoit",
+          "family": "Jacob"
+        },
+        {
+          "given": "Skirmantas",
+          "family": "Kligys"
+        },
+        {
+          "given": "Bo",
+          "family": "Chen"
+        },
+        {
+          "given": "Menglong",
+          "family": "Zhu"
+        },
+        {
+          "given": "Matthew",
+          "family": "Tang"
+        },
+        {
+          "given": "Andrew",
+          "family": "Howard"
+        },
+        {
+          "given": "Hartwig",
+          "family": "Adam"
+        },
+        {
+          "given": "Dmitry",
+          "family": "Kalenichenko"
+        }
+      ],
+      "venue_abbrev": "Proc. IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR)",
+      "pages": "2704-2713",
+      "month": 6,
+      "ieee_title": "Quantization and training of neural networks for efficient integer-arithmetic-only inference",
+      "doi": "10.1109/CVPR.2018.00286"
+    },
+    "ENG_ONNX": {
+      "ieee_type": "website",
+      "organization": "Microsoft",
+      "accessed": "2026-09-16",
+      "verification_url": "https://onnxruntime.ai/docs/performance/model-optimizations/quantization.html",
+      "verification_note": "Official source page/document checked on Sep. 16, 2026; undated pages remain n.d.",
+      "website": "ONNX Runtime documentation",
+      "ieee_title": "Quantize ONNX models"
+    },
+    "ENG_COCO": {
+      "ieee_type": "software",
+      "organization": null,
+      "accessed": "2026-09-16",
+      "verification_url": "https://github.com/cocodataset/cocoapi/blob/master/PythonAPI/pycocotools/cocoeval.py",
+      "verification_note": "Cited source code explicitly credits Piotr Dollar and Tsung-Yi Lin, 2015, toolbox version 2.0; not a citation to the 2014 COCO dataset paper.",
+      "website": "GitHub",
+      "author_given_family": [
+        {
+          "given": "Piotr",
+          "family": "Dollár"
+        },
+        {
+          "given": "Tsung-Yi",
+          "family": "Lin"
+        }
+      ],
+      "year": 2015,
+      "version": "2.0",
+      "ieee_title": "COCO object-detection evaluation implementation (cocoeval.py)"
+    },
+    "ENG_MOTOR": {
+      "ieee_type": "website",
+      "organization": "Pololu Corporation",
+      "accessed": "2026-09-16",
+      "verification_url": "https://www.pololu.com/product/4755",
+      "verification_note": "Official source page/document checked on Sep. 16, 2026; undated pages remain n.d.",
+      "website": "Pololu",
+      "ieee_title": "100:1 metal gearmotor 37Dx73L mm 12V with 64 CPR encoder (helical pinion)"
+    },
+    "ENG_BATTERY": {
+      "ieee_type": "website",
+      "organization": "Bioenno Power",
+      "accessed": "2026-09-16",
+      "verification_url": "https://www.bioennopower.com/products/12v-6ah-lifepo4-battery-pvc",
+      "verification_note": "Official product page checked with web tool after local TLS failure; publication date not stated.",
+      "website": "Bioenno Power",
+      "ieee_title": "12V 6Ah LiFePO4 battery—Bioenno Power BLF-1206A"
+    },
+    "ENG_PANEL": {
+      "ieee_type": "website",
+      "organization": "Newpowa",
+      "accessed": "2026-09-16",
+      "verification_url": "https://www.newpowa.com/new-20w-monocrystalline-12v-solar-panel/",
+      "verification_note": "Official source page/document checked on Sep. 16, 2026; undated pages remain n.d.",
+      "website": "Newpowa",
+      "ieee_title": "20W monocrystalline 12V solar panel"
+    },
+    "ENG_MOBILENETV3": {
+      "ieee_type": "conference",
+      "venue_abbrev": "Proc. IEEE/CVF Int. Conf. Comput. Vis. (ICCV)",
+      "month": 10,
+      "ieee_title": "Searching for MobileNetV3",
+      "doi": "10.1109/ICCV.2019.00140",
+      "verification_note": "IEEE-deposited Crossref record exactly matches title, venue and pp. 1314-1324. Author order remains CVF/author-paper order, despite different middle-author order in the deposit."
+    },
+    "ENG_SSD": {
+      "ieee_type": "chapter",
+      "ieee_title": "SSD: Single shot MultiBox detector",
+      "series_abbrev": "Lecture Notes Comput. Sci.",
+      "publisher_location": "Cham, Switzerland"
+    },
+    "ENG_RANDOMFOREST": {
+      "ieee_type": "journal",
+      "venue_abbrev": "Mach. Learn.",
+      "ieee_title": "Random forests",
+      "month": 10
+    },
+    "ENG_TEMPERATURECAL": {
+      "ieee_type": "conference",
+      "venue_abbrev": "Proc. 34th Int. Conf. Mach. Learn. (ICML)",
+      "series_abbrev": "Proc. Mach. Learn. Res.",
+      "ieee_title": "On calibration of modern neural networks"
+    }
+  }
+}

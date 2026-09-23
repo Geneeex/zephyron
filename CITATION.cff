@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use these supporting materials, please cite the Zephyron preprint."
+type: software
+url: "https://github.com/SABIKGIT/zephyron"
+repository-code: "https://github.com/SABIKGIT/zephyron"
+title: "Zephyron research companion: analytical models, software checks and editable design assets"
+authors:
+  - family-names: "Sultan"
+    given-names: "Sabik Bin"
+    affiliation: "Bangladesh Air Force Shaheen College Kurmitola"
+  - family-names: "Sultan"
+    given-names: "Shafi Bin"
+    affiliation: "St.Joseph Higher Secondary School"
+  - family-names: "Sadad"
+    given-names: "Safwan"
+    affiliation: "Greenland Residential School"
+keywords:
+  - robotics
+  - environmental reconnaissance
+  - mobile manipulation
+  - analytical modelling
+  - reproducibility
+preferred-citation:
+  type: article
+  title: "Zephyron: Integrated Design and Analytical Evaluation of a Solar-Assisted Mobile Manipulator for Multimodal Environmental Reconnaissance and Distributed Visual Inference"
+  authors:
+    - family-names: "Sultan"
+      given-names: "Sabik Bin"
+    - family-names: "Sultan"
+      given-names: "Shafi Bin"
+    - family-names: "Sadad"
+      given-names: "Safwan"
+  journal: "arXiv"
+  year: 2026
+  month: 9
+  doi: "10.48550/arXiv.2609.25709"
+  url: "https://arxiv.org/abs/2609.25709"
+  notes: "Preprint, arXiv:2609.25709 [cs.RO], first submitted 22 September 2026."

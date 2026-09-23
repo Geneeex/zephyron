@@ -1,0 +1,3132 @@
+[
+  {
+    "number": 1,
+    "key": "LIT_QUINCE2011",
+    "record": {
+      "key": "LIT_QUINCE2011",
+      "title": "Redesign of rescue mobile robot Quince: Toward emergency response to the nuclear accident at Fukushima Daiichi Nuclear Power Station on March 2011",
+      "authors": [
+        "Keiji Nagatani",
+        "Seiga Kiribayashi",
+        "Yoshito Okada",
+        "Satoshi Tadokoro",
+        "Takeshi Nishimura",
+        "Tomoaki Yoshida",
+        "Eiji Koyanagi",
+        "Yasushi Hada"
+      ],
+      "year": 2011,
+      "doi": "10.1109/SSRR.2011.6106794",
+      "url": "https://doi.org/10.1109/SSRR.2011.6106794",
+      "venue": "2011 IEEE International Symposium on Safety, Security, and Rescue Robotics",
+      "volume": null,
+      "issue": null,
+      "pages": "13-18",
+      "article_number": null,
+      "publication_type": "conference paper",
+      "topic": "Disaster intervention",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "Author manuscript, 6 PDF pages",
+      "claims": [
+        {
+          "claim": "Added mission hardware changed loading and stair behaviour; recovery provisions, operator interfaces and communication links required integrated redesign.",
+          "locator": "pp. 2–6; redesign, teleoperation and stairs sections"
+        }
+      ],
+      "limits": "Emergency-response platform, not a controlled comparison or evidence that Zephyron can climb stairs.",
+      "design_implication": "Evaluate the combined payload, arm clearance, power recovery and operator workflow.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_QUINCE2011.pdf",
+        "text_path": "research/literature/fulltext/LIT_QUINCE2011.txt"
+      },
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.1109/SSRR.2011.6106794",
+      "verification_note": "Publisher-deposited Crossref metadata and previously inspected source full text; special corrections documented in IEEE audit.",
+      "author_given_family": [
+        {
+          "given": "Keiji",
+          "family": "Nagatani"
+        },
+        {
+          "given": "Seiga",
+          "family": "Kiribayashi"
+        },
+        {
+          "given": "Yoshito",
+          "family": "Okada"
+        },
+        {
+          "given": "Satoshi",
+          "family": "Tadokoro"
+        },
+        {
+          "given": "Takeshi",
+          "family": "Nishimura"
+        },
+        {
+          "given": "Tomoaki",
+          "family": "Yoshida"
+        },
+        {
+          "given": "Eiji",
+          "family": "Koyanagi"
+        },
+        {
+          "given": "Yasushi",
+          "family": "Hada"
+        }
+      ],
+      "month": 11,
+      "ieee_title": "Redesign of rescue mobile robot Quince: Toward emergency response to the nuclear accident at Fukushima Daiichi Nuclear Power Station on March 2011",
+      "ieee_type": "conference",
+      "venue_abbrev": "Proc. IEEE Int. Symp. Safety, Security, Rescue Robot. (SSRR)"
+    },
+    "formatted": "K. Nagatani et al., “Redesign of rescue mobile robot Quince: Toward emergency response to the nuclear accident at Fukushima Daiichi Nuclear Power Station on March 2011,” in Proc. IEEE Int. Symp. Safety, Security, Rescue Robot. (SSRR), Nov. 2011, pp. 13–18, doi: 10.1109/SSRR.2011.6106794.",
+    "warnings": []
+  },
+  {
+    "number": 2,
+    "key": "LIT_GAS2019",
+    "record": {
+      "key": "LIT_GAS2019",
+      "title": "Towards Gas Discrimination and Mapping in Emergency Response Scenarios Using a Mobile Robot with an Electronic Nose",
+      "authors": [
+        "Han Fan",
+        "Victor Hernandez Bennetts",
+        "Erik Schaffernicht",
+        "Achim J. Lilienthal"
+      ],
+      "year": 2019,
+      "doi": "10.3390/s19030685",
+      "url": "https://doi.org/10.3390/s19030685",
+      "venue": "Sensors",
+      "volume": "19",
+      "issue": "3",
+      "pages": null,
+      "article_number": "685",
+      "publication_type": "journal-article",
+      "topic": "Chemical sensing",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "Published full text",
+      "claims": [
+        {
+          "claim": "An electronic nose uses controlled sampling and baseline updates to handle MOX drift while classifying and mapping gases.",
+          "locator": "§§4.1–4.2, 5.1–5.3 and 6; Fig. 9"
+        }
+      ],
+      "limits": "Experiments used ethanol, propanol and acetone surrogates; results do not validate toxic-gas thresholds or arbitrary mixtures.",
+      "design_implication": "Log warm-up, baseline, airflow and exposure state; do not label raw sensor output as calibrated concentration.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_GAS2019.pdf",
+        "fulltext_path": "research/literature/fulltext/LIT_GAS2019.xml",
+        "text_path": "research/literature/fulltext/LIT_GAS2019.txt"
+      },
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.3390/s19030685",
+      "verification_note": "Source article header and DOI identify an electronic article number, not a one-page article; MDPI Crossref page field normalized to Art. no.",
+      "author_given_family": [
+        {
+          "given": "Han",
+          "family": "Fan"
+        },
+        {
+          "given": "Victor",
+          "family": "Hernandez Bennetts"
+        },
+        {
+          "given": "Erik",
+          "family": "Schaffernicht"
+        },
+        {
+          "given": "Achim J.",
+          "family": "Lilienthal"
+        }
+      ],
+      "month": 2,
+      "ieee_title": "Towards gas discrimination and mapping in emergency response scenarios using a mobile robot with an electronic nose"
+    },
+    "formatted": "H. Fan, V. Hernandez Bennetts, E. Schaffernicht, and A. J. Lilienthal, “Towards gas discrimination and mapping in emergency response scenarios using a mobile robot with an electronic nose,” Sensors, vol. 19, no. 3, Feb. 2019, Art. no. 685, doi: 10.3390/s19030685.",
+    "warnings": []
+  },
+  {
+    "number": 3,
+    "key": "LIT_RADNAV2021",
+    "record": {
+      "key": "LIT_RADNAV2021",
+      "title": "Robotic Exploration of an Unknown Nuclear Environment Using Radiation Informed Autonomous Navigation",
+      "authors": [
+        "Keir Groves",
+        "Emili Hernandez",
+        "Andrew West",
+        "Thomas Wright",
+        "Barry Lennox"
+      ],
+      "year": 2021,
+      "doi": "10.3390/robotics10020078",
+      "url": "https://doi.org/10.3390/robotics10020078",
+      "venue": "Robotics",
+      "volume": "10",
+      "issue": "2",
+      "pages": null,
+      "article_number": "78",
+      "publication_type": "journal-article",
+      "topic": "Radiation-aware navigation",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "Published full text",
+      "claims": [
+        {
+          "claim": "Layered radiation costmaps associate delayed detector readings with earlier robot poses and support recovery near high-cost regions.",
+          "locator": "§4.3 and §§5.1–5.2, PDF pp. 8–11"
+        }
+      ],
+      "limits": "Safe-MiniSource radiofrequency devices emulate gamma response; no calibrated gamma field was measured, and RF multipath affected maps.",
+      "design_implication": "Timestamp and latency-correct sensor measurements; validate the hazard model independently.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_RADNAV2021.pdf",
+        "text_path": "research/literature/fulltext/LIT_RADNAV2021.txt"
+      },
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.3390/robotics10020078",
+      "verification_note": "Source article header and DOI identify an electronic article number, not a one-page article; MDPI Crossref page field normalized to Art. no.",
+      "author_given_family": [
+        {
+          "given": "Keir",
+          "family": "Groves"
+        },
+        {
+          "given": "Emili",
+          "family": "Hernandez"
+        },
+        {
+          "given": "Andrew",
+          "family": "West"
+        },
+        {
+          "given": "Thomas",
+          "family": "Wright"
+        },
+        {
+          "given": "Barry",
+          "family": "Lennox"
+        }
+      ],
+      "month": 5,
+      "ieee_title": "Robotic exploration of an unknown nuclear environment using radiation informed autonomous navigation"
+    },
+    "formatted": "K. Groves, E. Hernandez, A. West, T. Wright, and B. Lennox, “Robotic exploration of an unknown nuclear environment using radiation informed autonomous navigation,” Robotics, vol. 10, no. 2, May 2021, Art. no. 78, doi: 10.3390/robotics10020078.",
+    "warnings": []
+  },
+  {
+    "number": 4,
+    "key": "LIT_COAL2017",
+    "record": {
+      "key": "LIT_COAL2017",
+      "title": "A Search-and-Rescue Robot System for Remotely Sensing the Underground Coal Mine Environment",
+      "authors": [
+        "Jingchao Zhao",
+        "Junyao Gao",
+        "Fangzhou Zhao",
+        "Yi Liu"
+      ],
+      "year": 2017,
+      "doi": "10.3390/s17102426",
+      "url": "https://doi.org/10.3390/s17102426",
+      "venue": "Sensors",
+      "volume": "17",
+      "issue": "10",
+      "pages": null,
+      "article_number": "2426",
+      "publication_type": "journal-article",
+      "topic": "Disaster field robotics",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "Published full text",
+      "claims": [
+        {
+          "claim": "Mine trials and responder training exposed wheel/track slip, trajectory deviation, relay/cable handling problems and requests for better camera coverage.",
+          "locator": "§§6.1–6.4 and 7"
+        }
+      ],
+      "limits": "Reported tests apply to that mine robot and do not establish certification or performance for another rover.",
+      "design_implication": "Include cables, communications, visibility and responder usability in terrain tests.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_COAL2017.pdf",
+        "fulltext_path": "research/literature/fulltext/LIT_COAL2017.xml",
+        "text_path": "research/literature/fulltext/LIT_COAL2017.txt"
+      },
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.3390/s17102426",
+      "verification_note": "Source article header and DOI identify an electronic article number, not a one-page article; MDPI Crossref page field normalized to Art. no.",
+      "author_given_family": [
+        {
+          "given": "Jingchao",
+          "family": "Zhao"
+        },
+        {
+          "given": "Junyao",
+          "family": "Gao"
+        },
+        {
+          "given": "Fangzhou",
+          "family": "Zhao"
+        },
+        {
+          "given": "Yi",
+          "family": "Liu"
+        }
+      ],
+      "month": 10,
+      "ieee_title": "A search-and-rescue robot system for remotely sensing the underground coal mine environment"
+    },
+    "formatted": "J. Zhao, J. Gao, F. Zhao, and Y. Liu, “A search-and-rescue robot system for remotely sensing the underground coal mine environment,” Sensors, vol. 17, no. 10, Oct. 2017, Art. no. 2426, doi: 10.3390/s17102426.",
+    "warnings": []
+  },
+  {
+    "number": 5,
+    "key": "LIT_DRZ2024",
+    "record": {
+      "key": "LIT_DRZ2024",
+      "title": "Lessons from robot‐assisted disaster response deployments by the German Rescue Robotics Center task force",
+      "authors": [
+        "Hartmut Surmann",
+        "Kevin Daun",
+        "Marius Schnaubelt",
+        "Oskar von Stryk",
+        "Manuel Patchou",
+        "Stefan Böcker",
+        "Christian Wietfeld",
+        "Jan Quenzel",
+        "Daniel Schleich",
+        "Sven Behnke",
+        "Robert Grafe",
+        "Nils Heidemann",
+        "Dominik Slomma",
+        "Ivana Kruijff‐Korbayová"
+      ],
+      "year": 2024,
+      "doi": "10.1002/rob.22275",
+      "url": "https://doi.org/10.1002/rob.22275",
+      "venue": "Journal of Field Robotics",
+      "volume": "41",
+      "issue": "3",
+      "pages": "782-797",
+      "article_number": null,
+      "publication_type": "journal-article",
+      "topic": "Operational deployment",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "2022 arXiv preprint of later journal article",
+      "claims": [
+        {
+          "claim": "Fire and flood deployments emphasize rehearsed teams, operator training and independence from unavailable local infrastructure.",
+          "locator": "Preprint pp. 4–6, mission lessons"
+        }
+      ],
+      "limits": "The reviewed version predates the final journal article; some available robots were not used when trained operators were absent.",
+      "design_implication": "Define trained roles, offline procedures and mission abort/recovery arrangements.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_DRZ2024.pdf",
+        "text_path": "research/literature/fulltext/LIT_DRZ2024.txt"
+      },
+      "version_note": "Journal issue year 2024; first online 6 December 2023. Evidence reviewed in 2022 arXiv preprint, not final publisher layout.",
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.1002/rob.22275",
+      "verification_note": "Publisher-deposited Crossref metadata and previously inspected source full text; special corrections documented in IEEE audit.",
+      "author_given_family": [
+        {
+          "given": "Hartmut",
+          "family": "Surmann"
+        },
+        {
+          "given": "Kevin",
+          "family": "Daun"
+        },
+        {
+          "given": "Marius",
+          "family": "Schnaubelt"
+        },
+        {
+          "given": "Oskar",
+          "family": "von Stryk"
+        },
+        {
+          "given": "Manuel",
+          "family": "Patchou"
+        },
+        {
+          "given": "Stefan",
+          "family": "Böcker"
+        },
+        {
+          "given": "Christian",
+          "family": "Wietfeld"
+        },
+        {
+          "given": "Jan",
+          "family": "Quenzel"
+        },
+        {
+          "given": "Daniel",
+          "family": "Schleich"
+        },
+        {
+          "given": "Sven",
+          "family": "Behnke"
+        },
+        {
+          "given": "Robert",
+          "family": "Grafe"
+        },
+        {
+          "given": "Nils",
+          "family": "Heidemann"
+        },
+        {
+          "given": "Dominik",
+          "family": "Slomma"
+        },
+        {
+          "given": "Ivana",
+          "family": "Kruijff‐Korbayová"
+        }
+      ],
+      "month": 5,
+      "ieee_title": "Lessons from robot-assisted disaster response deployments by the German Rescue Robotics Center task force",
+      "venue_abbrev": "J. Field Robot."
+    },
+    "formatted": "H. Surmann et al., “Lessons from robot-assisted disaster response deployments by the German Rescue Robotics Center task force,” J. Field Robot., vol. 41, no. 3, pp. 782–797, May 2024, doi: 10.1002/rob.22275.",
+    "warnings": []
+  },
+  {
+    "number": 6,
+    "key": "LIT_CERBERUS2023",
+    "record": {
+      "key": "LIT_CERBERUS2023",
+      "title": "Team CERBERUS Wins the DARPA Subterranean Challenge: Technical Overview and Lessons Learned",
+      "authors": [
+        "Marco Tranzatto",
+        "Mihir Dharmadhikari",
+        "Lukas Bernreiter",
+        "Marco Camurri",
+        "Shehryar Khattak",
+        "Frank Mascarich",
+        "Patrick Pfreundschuh",
+        "David Wisth",
+        "Samuel Zimmermann",
+        "Mihir Kulkarni",
+        "Victor Reijgwart",
+        "Benoit Casseau",
+        "Timon Hornberger",
+        "Paolo De Petris",
+        "Lionel Ott",
+        "Wayne Tubby",
+        "Gabriel Waibel",
+        "Huan Nguyen",
+        "Cesar Cadena",
+        "Russell Buchanan",
+        "Lorenz Wellhausen",
+        "Nikhil Khedekar",
+        "Olov Andersson",
+        "Lintong Zhang",
+        "Takahiro Miki",
+        "Tung Dang",
+        "Matias Mattamala",
+        "Markus Montenegro",
+        "Konrad Meyer",
+        "Xiangyu Wu",
+        "Adrien Briod",
+        "Mark Mueller",
+        "Maurice Fallon",
+        "Roland Siegwart",
+        "Marco Hutter",
+        "Kostas Alexis"
+      ],
+      "year": 2024,
+      "doi": "10.55417/fr.2024009",
+      "url": "https://doi.org/10.55417/fr.2024009",
+      "venue": "Field Robotics",
+      "volume": "4",
+      "issue": null,
+      "pages": "249-312",
+      "article_number": null,
+      "publication_type": "journal-article",
+      "topic": "Subterranean autonomy",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "arXiv author manuscript of 2024 article",
+      "claims": [
+        {
+          "claim": "Competition-scale field work combined heterogeneous platforms, multimodal perception, communications and supervised autonomy. Integration failures and degraded links remained consequential.",
+          "locator": "§5.1, PDF pp. 52–55"
+        }
+      ],
+      "limits": "The lessons distinguish deployed single-robot autonomy from broader multi-robot coordination research; resources and hardware differ markedly from Zephyron.",
+      "design_implication": "Treat robust sensing and communications as system requirements rather than a single navigation algorithm.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_CERBERUS2023.pdf",
+        "text_path": "research/literature/fulltext/LIT_CERBERUS2023.txt"
+      },
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.55417/fr.2024009",
+      "verification_note": "Publisher-deposited Crossref metadata and previously inspected source full text; special corrections documented in IEEE audit.",
+      "author_given_family": [
+        {
+          "given": "Marco",
+          "family": "Tranzatto"
+        },
+        {
+          "given": "Mihir",
+          "family": "Dharmadhikari"
+        },
+        {
+          "given": "Lukas",
+          "family": "Bernreiter"
+        },
+        {
+          "given": "Marco",
+          "family": "Camurri"
+        },
+        {
+          "given": "Shehryar",
+          "family": "Khattak"
+        },
+        {
+          "given": "Frank",
+          "family": "Mascarich"
+        },
+        {
+          "given": "Patrick",
+          "family": "Pfreundschuh"
+        },
+        {
+          "given": "David",
+          "family": "Wisth"
+        },
+        {
+          "given": "Samuel",
+          "family": "Zimmermann"
+        },
+        {
+          "given": "Mihir",
+          "family": "Kulkarni"
+        },
+        {
+          "given": "Victor",
+          "family": "Reijgwart"
+        },
+        {
+          "given": "Benoit",
+          "family": "Casseau"
+        },
+        {
+          "given": "Timon",
+          "family": "Hornberger"
+        },
+        {
+          "given": "Paolo",
+          "family": "De Petris"
+        },
+        {
+          "given": "Lionel",
+          "family": "Ott"
+        },
+        {
+          "given": "Wayne",
+          "family": "Tubby"
+        },
+        {
+          "given": "Gabriel",
+          "family": "Waibel"
+        },
+        {
+          "given": "Huan",
+          "family": "Nguyen"
+        },
+        {
+          "given": "Cesar",
+          "family": "Cadena"
+        },
+        {
+          "given": "Russell",
+          "family": "Buchanan"
+        },
+        {
+          "given": "Lorenz",
+          "family": "Wellhausen"
+        },
+        {
+          "given": "Nikhil",
+          "family": "Khedekar"
+        },
+        {
+          "given": "Olov",
+          "family": "Andersson"
+        },
+        {
+          "given": "Lintong",
+          "family": "Zhang"
+        },
+        {
+          "given": "Takahiro",
+          "family": "Miki"
+        },
+        {
+          "given": "Tung",
+          "family": "Dang"
+        },
+        {
+          "given": "Matias",
+          "family": "Mattamala"
+        },
+        {
+          "given": "Markus",
+          "family": "Montenegro"
+        },
+        {
+          "given": "Konrad",
+          "family": "Meyer"
+        },
+        {
+          "given": "Xiangyu",
+          "family": "Wu"
+        },
+        {
+          "given": "Adrien",
+          "family": "Briod"
+        },
+        {
+          "given": "Mark",
+          "family": "Mueller"
+        },
+        {
+          "given": "Maurice",
+          "family": "Fallon"
+        },
+        {
+          "given": "Roland",
+          "family": "Siegwart"
+        },
+        {
+          "given": "Marco",
+          "family": "Hutter"
+        },
+        {
+          "given": "Kostas",
+          "family": "Alexis"
+        }
+      ],
+      "month": 4,
+      "ieee_title": "Team CERBERUS wins the DARPA Subterranean Challenge: Technical overview and lessons learned",
+      "venue_abbrev": "Field Robot."
+    },
+    "formatted": "M. Tranzatto et al., “Team CERBERUS wins the DARPA Subterranean Challenge: Technical overview and lessons learned,” Field Robot., vol. 4, pp. 249–312, Apr. 2024, doi: 10.55417/fr.2024009.",
+    "warnings": []
+  },
+  {
+    "number": 7,
+    "key": "LIT_SCHWAIGER2024",
+    "record": {
+      "key": "LIT_SCHWAIGER2024",
+      "title": "Semi-Autonomous Mobile Search and Rescue Robot for Radiation Disaster Scenarios",
+      "authors": [
+        "Simon Schwaiger",
+        "Lucas Muster",
+        "Georg Novotny",
+        "Michael Schebek",
+        "Wilfried Wöber",
+        "Stefan Thalhammer",
+        "Christoph Böhm"
+      ],
+      "year": 2024,
+      "doi": "10.48550/arXiv.2406.14385",
+      "url": "https://arxiv.org/abs/2406.14385v1",
+      "venue": "arXiv",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "article_number": null,
+      "publication_type": "preprint",
+      "topic": "CBRN mobile manipulation",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "arXiv:2406.14385v1 preprint, 2024",
+      "claims": [
+        {
+          "claim": "Priority-based command selection combines autonomous navigation and teleoperation. Sampling uses operator-triggered routines; valve handling is teleoperated.",
+          "locator": "§IV.B–C; §V.A–E, PDF pp. 4–7"
+        }
+      ],
+      "limits": "Width prevented entry to some rooms and outdoor mapping showed odometry drift; this is a preprint and not a Zephyron trial.",
+      "design_implication": "Provide explicit control authority, tool viewing and contamination-aware sample paths.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_SCHWAIGER2024.pdf",
+        "text_path": "research/literature/fulltext/LIT_SCHWAIGER2024.txt"
+      },
+      "accessed": "2026-09-16",
+      "verification_url": "https://arxiv.org/abs/2406.14385v1",
+      "verification_note": "Explicitly retains reviewed 2024 v1 title and seven-author order. Later arXiv versions change the title; not silently substituted.",
+      "author_given_family": [
+        {
+          "family": "Schwaiger",
+          "given": "Simon"
+        },
+        {
+          "family": "Muster",
+          "given": "Lucas"
+        },
+        {
+          "family": "Novotny",
+          "given": "Georg"
+        },
+        {
+          "family": "Schebek",
+          "given": "Michael"
+        },
+        {
+          "family": "Wöber",
+          "given": "Wilfried"
+        },
+        {
+          "family": "Thalhammer",
+          "given": "Stefan"
+        },
+        {
+          "family": "Böhm",
+          "given": "Christoph"
+        }
+      ],
+      "ieee_title": "Semi-autonomous mobile search and rescue robot for radiation disaster scenarios",
+      "ieee_type": "preprint",
+      "arxiv_id": "2406.14385v1",
+      "include_version_url": true
+    },
+    "formatted": "S. Schwaiger et al., “Semi-autonomous mobile search and rescue robot for radiation disaster scenarios,” 2024, arXiv:2406.14385v1. Accessed: Sep. 16, 2026. [Online]. Available: https://arxiv.org/abs/2406.14385v1",
+    "warnings": []
+  },
+  {
+    "number": 8,
+    "key": "LIT_MULTIGAS2014",
+    "record": {
+      "key": "LIT_MULTIGAS2014",
+      "title": "Combining Non Selective Gas Sensors on a Mobile Robot for Identification and Mapping of Multiple Chemical Compounds",
+      "authors": [
+        "Victor Hernandez Bennetts",
+        "Erik Schaffernicht",
+        "Victor Pomareda",
+        "Achim Lilienthal",
+        "Santiago Marco",
+        "Marco Trincavelli"
+      ],
+      "year": 2014,
+      "doi": "10.3390/s140917331",
+      "url": "https://doi.org/10.3390/s140917331",
+      "venue": "Sensors",
+      "volume": "14",
+      "issue": "9",
+      "pages": "17331-17352",
+      "article_number": null,
+      "publication_type": "journal-article",
+      "topic": "Chemical mapping",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "Published full text",
+      "claims": [
+        {
+          "claim": "Sensor fusion combines concentration estimates and class probabilities to construct compound-specific mean and variance maps.",
+          "locator": "§3 and §6"
+        }
+      ],
+      "limits": "The authors do not quantitatively validate predictive map capability; pose uncertainty, drift and slow MOX recovery remain limitations.",
+      "design_implication": "Preserve class confidence and map uncertainty separately from concentration estimates.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_MULTIGAS2014.pdf",
+        "fulltext_path": "research/literature/fulltext/LIT_MULTIGAS2014.xml",
+        "text_path": "research/literature/fulltext/LIT_MULTIGAS2014.txt"
+      },
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.3390/s140917331",
+      "verification_note": "Publisher-deposited Crossref metadata and previously inspected source full text; special corrections documented in IEEE audit.",
+      "author_given_family": [
+        {
+          "given": "Victor",
+          "family": "Hernandez Bennetts"
+        },
+        {
+          "given": "Erik",
+          "family": "Schaffernicht"
+        },
+        {
+          "given": "Victor",
+          "family": "Pomareda"
+        },
+        {
+          "given": "Achim",
+          "family": "Lilienthal"
+        },
+        {
+          "given": "Santiago",
+          "family": "Marco"
+        },
+        {
+          "given": "Marco",
+          "family": "Trincavelli"
+        }
+      ],
+      "month": 9,
+      "ieee_title": "Combining non selective gas sensors on a mobile robot for identification and mapping of multiple chemical compounds"
+    },
+    "formatted": "V. Hernandez Bennetts, E. Schaffernicht, V. Pomareda, A. Lilienthal, S. Marco, and M. Trincavelli, “Combining non selective gas sensors on a mobile robot for identification and mapping of multiple chemical compounds,” Sensors, vol. 14, no. 9, pp. 17331–17352, Sep. 2014, doi: 10.3390/s140917331.",
+    "warnings": []
+  },
+  {
+    "number": 9,
+    "key": "LIT_GADEN2017",
+    "record": {
+      "key": "LIT_GADEN2017",
+      "title": "GADEN: A 3D Gas Dispersion Simulator for Mobile Robot Olfaction in Realistic Environments",
+      "authors": [
+        "Javier Monroy",
+        "Victor Hernandez-Bennetts",
+        "Han Fan",
+        "Achim Lilienthal",
+        "Javier Gonzalez-Jimenez"
+      ],
+      "year": 2017,
+      "doi": "10.3390/s17071479",
+      "url": "https://doi.org/10.3390/s17071479",
+      "venue": "Sensors",
+      "volume": "17",
+      "issue": "7",
+      "pages": null,
+      "article_number": "1479",
+      "publication_type": "journal-article",
+      "topic": "Gas simulation",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "Published full text",
+      "claims": [
+        {
+          "claim": "A modular ROS simulator couples gas dispersion and sensor response; wind-tunnel comparisons examine spatial concentration behaviour.",
+          "locator": "§§4–6"
+        }
+      ],
+      "limits": "Agreement is poorer in low-flow, turbulence-dominated conditions; robot-induced flow is not modelled.",
+      "design_implication": "Use simulation for reproducible algorithm tests while identifying missing physical effects.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_GADEN2017.pdf",
+        "fulltext_path": "research/literature/fulltext/LIT_GADEN2017.xml",
+        "text_path": "research/literature/fulltext/LIT_GADEN2017.txt"
+      },
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.3390/s17071479",
+      "verification_note": "Source article header and DOI identify an electronic article number, not a one-page article; MDPI Crossref page field normalized to Art. no.",
+      "author_given_family": [
+        {
+          "given": "Javier",
+          "family": "Monroy"
+        },
+        {
+          "given": "Victor",
+          "family": "Hernandez-Bennetts"
+        },
+        {
+          "given": "Han",
+          "family": "Fan"
+        },
+        {
+          "given": "Achim",
+          "family": "Lilienthal"
+        },
+        {
+          "given": "Javier",
+          "family": "Gonzalez-Jimenez"
+        }
+      ],
+      "month": 6,
+      "ieee_title": "GADEN: A 3D gas dispersion simulator for mobile robot olfaction in realistic environments"
+    },
+    "formatted": "J. Monroy, V. Hernandez-Bennetts, H. Fan, A. Lilienthal, and J. Gonzalez-Jimenez, “GADEN: A 3D gas dispersion simulator for mobile robot olfaction in realistic environments,” Sensors, vol. 17, no. 7, Jun. 2017, Art. no. 1479, doi: 10.3390/s17071479.",
+    "warnings": []
+  },
+  {
+    "number": 10,
+    "key": "LIT_INFOMAP2023",
+    "record": {
+      "key": "LIT_INFOMAP2023",
+      "title": "Information-Driven Gas Distribution Mapping for Autonomous Mobile Robots",
+      "authors": [
+        "Andres Gongora",
+        "Javier Monroy",
+        "Faezeh Rahbar",
+        "Chiara Ercolani",
+        "Javier Gonzalez-Jimenez",
+        "Alcherio Martinoli"
+      ],
+      "year": 2023,
+      "doi": "10.3390/s23125387",
+      "url": "https://doi.org/10.3390/s23125387",
+      "venue": "Sensors",
+      "volume": "23",
+      "issue": "12",
+      "pages": null,
+      "article_number": "5387",
+      "publication_type": "journal-article",
+      "topic": "Active environmental sensing",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "Published full text",
+      "claims": [
+        {
+          "claim": "Information-driven gas mapping plans measurements using gas/wind estimates and uncertainty; results include simulation and physical wind-tunnel studies.",
+          "locator": "§§6.1–6.2 and 7; Figs. 10 and 13"
+        }
+      ],
+      "limits": "Figure 10 is simulation RMSE, not physical field accuracy; computation grows with planning horizon and map complexity.",
+      "design_implication": "Evaluate uncertainty reduction per path length and energy alongside raw spatial coverage.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_INFOMAP2023.pdf",
+        "fulltext_path": "research/literature/fulltext/LIT_INFOMAP2023.xml",
+        "text_path": "research/literature/fulltext/LIT_INFOMAP2023.txt"
+      },
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.3390/s23125387",
+      "verification_note": "Source article header and DOI identify an electronic article number, not a one-page article; MDPI Crossref page field normalized to Art. no.",
+      "author_given_family": [
+        {
+          "given": "Andres",
+          "family": "Gongora"
+        },
+        {
+          "given": "Javier",
+          "family": "Monroy"
+        },
+        {
+          "given": "Faezeh",
+          "family": "Rahbar"
+        },
+        {
+          "given": "Chiara",
+          "family": "Ercolani"
+        },
+        {
+          "given": "Javier",
+          "family": "Gonzalez-Jimenez"
+        },
+        {
+          "given": "Alcherio",
+          "family": "Martinoli"
+        }
+      ],
+      "month": 6,
+      "ieee_title": "Information-driven gas distribution mapping for autonomous mobile robots"
+    },
+    "formatted": "A. Gongora, J. Monroy, F. Rahbar, C. Ercolani, J. Gonzalez-Jimenez, and A. Martinoli, “Information-driven gas distribution mapping for autonomous mobile robots,” Sensors, vol. 23, no. 12, Jun. 2023, Art. no. 5387, doi: 10.3390/s23125387.",
+    "warnings": []
+  },
+  {
+    "number": 11,
+    "key": "LIT_SEMANTICGAS2018",
+    "record": {
+      "key": "LIT_SEMANTICGAS2018",
+      "title": "A Semantic-Based Gas Source Localization with a Mobile Robot Combining Vision and Chemical Sensing",
+      "authors": [
+        "Javier Monroy",
+        "Jose-Raul Ruiz-Sarmiento",
+        "Francisco-Angel Moreno",
+        "Francisco Melendez-Fernandez",
+        "Cipriano Galindo",
+        "Javier Gonzalez-Jimenez"
+      ],
+      "year": 2018,
+      "doi": "10.3390/s18124174",
+      "url": "https://doi.org/10.3390/s18124174",
+      "venue": "Sensors",
+      "volume": "18",
+      "issue": "12",
+      "pages": null,
+      "article_number": "4174",
+      "publication_type": "journal-article",
+      "topic": "Multimodal source search",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "Published full text",
+      "claims": [
+        {
+          "claim": "Vision-based object semantics guide chemical-source search through a decision model.",
+          "locator": "§§5.2–5.3, 6 and 7"
+        }
+      ],
+      "limits": "Safe surrogate chemicals replace hazardous target categories; physical source confirmation is assumed rather than experimentally validated.",
+      "design_implication": "Separate detection, contextual hypotheses and verified source confirmation.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_SEMANTICGAS2018.pdf",
+        "fulltext_path": "research/literature/fulltext/LIT_SEMANTICGAS2018.xml",
+        "text_path": "research/literature/fulltext/LIT_SEMANTICGAS2018.txt"
+      },
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.3390/s18124174",
+      "verification_note": "Source article header and DOI identify an electronic article number, not a one-page article; MDPI Crossref page field normalized to Art. no.",
+      "author_given_family": [
+        {
+          "given": "Javier",
+          "family": "Monroy"
+        },
+        {
+          "given": "Jose-Raul",
+          "family": "Ruiz-Sarmiento"
+        },
+        {
+          "given": "Francisco-Angel",
+          "family": "Moreno"
+        },
+        {
+          "given": "Francisco",
+          "family": "Melendez-Fernandez"
+        },
+        {
+          "given": "Cipriano",
+          "family": "Galindo"
+        },
+        {
+          "given": "Javier",
+          "family": "Gonzalez-Jimenez"
+        }
+      ],
+      "month": 11,
+      "ieee_title": "A semantic-based gas source localization with a mobile robot combining vision and chemical sensing"
+    },
+    "formatted": "J. Monroy, J.-R. Ruiz-Sarmiento, F.-A. Moreno, F. Melendez-Fernandez, C. Galindo, and J. Gonzalez-Jimenez, “A semantic-based gas source localization with a mobile robot combining vision and chemical sensing,” Sensors, vol. 18, no. 12, Nov. 2018, Art. no. 4174, doi: 10.3390/s18124174.",
+    "warnings": []
+  },
+  {
+    "number": 12,
+    "key": "LIT_NEXTSMELL2018",
+    "record": {
+      "key": "LIT_NEXTSMELL2018",
+      "title": "A Next-Best-Smell Approach for Remote Gas Detection with a Mobile Robot",
+      "authors": [
+        "Riccardo Polvara",
+        "Marco Trabattoni",
+        "Tomasz Piotr Kucner",
+        "Erik Schaffernicht",
+        "Francesco Amigoni",
+        "Achim J. Lilienthal"
+      ],
+      "year": 2018,
+      "doi": "10.48550/arXiv.1801.06819",
+      "url": "https://doi.org/10.48550/arXiv.1801.06819",
+      "venue": "arXiv",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "article_number": null,
+      "publication_type": "preprint",
+      "topic": "Active gas coverage",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "arXiv:1801.06819 preprint",
+      "claims": [
+        {
+          "claim": "A next-best-view-style strategy balances remote gas coverage, travel and sensing time in physical corridor trials.",
+          "locator": "§IV, PDF pp. 5–7"
+        }
+      ],
+      "limits": "The TDLAS system used methane in transparent bottles; quantitative source estimation is outside the reported scope.",
+      "design_implication": "Plan sensing time explicitly, but do not transfer remote-beam geometry to point MOX sensors.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_NEXTSMELL2018.pdf",
+        "text_path": "research/literature/fulltext/LIT_NEXTSMELL2018.txt"
+      },
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.48550/arXiv.1801.06819",
+      "verification_note": "Publisher-deposited Crossref metadata and previously inspected source full text; special corrections documented in IEEE audit.",
+      "author_given_family": [
+        {
+          "family": "Polvara",
+          "given": "Riccardo"
+        },
+        {
+          "family": "Trabattoni",
+          "given": "Marco"
+        },
+        {
+          "family": "Kucner",
+          "given": "Tomasz Piotr"
+        },
+        {
+          "family": "Schaffernicht",
+          "given": "Erik"
+        },
+        {
+          "family": "Amigoni",
+          "given": "Francesco"
+        },
+        {
+          "family": "Lilienthal",
+          "given": "Achim J."
+        }
+      ],
+      "ieee_title": "A next-best-smell approach for remote gas detection with a mobile robot",
+      "ieee_type": "preprint",
+      "arxiv_id": "1801.06819"
+    },
+    "formatted": "R. Polvara, M. Trabattoni, T. P. Kucner, E. Schaffernicht, F. Amigoni, and A. J. Lilienthal, “A next-best-smell approach for remote gas detection with a mobile robot,” 2018, arXiv:1801.06819.",
+    "warnings": []
+  },
+  {
+    "number": 13,
+    "key": "LIT_CARMA2023",
+    "record": {
+      "key": "LIT_CARMA2023",
+      "title": "CARMA II: A ground vehicle for autonomous surveying of alpha, beta and gamma radiation",
+      "authors": [
+        "Bahman Nouri Rahmat Abadi",
+        "Andrew West",
+        "Harriet Peel",
+        "Matthew Nancekievill",
+        "Christopher Ballard",
+        "Barry Lennox",
+        "Ognjen Marjanovic",
+        "Keir Groves"
+      ],
+      "year": 2023,
+      "doi": "10.3389/frobt.2023.1137750",
+      "url": "https://doi.org/10.3389/frobt.2023.1137750",
+      "venue": "Frontiers in Robotics and AI",
+      "volume": "10",
+      "issue": null,
+      "pages": null,
+      "article_number": "1137750",
+      "publication_type": "journal-article",
+      "topic": "Radiation-aware coverage",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "Published full text",
+      "claims": [
+        {
+          "claim": "Different behaviours address near-surface contamination avoidance and gamma dose-aware routing; sensor look-ahead and update timing constrain travel speed.",
+          "locator": "§5; PDF pp. 8–11"
+        }
+      ],
+      "limits": "Experiments used simulated alpha and gamma sources; coverage avoidance is not proof of nuclear qualification.",
+      "design_implication": "Link sensor placement, latency and stop distance; keep dose and contamination concepts distinct.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_CARMA2023.pdf",
+        "text_path": "research/literature/fulltext/LIT_CARMA2023.txt"
+      },
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.3389/frobt.2023.1137750",
+      "verification_note": "Publisher-deposited Crossref metadata and previously inspected source full text; special corrections documented in IEEE audit.",
+      "author_given_family": [
+        {
+          "given": "Bahman",
+          "family": "Nouri Rahmat Abadi"
+        },
+        {
+          "given": "Andrew",
+          "family": "West"
+        },
+        {
+          "given": "Harriet",
+          "family": "Peel"
+        },
+        {
+          "given": "Matthew",
+          "family": "Nancekievill"
+        },
+        {
+          "given": "Christopher",
+          "family": "Ballard"
+        },
+        {
+          "given": "Barry",
+          "family": "Lennox"
+        },
+        {
+          "given": "Ognjen",
+          "family": "Marjanovic"
+        },
+        {
+          "given": "Keir",
+          "family": "Groves"
+        }
+      ],
+      "month": 3,
+      "ieee_title": "CARMA II: A ground vehicle for autonomous surveying of alpha, beta and gamma radiation",
+      "venue_abbrev": "Front. Robot. AI"
+    },
+    "formatted": "B. Nouri Rahmat Abadi et al., “CARMA II: A ground vehicle for autonomous surveying of alpha, beta and gamma radiation,” Front. Robot. AI, vol. 10, Mar. 2023, Art. no. 1137750, doi: 10.3389/frobt.2023.1137750.",
+    "warnings": []
+  },
+  {
+    "number": 14,
+    "key": "LIT_RADHOT2019",
+    "record": {
+      "key": "LIT_RADHOT2019",
+      "title": "Autonomous Exploration for Radioactive Hotspots Localization Taking Account of Sensor Limitations",
+      "authors": [
+        "Hadi Ardiny",
+        "Stefan Witwicki",
+        "Francesco Mondada"
+      ],
+      "year": 2019,
+      "doi": "10.3390/s19020292",
+      "url": "https://doi.org/10.3390/s19020292",
+      "venue": "Sensors",
+      "volume": "19",
+      "issue": "2",
+      "pages": null,
+      "article_number": "292",
+      "publication_type": "journal-article",
+      "topic": "Sensing-constrained exploration",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "Published full text",
+      "claims": [
+        {
+          "claim": "Detector field of view, angular resolution and acquisition stops affect exploration and coverage; simulation is compared with marXbot trials.",
+          "locator": "§6.3; §§7.1–7.2 and 8; Fig. 18"
+        }
+      ],
+      "limits": "Physical trials emulate radioactive sources using infrared range-and-bearing signals; decision weights were manually chosen.",
+      "design_implication": "Measure dwell time and coverage uncertainty; do not infer radiation certification from navigation demonstrations.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_RADHOT2019.pdf",
+        "fulltext_path": "research/literature/fulltext/LIT_RADHOT2019.xml",
+        "text_path": "research/literature/fulltext/LIT_RADHOT2019.txt"
+      },
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.3390/s19020292",
+      "verification_note": "Source article header and DOI identify an electronic article number, not a one-page article; MDPI Crossref page field normalized to Art. no.",
+      "author_given_family": [
+        {
+          "given": "Hadi",
+          "family": "Ardiny"
+        },
+        {
+          "given": "Stefan",
+          "family": "Witwicki"
+        },
+        {
+          "given": "Francesco",
+          "family": "Mondada"
+        }
+      ],
+      "month": 1,
+      "ieee_title": "Autonomous exploration for radioactive hotspots localization taking account of sensor limitations"
+    },
+    "formatted": "H. Ardiny, S. Witwicki, and F. Mondada, “Autonomous exploration for radioactive hotspots localization taking account of sensor limitations,” Sensors, vol. 19, no. 2, Jan. 2019, Art. no. 292, doi: 10.3390/s19020292.",
+    "warnings": []
+  },
+  {
+    "number": 15,
+    "key": "LIT_RADSEARCH2020",
+    "record": {
+      "key": "LIT_RADSEARCH2020",
+      "title": "Autonomous Search of Radioactive Sources through Mobile Robots",
+      "authors": [
+        "Jianwen Huo",
+        "Manlu Liu",
+        "Konstantin A. Neusypin",
+        "Haojie Liu",
+        "Mingming Guo",
+        "Yufeng Xiao"
+      ],
+      "year": 2020,
+      "doi": "10.3390/s20123461",
+      "url": "https://doi.org/10.3390/s20123461",
+      "venue": "Sensors",
+      "volume": "20",
+      "issue": "12",
+      "pages": null,
+      "article_number": "3461",
+      "publication_type": "journal-article",
+      "topic": "Radiation source estimation",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "Published full text",
+      "claims": [
+        {
+          "claim": "A probabilistic source-search method combines Bayesian estimation and information-based action selection, tested in simulation and a real experiment.",
+          "locator": "§5.1 and §6"
+        }
+      ],
+      "limits": "The experiment is barrier-free; obstacle-rich and multiple-source extensions remain future work.",
+      "design_implication": "State geometry assumptions and count-statistical uncertainty in any proposed source estimator.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_RADSEARCH2020.pdf",
+        "fulltext_path": "research/literature/fulltext/LIT_RADSEARCH2020.xml",
+        "text_path": "research/literature/fulltext/LIT_RADSEARCH2020.txt"
+      },
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.3390/s20123461",
+      "verification_note": "Source article header and DOI identify an electronic article number, not a one-page article; MDPI Crossref page field normalized to Art. no.",
+      "author_given_family": [
+        {
+          "given": "Jianwen",
+          "family": "Huo"
+        },
+        {
+          "given": "Manlu",
+          "family": "Liu"
+        },
+        {
+          "given": "Konstantin A.",
+          "family": "Neusypin"
+        },
+        {
+          "given": "Haojie",
+          "family": "Liu"
+        },
+        {
+          "given": "Mingming",
+          "family": "Guo"
+        },
+        {
+          "given": "Yufeng",
+          "family": "Xiao"
+        }
+      ],
+      "month": 6,
+      "ieee_title": "Autonomous search of radioactive sources through mobile robots"
+    },
+    "formatted": "J. Huo, M. Liu, K. A. Neusypin, H. Liu, M. Guo, and Y. Xiao, “Autonomous search of radioactive sources through mobile robots,” Sensors, vol. 20, no. 12, Jun. 2020, Art. no. 3461, doi: 10.3390/s20123461.",
+    "warnings": []
+  },
+  {
+    "number": 16,
+    "key": "LIT_RADADAPT2025",
+    "record": {
+      "key": "LIT_RADADAPT2025",
+      "title": "A Behavioral Robotics Approach to Radiation Mapping Using Adaptive Sampling",
+      "authors": [
+        "Joel Adams",
+        "Brendon Cintas",
+        "Nakwon Sung",
+        "Anthony Abrahao",
+        "Leonel Lagos",
+        "Dwayne McDaniel"
+      ],
+      "year": 2025,
+      "doi": "10.3390/app15042050",
+      "url": "https://doi.org/10.3390/app15042050",
+      "venue": "Applied Sciences",
+      "volume": "15",
+      "issue": "4",
+      "pages": null,
+      "article_number": "2050",
+      "publication_type": "journal-article",
+      "topic": "Adaptive inspection",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "Published full text",
+      "claims": [
+        {
+          "claim": "Adaptive sampling on a manipulator-equipped mobile platform addresses unreachable sampling targets and repeated motion/contact problems.",
+          "locator": "Results, PDF pp. 11–14"
+        }
+      ],
+      "limits": "Seven trials and a small testbed do not establish broad reliability; contact triggers can include robot motion effects.",
+      "design_implication": "Log feasibility rejection, contact events and termination conditions, not only completed samples.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_RADADAPT2025.pdf",
+        "text_path": "research/literature/fulltext/LIT_RADADAPT2025.txt"
+      },
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.3390/app15042050",
+      "verification_note": "Source article header and DOI identify an electronic article number, not a one-page article; MDPI Crossref page field normalized to Art. no.",
+      "author_given_family": [
+        {
+          "given": "Joel",
+          "family": "Adams"
+        },
+        {
+          "given": "Brendon",
+          "family": "Cintas"
+        },
+        {
+          "given": "Nakwon",
+          "family": "Sung"
+        },
+        {
+          "given": "Anthony",
+          "family": "Abrahao"
+        },
+        {
+          "given": "Leonel",
+          "family": "Lagos"
+        },
+        {
+          "given": "Dwayne",
+          "family": "McDaniel"
+        }
+      ],
+      "month": 2,
+      "ieee_title": "A behavioral robotics approach to radiation mapping using adaptive sampling",
+      "venue_abbrev": "Appl. Sci."
+    },
+    "formatted": "J. Adams, B. Cintas, N. Sung, A. Abrahao, L. Lagos, and D. McDaniel, “A behavioral robotics approach to radiation mapping using adaptive sampling,” Appl. Sci., vol. 15, no. 4, Feb. 2025, Art. no. 2050, doi: 10.3390/app15042050.",
+    "warnings": []
+  },
+  {
+    "number": 17,
+    "key": "LIT_WATER2021",
+    "record": {
+      "key": "LIT_WATER2021",
+      "title": "Autonomous Water Quality Monitoring and Water Surface Cleaning for Unmanned Surface Vehicle",
+      "authors": [
+        "Hsing-Cheng Chang",
+        "Yu-Liang Hsu",
+        "San-Shan Hung",
+        "Guan-Ru Ou",
+        "Jia-Ron Wu",
+        "Chuan Hsu"
+      ],
+      "year": 2021,
+      "doi": "10.3390/s21041102",
+      "url": "https://doi.org/10.3390/s21041102",
+      "venue": "Sensors",
+      "volume": "21",
+      "issue": "4",
+      "pages": null,
+      "article_number": "1102",
+      "publication_type": "journal-article",
+      "topic": "Water monitoring workflow",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "Published full text",
+      "claims": [
+        {
+          "claim": "A surface vehicle combines positioned water monitoring, bottle sampling and surface collection; the sampling sequence flushes residual liquid.",
+          "locator": "§§5.1–5.2 and 6"
+        }
+      ],
+      "limits": "USV results do not transfer to ground-rover mobility, and pH thresholding alone cannot establish water safety.",
+      "design_implication": "Specify rinse/blank procedures, sample identity, location and analysis limitations.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_WATER2021.pdf",
+        "fulltext_path": "research/literature/fulltext/LIT_WATER2021.xml",
+        "text_path": "research/literature/fulltext/LIT_WATER2021.txt"
+      },
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.3390/s21041102",
+      "verification_note": "Source article header and DOI identify an electronic article number, not a one-page article; MDPI Crossref page field normalized to Art. no.",
+      "author_given_family": [
+        {
+          "given": "Hsing-Cheng",
+          "family": "Chang"
+        },
+        {
+          "given": "Yu-Liang",
+          "family": "Hsu"
+        },
+        {
+          "given": "San-Shan",
+          "family": "Hung"
+        },
+        {
+          "given": "Guan-Ru",
+          "family": "Ou"
+        },
+        {
+          "given": "Jia-Ron",
+          "family": "Wu"
+        },
+        {
+          "given": "Chuan",
+          "family": "Hsu"
+        }
+      ],
+      "month": 2,
+      "ieee_title": "Autonomous water quality monitoring and water surface cleaning for unmanned surface vehicle"
+    },
+    "formatted": "H.-C. Chang, Y.-L. Hsu, S.-S. Hung, G.-R. Ou, J.-R. Wu, and C. Hsu, “Autonomous water quality monitoring and water surface cleaning for unmanned surface vehicle,” Sensors, vol. 21, no. 4, Feb. 2021, Art. no. 1102, doi: 10.3390/s21041102.",
+    "warnings": []
+  },
+  {
+    "number": 18,
+    "key": "LIT_IDRONE2022",
+    "record": {
+      "key": "LIT_IDRONE2022",
+      "title": "Prototyping a low-cost open-source autonomous unmanned surface vehicle for real-time water quality monitoring and visualization",
+      "authors": [
+        "Jae Hyeon Ryu"
+      ],
+      "year": 2022,
+      "doi": "10.1016/j.ohx.2022.e00369",
+      "url": "https://doi.org/10.1016/j.ohx.2022.e00369",
+      "venue": "HardwareX",
+      "volume": "12",
+      "issue": null,
+      "pages": null,
+      "article_number": "e00369",
+      "publication_type": "journal-article",
+      "topic": "Open water sensing",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "Published full text",
+      "claims": [
+        {
+          "claim": "The open USV logs multiparameter water measurements locally and through cellular telemetry; mapping uses positioned observations.",
+          "locator": "Validation and characterization section"
+        }
+      ],
+      "limits": "Sensor cloud records lacked coordinates, so position was matched using external GPS timestamps in post-processing.",
+      "design_implication": "Synchronize environmental data, pose and time in a unified record at acquisition.",
+      "source_files": {
+        "fulltext_path": "research/literature/fulltext/LIT_IDRONE2022.xml",
+        "text_path": "research/literature/fulltext/LIT_IDRONE2022.txt"
+      },
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.1016/j.ohx.2022.e00369",
+      "verification_note": "Publisher-deposited Crossref metadata and previously inspected source full text; special corrections documented in IEEE audit.",
+      "author_given_family": [
+        {
+          "given": "Jae Hyeon",
+          "family": "Ryu"
+        }
+      ],
+      "month": 10,
+      "ieee_title": "Prototyping a low-cost open-source autonomous unmanned surface vehicle for real-time water quality monitoring and visualization"
+    },
+    "formatted": "J. H. Ryu, “Prototyping a low-cost open-source autonomous unmanned surface vehicle for real-time water quality monitoring and visualization,” HardwareX, vol. 12, Oct. 2022, Art. no. e00369, doi: 10.1016/j.ohx.2022.e00369.",
+    "warnings": []
+  },
+  {
+    "number": 19,
+    "key": "LIT_ROMR2023",
+    "record": {
+      "key": "LIT_ROMR2023",
+      "title": "ROMR: A ROS-based open-source mobile robot",
+      "authors": [
+        "Linus Nwankwo",
+        "Clemens Fritze",
+        "Konrad Bartsch",
+        "Elmar Rueckert"
+      ],
+      "year": 2023,
+      "doi": "10.1016/j.ohx.2023.e00426",
+      "url": "https://doi.org/10.1016/j.ohx.2023.e00426",
+      "venue": "HardwareX",
+      "volume": "14",
+      "issue": null,
+      "pages": null,
+      "article_number": "e00426",
+      "publication_type": "journal-article",
+      "topic": "Reproducible low-cost hardware",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "Published full text",
+      "claims": [
+        {
+          "claim": "Published CAD, assembly, software and hardware information supports reproducing an open mobile platform.",
+          "locator": "§§7.1–7.2.1 and 8"
+        }
+      ],
+      "limits": "Payload characterization is on flat ground and cannot establish uneven-terrain capability or Zephyron payload limits.",
+      "design_implication": "Publish interface drawings, bill of materials and reproducible test conditions.",
+      "source_files": {
+        "fulltext_path": "research/literature/fulltext/LIT_ROMR2023.xml",
+        "text_path": "research/literature/fulltext/LIT_ROMR2023.txt"
+      },
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.1016/j.ohx.2023.e00426",
+      "verification_note": "Publisher-deposited Crossref metadata and previously inspected source full text; special corrections documented in IEEE audit.",
+      "author_given_family": [
+        {
+          "given": "Linus",
+          "family": "Nwankwo"
+        },
+        {
+          "given": "Clemens",
+          "family": "Fritze"
+        },
+        {
+          "given": "Konrad",
+          "family": "Bartsch"
+        },
+        {
+          "given": "Elmar",
+          "family": "Rueckert"
+        }
+      ],
+      "month": 6,
+      "ieee_title": "ROMR: A ROS-based open-source mobile robot"
+    },
+    "formatted": "L. Nwankwo, C. Fritze, K. Bartsch, and E. Rueckert, “ROMR: A ROS-based open-source mobile robot,” HardwareX, vol. 14, Jun. 2023, Art. no. e00426, doi: 10.1016/j.ohx.2023.e00426.",
+    "warnings": []
+  },
+  {
+    "number": 20,
+    "key": "LIT_SMART2022",
+    "record": {
+      "key": "LIT_SMART2022",
+      "title": "SMARTmBOT: A ROS2-based Low-cost and Open-source Mobile Robot Platform",
+      "authors": [
+        "Wonse Jo",
+        "Jaeeun Kim",
+        "Ruiqi Wang",
+        "Jeremy Pan",
+        "Revanth Krishna Senthilkumaran",
+        "Byung-Cheol Min"
+      ],
+      "year": 2022,
+      "doi": "10.48550/arXiv.2203.08903",
+      "url": "https://doi.org/10.48550/arXiv.2203.08903",
+      "venue": "arXiv",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "article_number": null,
+      "publication_type": "preprint",
+      "topic": "Open ROS2 platform",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "arXiv:2203.08903 preprint",
+      "claims": [
+        {
+          "claim": "A small ROS2 platform exposes camera and sensor topics and demonstrates repeatable builds and trajectory-control tasks.",
+          "locator": "PDF pp. 4–6, platform tests"
+        }
+      ],
+      "limits": "Localization in evaluated control tasks uses external motion capture; this is a preprint, not evidence of standalone field autonomy.",
+      "design_implication": "Separate embedded sensing interfaces from the external infrastructure required by a demonstration.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_SMART2022.pdf",
+        "text_path": "research/literature/fulltext/LIT_SMART2022.txt"
+      },
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.48550/arXiv.2203.08903",
+      "verification_note": "Publisher-deposited Crossref metadata and previously inspected source full text; special corrections documented in IEEE audit.",
+      "author_given_family": [
+        {
+          "family": "Jo",
+          "given": "Wonse"
+        },
+        {
+          "family": "Kim",
+          "given": "Jaeeun"
+        },
+        {
+          "family": "Wang",
+          "given": "Ruiqi"
+        },
+        {
+          "family": "Pan",
+          "given": "Jeremy"
+        },
+        {
+          "family": "Senthilkumaran",
+          "given": "Revanth Krishna"
+        },
+        {
+          "family": "Min",
+          "given": "Byung-Cheol"
+        }
+      ],
+      "ieee_title": "SMARTmBOT: A ROS2-based low-cost and open-source mobile robot platform",
+      "ieee_type": "preprint",
+      "arxiv_id": "2203.08903"
+    },
+    "formatted": "W. Jo, J. Kim, R. Wang, J. Pan, R. K. Senthilkumaran, and B.-C. Min, “SMARTmBOT: A ROS2-based low-cost and open-source mobile robot platform,” 2022, arXiv:2203.08903.",
+    "warnings": []
+  },
+  {
+    "number": 21,
+    "key": "LIT_MODULAR2024",
+    "record": {
+      "key": "LIT_MODULAR2024",
+      "title": "Enabling robustness to failure with modular field robots",
+      "authors": [
+        "Troy Cordie",
+        "Jonathan Roberts",
+        "Matthew Dunbabin",
+        "Ross Dungavell",
+        "Tirthankar Bandyopadhyay"
+      ],
+      "year": 2024,
+      "doi": "10.3389/frobt.2024.1225297",
+      "url": "https://doi.org/10.3389/frobt.2024.1225297",
+      "venue": "Frontiers in Robotics and AI",
+      "volume": "11",
+      "issue": null,
+      "pages": null,
+      "article_number": "1225297",
+      "publication_type": "journal article",
+      "topic": "Failure-tolerant mobility",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "Published full text",
+      "claims": [
+        {
+          "claim": "Steering-failure accommodation and module removal are examined in simulations and physical warehouse/leaf-litter trials.",
+          "locator": "§§4.1–4.6 and 5; Fig. 16"
+        }
+      ],
+      "limits": "Physical failed-module decoupling was manual; continued mobility has configuration and energy tradeoffs.",
+      "design_implication": "Design serviceability and degraded modes without describing manual repairs as autonomous self-repair.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_MODULAR2024.pdf",
+        "text_path": "research/literature/fulltext/LIT_MODULAR2024.txt"
+      },
+      "accessed": "2026-09-16",
+      "verification_url": "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2024.1225297/full",
+      "verification_note": "Publisher-deposited Crossref metadata and previously inspected source full text; special corrections documented in IEEE audit.",
+      "ieee_title": "Enabling robustness to failure with modular field robots",
+      "venue_abbrev": "Front. Robot. AI",
+      "month": 3,
+      "author_given_family": [
+        {
+          "given": "Troy",
+          "family": "Cordie"
+        },
+        {
+          "given": "Jonathan",
+          "family": "Roberts"
+        },
+        {
+          "given": "Matthew",
+          "family": "Dunbabin"
+        },
+        {
+          "given": "Ross",
+          "family": "Dungavell"
+        },
+        {
+          "given": "Tirthankar",
+          "family": "Bandyopadhyay"
+        }
+      ]
+    },
+    "formatted": "T. Cordie, J. Roberts, M. Dunbabin, R. Dungavell, and T. Bandyopadhyay, “Enabling robustness to failure with modular field robots,” Front. Robot. AI, vol. 11, Mar. 2024, Art. no. 1225297, doi: 10.3389/frobt.2024.1225297.",
+    "warnings": []
+  },
+  {
+    "number": 22,
+    "key": "LIT_LIOSAM2020",
+    "record": {
+      "key": "LIT_LIOSAM2020",
+      "title": "LIO-SAM: Tightly-coupled Lidar Inertial Odometry via Smoothing and Mapping",
+      "authors": [
+        "Tixiao Shan",
+        "Brendan Englot",
+        "Drew Meyers",
+        "Wei Wang",
+        "Carlo Ratti",
+        "Daniela Rus"
+      ],
+      "year": 2020,
+      "doi": "10.1109/IROS45743.2020.9341176",
+      "url": "https://doi.org/10.1109/IROS45743.2020.9341176",
+      "venue": "2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "volume": null,
+      "issue": null,
+      "pages": "5135-5142",
+      "article_number": null,
+      "publication_type": "proceedings-article",
+      "topic": "LiDAR–inertial localization",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "arXiv author manuscript of IROS paper",
+      "claims": [
+        {
+          "claim": "Factor-graph LiDAR–inertial estimation is evaluated with different platform datasets and loop-closure/GNSS configurations.",
+          "locator": "§V, PDF pp. 5–7"
+        }
+      ],
+      "limits": "Reported performance depends on LiDAR, IMU, calibration, compute and scene conditions unavailable from a camera module alone.",
+      "design_implication": "Treat localization hardware and synchronization as requirements for a selected algorithm.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_LIOSAM2020.pdf",
+        "text_path": "research/literature/fulltext/LIT_LIOSAM2020.txt"
+      },
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.1109/IROS45743.2020.9341176",
+      "verification_note": "Publisher-deposited Crossref metadata and previously inspected source full text; special corrections documented in IEEE audit.",
+      "author_given_family": [
+        {
+          "given": "Tixiao",
+          "family": "Shan"
+        },
+        {
+          "given": "Brendan",
+          "family": "Englot"
+        },
+        {
+          "given": "Drew",
+          "family": "Meyers"
+        },
+        {
+          "given": "Wei",
+          "family": "Wang"
+        },
+        {
+          "given": "Carlo",
+          "family": "Ratti"
+        },
+        {
+          "given": "Daniela",
+          "family": "Rus"
+        }
+      ],
+      "month": 10,
+      "ieee_title": "LIO-SAM: Tightly-coupled lidar inertial odometry via smoothing and mapping",
+      "ieee_type": "conference",
+      "venue_abbrev": "Proc. IEEE/RSJ Int. Conf. Intell. Robots Syst. (IROS)"
+    },
+    "formatted": "T. Shan, B. Englot, D. Meyers, W. Wang, C. Ratti, and D. Rus, “LIO-SAM: Tightly-coupled lidar inertial odometry via smoothing and mapping,” in Proc. IEEE/RSJ Int. Conf. Intell. Robots Syst. (IROS), Oct. 2020, pp. 5135–5142, doi: 10.1109/IROS45743.2020.9341176.",
+    "warnings": []
+  },
+  {
+    "number": 23,
+    "key": "LIT_ORBSLAM2021",
+    "record": {
+      "key": "LIT_ORBSLAM2021",
+      "title": "ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual–Inertial, and Multimap SLAM",
+      "authors": [
+        "Carlos Campos",
+        "Richard Elvira",
+        "Juan J. Gómez Rodríguez",
+        "José M. M. Montiel",
+        "Juan D. Tardós"
+      ],
+      "year": 2021,
+      "doi": "10.1109/TRO.2021.3075644",
+      "url": "https://doi.org/10.1109/TRO.2021.3075644",
+      "venue": "IEEE Transactions on Robotics",
+      "volume": "37",
+      "issue": "6",
+      "pages": "1874-1890",
+      "article_number": null,
+      "publication_type": "journal-article",
+      "topic": "Visual–inertial localization",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "arXiv author manuscript of journal paper",
+      "claims": [
+        {
+          "claim": "Visual and visual–inertial configurations are benchmarked on EuRoC and TUM-VI with repeated-run trajectory-error evaluation.",
+          "locator": "§VII, PDF p. 11 onward"
+        }
+      ],
+      "limits": "Alignment conventions and sensor configuration matter; benchmark accuracy is not a Zephyron measurement.",
+      "design_implication": "Specify calibration, ground truth and trajectory-alignment rules before comparing localization methods.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_ORBSLAM2021.pdf",
+        "text_path": "research/literature/fulltext/LIT_ORBSLAM2021.txt"
+      },
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.1109/TRO.2021.3075644",
+      "verification_note": "Author manuscript and arXiv title page preserve Gómez Rodríguez as a compound surname and Tardós diacritic, correcting ambiguous publisher metadata split.",
+      "author_given_family": [
+        {
+          "given": "Carlos",
+          "family": "Campos"
+        },
+        {
+          "given": "Richard",
+          "family": "Elvira"
+        },
+        {
+          "given": "Juan J.",
+          "family": "Gómez Rodríguez"
+        },
+        {
+          "given": "José M. M.",
+          "family": "Montiel"
+        },
+        {
+          "given": "Juan D.",
+          "family": "Tardós"
+        }
+      ],
+      "month": 12,
+      "ieee_title": "ORB-SLAM3: An accurate open-source library for visual, visual–inertial, and multimap SLAM",
+      "venue_abbrev": "IEEE Trans. Robot."
+    },
+    "formatted": "C. Campos, R. Elvira, J. J. Gómez Rodríguez, J. M. M. Montiel, and J. D. Tardós, “ORB-SLAM3: An accurate open-source library for visual, visual–inertial, and multimap SLAM,” IEEE Trans. Robot., vol. 37, no. 6, pp. 1874–1890, Dec. 2021, doi: 10.1109/TRO.2021.3075644.",
+    "warnings": []
+  },
+  {
+    "number": 24,
+    "key": "LIT_MARATHON2020",
+    "record": {
+      "key": "LIT_MARATHON2020",
+      "title": "The Marathon 2: A Navigation System",
+      "authors": [
+        "Steve Macenski",
+        "Francisco Martín",
+        "Ruffin White",
+        "Jonatan Ginés Clavero"
+      ],
+      "year": 2020,
+      "doi": "10.1109/IROS45743.2020.9341207",
+      "url": "https://doi.org/10.1109/IROS45743.2020.9341207",
+      "venue": "2020 IEEE/RSJ International Conference on Intelligent Robots and Systems",
+      "volume": null,
+      "issue": null,
+      "pages": "2718-2725",
+      "article_number": null,
+      "publication_type": "conference paper",
+      "topic": "Navigation architecture and evaluation",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "arXiv author manuscript of IROS paper",
+      "claims": [
+        {
+          "claim": "Behaviour-tree navigation and recovery are exercised on repeated populated-campus waypoint routes with event and trajectory logging.",
+          "locator": "§§V–VI, PDF pp. 5–7"
+        }
+      ],
+      "limits": "The paper evaluates its historical implementation and platforms; recoveries and interventions must be distinguished.",
+      "design_implication": "Report mission completion, recovery events, human interventions and travelled distance separately.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_MARATHON2020.pdf",
+        "text_path": "research/literature/fulltext/LIT_MARATHON2020.txt"
+      },
+      "accessed": "2026-09-16",
+      "verification_url": "https://doi.org/10.1109/IROS45743.2020.9341207",
+      "verification_note": "Publisher-deposited Crossref metadata and previously inspected source full text; special corrections documented in IEEE audit.",
+      "author_given_family": [
+        {
+          "given": "Steve",
+          "family": "Macenski"
+        },
+        {
+          "given": "Francisco",
+          "family": "Martín"
+        },
+        {
+          "given": "Ruffin",
+          "family": "White"
+        },
+        {
+          "given": "Jonatan Ginés",
+          "family": "Clavero"
+        }
+      ],
+      "month": 10,
+      "ieee_title": "The Marathon 2: A navigation system",
+      "ieee_type": "conference",
+      "venue_abbrev": "Proc. IEEE/RSJ Int. Conf. Intell. Robots Syst. (IROS)"
+    },
+    "formatted": "S. Macenski, F. Martín, R. White, and J. G. Clavero, “The Marathon 2: A navigation system,” in Proc. IEEE/RSJ Int. Conf. Intell. Robots Syst. (IROS), Oct. 2020, pp. 2718–2725, doi: 10.1109/IROS45743.2020.9341207.",
+    "warnings": []
+  },
+  {
+    "number": 25,
+    "key": "LIT_RESQBOT2019",
+    "record": {
+      "key": "LIT_RESQBOT2019",
+      "title": "ResQbot: A Mobile Rescue Robot with Immersive Teleperception for Casualty Extraction",
+      "authors": [
+        "Roni Permana Saputra",
+        "Petar Kormushev"
+      ],
+      "year": 2018,
+      "doi": "10.1007/978-3-319-96728-8_18",
+      "url": "https://doi.org/10.1007/978-3-319-96728-8_18",
+      "venue": "Towards Autonomous Robotic Systems",
+      "volume": "10965",
+      "issue": null,
+      "pages": "209-220",
+      "article_number": null,
+      "publication_type": "book-chapter",
+      "topic": "Manipulation and operator evaluation",
+      "review_scope": "Targeted methods/results/conclusion reading; not exhaustive independent replication",
+      "reviewed_version": "arXiv manuscript of 2018 conference chapter",
+      "claims": [
+        {
+          "claim": "Dummy-based casualty-loading trials compare viewing conditions using instrumented motion and task outcomes.",
+          "locator": "§§6–7, PDF pp. 7–11"
+        }
+      ],
+      "limits": "The study is not clinical human validation and does not establish casualty-handling capability for a small gripper rover.",
+      "design_implication": "Use instrumented surrogates and task-specific metrics for any intervention evaluation.",
+      "source_files": {
+        "pdf_path": "research/literature/fulltext/LIT_RESQBOT2019.pdf",
+        "text_path": "research/literature/fulltext/LIT_RESQBOT2019.txt"
+      },
+      "accessed": "2026-09-16",
+      "verification_url": "https://link.springer.com/chapter/10.1007/978-3-319-96728-8_18",
+      "verification_note": "Publisher-deposited Crossref metadata and previously inspected source full text; special corrections documented in IEEE audit.",
+      "author_given_family": [
+        {
+          "given": "Roni Permana",
+          "family": "Saputra"
+        },
+        {
+          "given": "Petar",
+          "family": "Kormushev"
+        }
+      ],
+      "ieee_title": "ResQbot: A mobile rescue robot with immersive teleperception for casualty extraction",
+      "ieee_type": "chapter",
+      "series": "Lecture Notes in Computer Science",
+      "series_abbrev": "Lecture Notes Comput. Sci.",
+      "month": null,
+      "publisher": "Springer",
+      "publisher_location": "Cham, Switzerland",
+      "editors": [
+        {
+          "given": "Manuel",
+          "family": "Giuliani"
+        },
+        {
+          "given": "Tareq",
+          "family": "Assaf"
+        },
+        {
+          "given": "Maria Elena",
+          "family": "Giannaccini"
+        }
+      ]
+    },
+    "formatted": "R. P. Saputra and P. Kormushev, “ResQbot: A mobile rescue robot with immersive teleperception for casualty extraction,” in Towards Autonomous Robotic Systems (Lecture Notes Comput. Sci., vol. 10965), M. Giuliani, T. Assaf, and M. E. Giannaccini, Eds. Cham, Switzerland: Springer, 2018, pp. 209–220, doi: 10.1007/978-3-319-96728-8_18.",
+    "warnings": []
+  },
+  {
+    "number": 26,
+    "key": "ENG_MOTOR",
+    "record": {
+      "key": "ENG_MOTOR",
+      "title": "100:1 Metal Gearmotor 37Dx73L mm 12V with 64 CPR Encoder (Helical Pinion)",
+      "authors": "Pololu Corporation",
+      "year": null,
+      "url": "https://www.pololu.com/product/4755",
+      "doi": null,
+      "source_type": "official_documentation",
+      "source_locator": "Product specifications and 37D family operating recommendations",
+      "supported_claim": "Selected Pololu 4755: 102.08:1 gearbox; 100 rpm and 0.2 A free-running at 12 V; 5.5 A extrapolated stall current; 34 kg·cm extrapolated stall torque; mass 210 g; body 37 × 72.5 mm.",
+      "limitation": "The manufacturer recommends continuous gearbox loads no greater than 10 kg·cm and generally no more than 25% stall current. Family guidance: https://www.pololu.com/category/271/12v-37d-metal-gearmotors .",
+      "verified_on": "2026-09-16",
+      "ieee_type": "website",
+      "organization": "Pololu Corporation",
+      "accessed": "2026-09-16",
+      "verification_url": "https://www.pololu.com/product/4755",
+      "verification_note": "Official source page/document checked on Sep. 16, 2026; undated pages remain n.d.",
+      "website": "Pololu",
+      "ieee_title": "100:1 metal gearmotor 37Dx73L mm 12V with 64 CPR encoder (helical pinion)"
+    },
+    "formatted": "Pololu Corporation. “100:1 metal gearmotor 37Dx73L mm 12V with 64 CPR encoder (helical pinion).” Pololu. (n.d.). Accessed: Sep. 16, 2026. [Online]. Available: https://www.pololu.com/product/4755",
+    "warnings": []
+  },
+  {
+    "number": 27,
+    "key": "ENG_BATTERY",
+    "record": {
+      "key": "ENG_BATTERY",
+      "title": "BLF-1206A 12V 6Ah LiFePO4 battery",
+      "authors": "Bioenno Power",
+      "year": null,
+      "url": "https://www.bioennopower.com/products/12v-6ah-lifepo4-battery-pvc",
+      "doi": null,
+      "source_type": "official_documentation",
+      "source_locator": "Product specifications and compatible charger",
+      "supported_claim": "Selected Bioenno BLF-1206A: 12 V label, 6 Ah, 12 A continuous discharge, 24 A two-second pulse, 108 × 64 × 69 mm and 0.7 kg. The compatible charger is specified at 14.6 V.",
+      "limitation": "The 72 Wh baseline is calculated from the stated 12 V label. Actual delivered energy requires measurement; integrated protection is not a substitute for system-level current management.",
+      "verified_on": "2026-09-16",
+      "ieee_type": "website",
+      "organization": "Bioenno Power",
+      "accessed": "2026-09-16",
+      "verification_url": "https://www.bioennopower.com/products/12v-6ah-lifepo4-battery-pvc",
+      "verification_note": "Official product page checked with web tool after local TLS failure; publication date not stated.",
+      "website": "Bioenno Power",
+      "ieee_title": "12V 6Ah LiFePO4 battery—Bioenno Power BLF-1206A"
+    },
+    "formatted": "Bioenno Power. “12V 6Ah LiFePO4 battery—Bioenno Power BLF-1206A.” Bioenno Power. (n.d.). Accessed: Sep. 16, 2026. [Online]. Available: https://www.bioennopower.com/products/12v-6ah-lifepo4-battery-pvc",
+    "warnings": []
+  },
+  {
+    "number": 28,
+    "key": "ENG_PANEL",
+    "record": {
+      "key": "ENG_PANEL",
+      "title": "NPA20S-12J 20W monocrystalline 12V nominal solar panel",
+      "authors": "Newpowa",
+      "year": null,
+      "url": "https://www.newpowa.com/new-20w-monocrystalline-12v-solar-panel/",
+      "doi": null,
+      "source_type": "official_documentation",
+      "source_locator": "Technical parameters",
+      "supported_claim": "Selected Newpowa NPA20S-12J: 20 W; Vmp 19.08 V; Imp 1.05 A; Voc 22.35 V; Isc 1.12 A; 395 × 305 × 23 mm; mass 3.16 lb, approximately 1.433 kg; power coefficient −0.38%/K.",
+      "limitation": "These are component ratings, not measured rover output. The charger requires cold-Voc margin and a matching battery profile.",
+      "verified_on": "2026-09-16",
+      "ieee_type": "website",
+      "organization": "Newpowa",
+      "accessed": "2026-09-16",
+      "verification_url": "https://www.newpowa.com/new-20w-monocrystalline-12v-solar-panel/",
+      "verification_note": "Official source page/document checked on Sep. 16, 2026; undated pages remain n.d.",
+      "website": "Newpowa",
+      "ieee_title": "20W monocrystalline 12V solar panel"
+    },
+    "formatted": "Newpowa. “20W monocrystalline 12V solar panel.” Newpowa. (n.d.). Accessed: Sep. 16, 2026. [Online]. Available: https://www.newpowa.com/new-20w-monocrystalline-12v-solar-panel/",
+    "warnings": []
+  },
+  {
+    "number": 29,
+    "key": "ENG_SKID",
+    "record": {
+      "key": "ENG_SKID",
+      "title": "Experimental kinematics for wheeled skid-steer mobile robots",
+      "authors": "Anthony Mandow; Jorge L. Martinez; Jesus Morales; Jose L. Blanco; Alfonso Garcia-Cerezo; Javier Gonzalez",
+      "year": 2007,
+      "url": "https://babel.isa.uma.es/_utils/downloads/logdownloads.php?f=downloads%2Fjafma%2Fpapers%2Fmandow2007ekw.pdf&t=pdf&u=jafma",
+      "doi": "10.1109/IROS.2007.4399139",
+      "source_type": "primary_paper",
+      "source_locator": "Abstract and instantaneous-center-of-rotation model",
+      "supported_claim": "Skid-steer kinematics can be identified using slip-aware instantaneous centers of rotation; the paper evaluates a Pioneer P3-AT over tire and terrain variations.",
+      "limitation": "The paper motivates model identification, not assumed parameters for Zephyron.",
+      "verified_on": "2026-09-16",
+      "verification": "Publisher/manufacturer/author source accessed or indexed primary-source text checked; DOI omitted unless verified",
+      "ieee_type": "conference",
+      "organization": null,
+      "accessed": "2026-09-16",
+      "verification_url": "https://babel.isa.uma.es/_utils/downloads/logdownloads.php?f=downloads%2Fjafma%2Fpapers%2Fmandow2007ekw.pdf&t=pdf&u=jafma",
+      "verification_note": "Official source page/document checked on Sep. 16, 2026; undated pages remain n.d.",
+      "author_given_family": [
+        {
+          "given": "Anthony",
+          "family": "Mandow"
+        },
+        {
+          "given": "Jorge L.",
+          "family": "Martínez"
+        },
+        {
+          "given": "Jesús",
+          "family": "Morales"
+        },
+        {
+          "given": "José L.",
+          "family": "Blanco"
+        },
+        {
+          "given": "Alfonso",
+          "family": "García-Cerezo"
+        },
+        {
+          "given": "Javier",
+          "family": "González"
+        }
+      ],
+      "venue_abbrev": "Proc. IEEE/RSJ Int. Conf. Intell. Robots Syst. (IROS)",
+      "pages": "1222-1227",
+      "month": 10
+    },
+    "formatted": "A. Mandow, J. L. Martínez, J. Morales, J. L. Blanco, A. García-Cerezo, and J. González, “Experimental kinematics for wheeled skid-steer mobile robots,” in Proc. IEEE/RSJ Int. Conf. Intell. Robots Syst. (IROS), Oct. 2007, pp. 1222–1227, doi: 10.1109/IROS.2007.4399139.",
+    "warnings": []
+  },
+  {
+    "number": 30,
+    "key": "ENG_ODOM",
+    "record": {
+      "key": "ENG_ODOM",
+      "title": "Measurement and correction of systematic odometry errors in mobile robots",
+      "authors": "Johann Borenstein and Liqiang Feng",
+      "year": 1996,
+      "url": "https://web.cecs.pdx.edu/~mperkows/CLASS_479/S2006/Paper-correction-odometry-error.pdf",
+      "doi": "10.1109/70.544770",
+      "source_type": "primary_paper",
+      "source_locator": "Abstract and systematic error calibration sections",
+      "supported_claim": "Unequal effective wheel diameters and wheelbase uncertainty cause systematic differential-drive odometry errors.",
+      "limitation": "The primary paper was accessed and DOI checked. Its calibrated parameters do not transfer to the new rover.",
+      "verified_on": "2026-09-16",
+      "verification": "Publisher/manufacturer/author source accessed or indexed primary-source text checked; DOI omitted unless verified",
+      "ieee_type": "journal",
+      "organization": null,
+      "accessed": "2026-09-16",
+      "verification_url": "https://web.cecs.pdx.edu/~mperkows/CLASS_479/S2006/Paper-correction-odometry-error.pdf",
+      "verification_note": "IEEE-deposited Crossref record confirms volume/issue/pages; full source is cited, not a conference. Structured names repair Crossref family-only Liqiang Feng.",
+      "author_given_family": [
+        {
+          "given": "Johann",
+          "family": "Borenstein"
+        },
+        {
+          "given": "Liqiang",
+          "family": "Feng"
+        }
+      ],
+      "venue": "IEEE Transactions on Robotics and Automation",
+      "venue_abbrev": "IEEE Trans. Robot. Automat.",
+      "volume": "12",
+      "issue": "6",
+      "pages": "869-880",
+      "month": 12
+    },
+    "formatted": "J. Borenstein and L. Feng, “Measurement and correction of systematic odometry errors in mobile robots,” IEEE Trans. Robot. Automat., vol. 12, no. 6, pp. 869–880, Dec. 1996, doi: 10.1109/70.544770.",
+    "warnings": []
+  },
+  {
+    "number": 31,
+    "key": "ENG_BQ24650",
+    "record": {
+      "key": "ENG_BQ24650",
+      "title": "BQ24650 Solar Buck Battery Charge Controller datasheet",
+      "authors": "Texas Instruments",
+      "year": 2020,
+      "url": "https://www.ti.com/lit/ds/symlink/bq24650.pdf",
+      "doi": null,
+      "source_type": "official_documentation",
+      "source_locator": "Section8.3.2 Input Voltage Regulation; charging profile",
+      "supported_claim": "The controller supports programmable multi-cell charging, solar input-voltage regulation, and preconditioning, constant-current and constant-voltage stages.",
+      "limitation": "This is a candidate architecture reference. A complete pack-matched circuit and its operating envelope must be designed and tested.",
+      "verified_on": "2026-09-16",
+      "verification": "Publisher/manufacturer/author source accessed or indexed primary-source text checked; DOI omitted unless verified",
+      "ieee_type": "manual",
+      "organization": "Texas Instruments",
+      "accessed": "2026-09-16",
+      "verification_url": "https://www.ti.com/lit/ds/symlink/bq24650.pdf",
+      "verification_note": "Official PDF header: July 2010, revised January 2020, SLUSA75B.",
+      "ieee_title": "BQ24650 Stand-Alone Synchronous Buck Battery Charge Controller for Solar Power With Maximum Power Point Tracking",
+      "document_number": "SLUSA75B",
+      "month": 1
+    },
+    "formatted": "Texas Instruments. BQ24650 Stand-Alone Synchronous Buck Battery Charge Controller for Solar Power With Maximum Power Point Tracking, SLUSA75B. (Jan. 2020). Accessed: Sep. 16, 2026. [Online]. Available: https://www.ti.com/lit/ds/symlink/bq24650.pdf",
+    "warnings": []
+  },
+  {
+    "number": 32,
+    "key": "ENG_BQ76920",
+    "record": {
+      "key": "ENG_BQ76920",
+      "title": "BQ76920 3-to5-series-cell battery monitor",
+      "authors": "Texas Instruments",
+      "year": null,
+      "url": "https://www.ti.com/product/BQ76920",
+      "doi": null,
+      "source_type": "official_documentation",
+      "source_locator": "Features and description",
+      "supported_claim": "Cell-voltage, current and temperature monitoring, protective switching and balancing are distinct battery-management functions.",
+      "limitation": "The source illustrates BMS functions; it is not evidence that this component is installed.",
+      "verified_on": "2026-09-16",
+      "verification": "Publisher/manufacturer/author source accessed or indexed primary-source text checked; DOI omitted unless verified",
+      "ieee_type": "website",
+      "organization": "Texas Instruments",
+      "accessed": "2026-09-16",
+      "verification_url": "https://www.ti.com/product/BQ76920",
+      "verification_note": "Official source page/document checked on Sep. 16, 2026; undated pages remain n.d.",
+      "website": "Texas Instruments",
+      "ieee_title": "BQ76920: 3 to 5 series cell battery monitor"
+    },
+    "formatted": "Texas Instruments. “BQ76920: 3 to 5 series cell battery monitor.” Texas Instruments. (n.d.). Accessed: Sep. 16, 2026. [Online]. Available: https://www.ti.com/product/BQ76920",
+    "warnings": []
+  },
+  {
+    "number": 33,
+    "key": "ENG_PVWATTS",
+    "record": {
+      "key": "ENG_PVWATTS",
+      "title": "PVWatts Version5 Manual, NREL/TP-6A20-62641",
+      "authors": "Aron P. Dobos",
+      "year": 2014,
+      "url": "https://docs.nrel.gov/docs/fy14osti/62641.pdf",
+      "doi": "10.2172/1158421",
+      "source_type": "official_documentation",
+      "source_locator": "DC module power model and losses",
+      "supported_claim": "PV models account for plane-of-array irradiance, cell temperature and system losses.",
+      "limitation": "PVWatts is a grid-connected model. Its conceptual structure is used here; it has not been validated as a rover PV model.",
+      "verified_on": "2026-09-16",
+      "verification": "Publisher/manufacturer/author source accessed or indexed primary-source text checked; DOI omitted unless verified",
+      "ieee_type": "report",
+      "organization": null,
+      "accessed": "2026-09-16",
+      "verification_url": "https://research-hub.nlr.gov/en/publications/pvwatts-version-5-manual/",
+      "verification_note": "Official laboratory record and PDF cover verify author, title, September 2014 report number and DOI. Historical NREL publisher name retained.",
+      "author_given_family": [
+        {
+          "given": "Aron P.",
+          "family": "Dobos"
+        }
+      ],
+      "ieee_title": "PVWatts version 5 manual",
+      "institution": "National Renewable Energy Laboratory",
+      "publisher_location": "Golden, CO, USA",
+      "report_number": "NREL/TP-6A20-62641",
+      "month": 9
+    },
+    "formatted": "A. P. Dobos, “PVWatts version 5 manual,” National Renewable Energy Laboratory, Golden, CO, USA, NREL/TP-6A20-62641, Sep. 2014, doi: 10.2172/1158421.",
+    "warnings": []
+  },
+  {
+    "number": 34,
+    "key": "ENG_MQ2",
+    "record": {
+      "key": "ENG_MQ2",
+      "title": "MQ-2 Flammable Gas Sensor Manual, version 1.6",
+      "authors": "Zhengzhou Winsen Electronics Technology Co., Ltd.",
+      "year": 2021,
+      "url": "https://www.winsen-sensor.com/d/files/newpdf/mq-2-%28ver1_6%29---manual.pdf",
+      "doi": null,
+      "source_type": "official_documentation",
+      "source_locator": "Technical parameters and standard test conditions; sensitivity curves",
+      "supported_claim": "Range: 300–10000 ppm flammable gas. The manual specifies a 5.0 V heater, consumption up to 950 mW, and at least 48 h preheating under standard test conditions. Oxygen, humidity and temperature affect response.",
+      "limitation": "Manufacturer specification, not rover calibration. The gas species, conditioning and sensor variant must be specified.",
+      "verified_on": "2026-09-16",
+      "verification": "Publisher/manufacturer/author source accessed or indexed primary-source text checked; DOI omitted unless verified",
+      "ieee_type": "manual",
+      "organization": "Zhengzhou Winsen Electronics Technology Co., Ltd.",
+      "accessed": "2026-09-16",
+      "verification_url": "https://www.winsen-sensor.com/d/files/newpdf/mq-2-%28ver1_6%29---manual.pdf",
+      "verification_note": "Official PDF cover gives version 1.6, valid from 2021-07-01.",
+      "ieee_title": "Flammable Gas Sensor (Model MQ-2) Manual",
+      "version": "1.6",
+      "date_text": "Jul. 1, 2021"
+    },
+    "formatted": "Zhengzhou Winsen Electronics Technology Co., Ltd. Flammable Gas Sensor (Model MQ-2) Manual, ver. 1.6. (Jul. 1, 2021). Accessed: Sep. 16, 2026. [Online]. Available: https://www.winsen-sensor.com/d/files/newpdf/mq-2-%28ver1_6%29---manual.pdf",
+    "warnings": []
+  },
+  {
+    "number": 35,
+    "key": "ENG_TDS",
+    "record": {
+      "key": "ENG_TDS",
+      "title": "Gravity: Analog TDS Sensor SEN0244",
+      "authors": "DFRobot",
+      "year": null,
+      "url": "https://wiki.dfrobot.com/sen0244",
+      "doi": null,
+      "source_type": "official_documentation",
+      "source_locator": "Specification; FAQ",
+      "supported_claim": "Range: 0–1000 ppm. Manufacturer accuracy specification: ±10% of full scale at 25 °C. Output: 0–2.3 V. The probe has no temperature sensor.",
+      "limitation": "The full-scale limit is equivalent to ±100 ppm, not ±10% of each reading.",
+      "verified_on": "2026-09-16",
+      "verification": "Publisher/manufacturer/author source accessed or indexed primary-source text checked; DOI omitted unless verified",
+      "ieee_type": "website",
+      "organization": "DFRobot",
+      "accessed": "2026-09-16",
+      "verification_url": "https://wiki.dfrobot.com/sen0244",
+      "verification_note": "Official source page/document checked on Sep. 16, 2026; undated pages remain n.d.",
+      "website": "DFRobot Wiki",
+      "ieee_title": "Gravity: Analog TDS sensor/meter for Arduino (SEN0244)"
+    },
+    "formatted": "DFRobot. “Gravity: Analog TDS sensor/meter for Arduino (SEN0244).” DFRobot Wiki. (n.d.). Accessed: Sep. 16, 2026. [Online]. Available: https://wiki.dfrobot.com/sen0244",
+    "warnings": []
+  },
+  {
+    "number": 36,
+    "key": "ENG_TDS_CODE",
+    "record": {
+      "key": "ENG_TDS_CODE",
+      "title": "SEN0244: Example Code for Arduino - Measure TDS Value",
+      "authors": "DFRobot",
+      "year": null,
+      "url": "https://wiki.dfrobot.com/sen0244/docs/20305",
+      "doi": null,
+      "source_type": "official_documentation",
+      "source_locator": "Sample code: compensationCoefficient and tdsValue",
+      "supported_claim": "The sample code compensates voltage using 1 + 0.02(T − 25), then applies a cubic conversion with a factor of 0.5.",
+      "limitation": "This is vendor example code. The selected probe and relevant water matrices require independent calibration and validation.",
+      "verified_on": "2026-09-16",
+      "verification": "Publisher/manufacturer/author source accessed or indexed primary-source text checked; DOI omitted unless verified",
+      "ieee_type": "website",
+      "organization": "DFRobot",
+      "accessed": "2026-09-16",
+      "verification_url": "https://wiki.dfrobot.com/sen0244/docs/20305",
+      "verification_note": "Official source page/document checked on Sep. 16, 2026; undated pages remain n.d.",
+      "website": "DFRobot Wiki",
+      "ieee_title": "Gravity: Analog TDS sensor/meter for Arduino—Example code for Arduino: Measure TDS value"
+    },
+    "formatted": "DFRobot. “Gravity: Analog TDS sensor/meter for Arduino—Example code for Arduino: Measure TDS value.” DFRobot Wiki. (n.d.). Accessed: Sep. 16, 2026. [Online]. Available: https://wiki.dfrobot.com/sen0244/docs/20305",
+    "warnings": []
+  },
+  {
+    "number": 37,
+    "key": "ENG_USGS_EC",
+    "record": {
+      "key": "ENG_USGS_EC",
+      "title": "Chapter A6.3. Specific Conductance",
+      "authors": "US Geological Survey",
+      "year": 2019,
+      "url": "https://pubs.usgs.gov/publication/tm9A6.3",
+      "doi": "10.3133/tm9A6.3",
+      "source_type": "official_documentation",
+      "source_locator": "National Field Manual chapter abstract and measurement protocols",
+      "supported_claim": "USGS field methods require appropriate calibration, temperature reporting and measurement protocols for specific conductance.",
+      "limitation": "Conductance depends on dissolved substances. A universal conductivity-to-TDS conversion is not inferred.",
+      "verified_on": "2026-09-16",
+      "verification": "Publisher/manufacturer/author source accessed or indexed primary-source text checked; DOI omitted unless verified",
+      "ieee_type": "report",
+      "organization": "U.S. Geological Survey",
+      "accessed": "2026-09-16",
+      "verification_url": "https://pubs.usgs.gov/publication/tm9A6.3",
+      "verification_note": "Official USGS citation metadata confirms institutional author, 2019, report 9-A6.3 and DOI 10.3133/tm9A6.3.",
+      "ieee_title": "Chapter A6.3. Specific conductance",
+      "report_number": "Techniques and Methods 9-A6.3"
+    },
+    "formatted": "U.S. Geological Survey, “Chapter A6.3. Specific conductance,” Techniques and Methods 9-A6.3, 2019, doi: 10.3133/tm9A6.3.",
+    "warnings": []
+  },
+  {
+    "number": 38,
+    "key": "ENG_GUM",
+    "record": {
+      "key": "ENG_GUM",
+      "title": "Evaluation of measurement data - Guide to the expression of uncertainty in measurement, JCGM100:2008",
+      "authors": "Joint Committee for Guides in Metrology",
+      "year": 2008,
+      "url": "https://www.bipm.org/doi/10.59161/JCGM100-2008E",
+      "doi": "10.59161/JCGM100-2008E",
+      "source_type": "official_documentation",
+      "source_locator": "Sections4-6; standard and combined uncertainty",
+      "supported_claim": "The GUM distinguishes repeatability and other uncertainty inputs and propagates sensitivity coefficients and covariance.",
+      "limitation": "The present partial first-order budget is a scenario. It is not a measured uncertainty budget.",
+      "verified_on": "2026-09-16",
+      "verification": "Publisher/manufacturer/author source accessed or indexed primary-source text checked; DOI omitted unless verified",
+      "ieee_type": "report",
+      "organization": "Joint Committee for Guides in Metrology",
+      "accessed": "2026-09-16",
+      "verification_url": "https://www.bipm.org/doi/10.59161/JCGM100-2008E",
+      "verification_note": "Official BIPM JCGM record identifies document number, corporate author, 2008 and DOI.",
+      "ieee_title": "Evaluation of measurement data—Guide to the expression of uncertainty in measurement",
+      "report_number": "JCGM 100:2008"
+    },
+    "formatted": "Joint Committee for Guides in Metrology, “Evaluation of measurement data—Guide to the expression of uncertainty in measurement,” JCGM 100:2008, 2008, doi: 10.59161/JCGM100-2008E.",
+    "warnings": []
+  },
+  {
+    "number": 39,
+    "key": "ENG_TURB_FAQ",
+    "record": {
+      "key": "ENG_TURB_FAQ",
+      "title": "Turbidity Sensor FAQ [SEN0189]",
+      "authors": "DFRobot technical support",
+      "year": 2022,
+      "url": "https://www.dfrobot.com/forum/topic/315216",
+      "doi": null,
+      "source_type": "official_documentation",
+      "source_locator": "Q2-Q4",
+      "supported_claim": "The manufacturer support FAQ describes the sensor as qualitative, discourages standard NTU conversion, and notes that only part of the probe is waterproof.",
+      "limitation": "Exact installed module identity must be checked. A plotted approximate conversion curve does not establish calibration.",
+      "verified_on": "2026-09-16",
+      "verification": "Publisher/manufacturer/author source accessed or indexed primary-source text checked; DOI omitted unless verified",
+      "ieee_type": "website",
+      "organization": null,
+      "accessed": "2026-09-16",
+      "verification_url": "https://www.dfrobot.com/forum/topic/315216",
+      "verification_note": "Official DFRobot forum JSON-LD and visible byline identify Winster; no evidence that this user is formal DFRobot technical support.",
+      "website": "DFRobot Forum",
+      "author_given_family": [
+        {
+          "literal": "Winster"
+        }
+      ],
+      "date_text": "Aug. 19, 2022",
+      "ieee_title": "Turbidity sensor FAQ [SEN0189]"
+    },
+    "formatted": "Winster. “Turbidity sensor FAQ [SEN0189].” DFRobot Forum. Aug. 19, 2022. Accessed: Sep. 16, 2026. [Online]. Available: https://www.dfrobot.com/forum/topic/315216",
+    "warnings": []
+  },
+  {
+    "number": 40,
+    "key": "ENG_TURB",
+    "record": {
+      "key": "ENG_TURB",
+      "title": "Gravity: Analog Turbidity Sensor SEN0189",
+      "authors": "DFRobot",
+      "year": null,
+      "url": "https://wiki.dfrobot.com/sen0189",
+      "doi": null,
+      "source_type": "official_documentation",
+      "source_locator": "Specification; Reference",
+      "supported_claim": "Supply: 5 V. Analog output: 0–4.5 V. Maximum current: 40 mA. Stated response: less than 500 ms. Measurement is based on optical transmission and scattering.",
+      "limitation": "Electronic specifications do not establish low-NTU quantitative accuracy or sample equilibration.",
+      "verified_on": "2026-09-16",
+      "verification": "Publisher/manufacturer/author source accessed or indexed primary-source text checked; DOI omitted unless verified",
+      "ieee_type": "website",
+      "organization": "DFRobot",
+      "accessed": "2026-09-16",
+      "verification_url": "https://wiki.dfrobot.com/sen0189",
+      "verification_note": "Official source page/document checked on Sep. 16, 2026; undated pages remain n.d.",
+      "website": "DFRobot Wiki",
+      "ieee_title": "Gravity: Analog turbidity sensor for Arduino (SEN0189)"
+    },
+    "formatted": "DFRobot. “Gravity: Analog turbidity sensor for Arduino (SEN0189).” DFRobot Wiki. (n.d.). Accessed: Sep. 16, 2026. [Online]. Available: https://wiki.dfrobot.com/sen0189",
+    "warnings": []
+  },
+  {
+    "number": 41,
+    "key": "ENG_EPA1801",
+    "record": {
+      "key": "ENG_EPA1801",
+      "title": "Method180.1: Determination of Turbidity by Nephelometry, revision2.0",
+      "authors": "US Environmental Protection Agency",
+      "year": 1993,
+      "url": "https://www.epa.gov/sites/default/files/2015-08/documents/method_180-1_1993.pdf",
+      "doi": null,
+      "source_type": "official_documentation",
+      "source_locator": "Sections1-2,6-10",
+      "supported_claim": "EPA Method 180.1 specifies nephelometric measurement, standards, calibration and quality control over its stated 0–40 NTU range.",
+      "limitation": "This is a reference validation method. Compliance of the proposed low-cost hardware is not established.",
+      "verified_on": "2026-09-16",
+      "verification": "Publisher/manufacturer/author source accessed or indexed primary-source text checked; DOI omitted unless verified",
+      "ieee_type": "report",
+      "organization": "U.S. Environmental Protection Agency",
+      "accessed": "2026-09-16",
+      "verification_url": "https://www.epa.gov/sites/default/files/2015-08/documents/method_180-1_1993.pdf",
+      "verification_note": "Official method cover identifies agency and James W. O’Dell as editor, revision 2.0, August 1993. Corporate authorship retained; editor not misattributed as sole author.",
+      "ieee_title": "Determination of turbidity by nephelometry",
+      "report_number": "Method 180.1, rev. 2.0",
+      "publisher_location": "Cincinnati, OH, USA",
+      "month": 8
+    },
+    "formatted": "U.S. Environmental Protection Agency, “Determination of turbidity by nephelometry,” Cincinnati, OH, USA, Method 180.1, rev. 2.0, Aug. 1993. Accessed: Sep. 16, 2026. [Online]. Available: https://www.epa.gov/sites/default/files/2015-08/documents/method_180-1_1993.pdf",
+    "warnings": []
+  },
+  {
+    "number": 42,
+    "key": "ENG_EPA_TDS",
+    "record": {
+      "key": "ENG_EPA_TDS",
+      "title": "Secondary Drinking Water Standards: Guidance for Nuisance Chemicals",
+      "authors": "US Environmental Protection Agency",
+      "year": null,
+      "url": "https://www.epa.gov/sdwa/secondary-drinking-water-standards-guidance-nuisance-chemicals",
+      "doi": null,
+      "source_type": "official_documentation",
+      "source_locator": "Secondary standards table and explanation",
+      "supported_claim": "The TDS value of 500 mg/L is a secondary aesthetic guideline.",
+      "limitation": "It is not a comprehensive potability criterion or an automatically applicable local legal limit.",
+      "verified_on": "2026-09-16",
+      "verification": "Publisher/manufacturer/author source accessed or indexed primary-source text checked; DOI omitted unless verified",
+      "ieee_type": "website",
+      "organization": "U.S. Environmental Protection Agency",
+      "accessed": "2026-09-16",
+      "verification_url": "https://www.epa.gov/sdwa/secondary-drinking-water-standards-guidance-nuisance-chemicals",
+      "verification_note": "Official source page/document checked on Sep. 16, 2026; undated pages remain n.d.",
+      "website": "United States Environmental Protection Agency",
+      "ieee_title": "Secondary drinking water standards: Guidance for nuisance chemicals"
+    },
+    "formatted": "U.S. Environmental Protection Agency. “Secondary drinking water standards: Guidance for nuisance chemicals.” United States Environmental Protection Agency. (n.d.). Accessed: Sep. 16, 2026. [Online]. Available: https://www.epa.gov/sdwa/secondary-drinking-water-standards-guidance-nuisance-chemicals",
+    "warnings": []
+  },
+  {
+    "number": 43,
+    "key": "ENG_WHO_TURB",
+    "record": {
+      "key": "ENG_WHO_TURB",
+      "title": "Water quality and health: Review of turbidity",
+      "authors": "World Health Organization",
+      "year": 2017,
+      "url": "https://www.who.int/publications/i/item/WHO-FWC-WSH-17.01",
+      "doi": null,
+      "source_type": "official_documentation",
+      "source_locator": "Technical brief WHO/FWC/WSH/17.01; implications for disinfection",
+      "supported_claim": "The technical brief explains the use of turbidity in source water, treatment, distribution and drinking-water safety.",
+      "limitation": "Operational guidance is not proof of sensor accuracy or microbiological safety.",
+      "verified_on": "2026-09-16",
+      "verification": "Publisher/manufacturer/author source accessed or indexed primary-source text checked; DOI omitted unless verified",
+      "ieee_type": "report",
+      "organization": "World Health Organization",
+      "accessed": "2026-09-16",
+      "verification_url": "https://www.who.int/publications/i/item/WHO-FWC-WSH-17.01",
+      "verification_note": "Official source page/document checked on Sep. 16, 2026; undated pages remain n.d.",
+      "ieee_title": "Water quality and health: Review of turbidity",
+      "report_number": "WHO/FWC/WSH/17.01",
+      "month": 2
+    },
+    "formatted": "World Health Organization, “Water quality and health: Review of turbidity,” WHO/FWC/WSH/17.01, Feb. 2017. Accessed: Sep. 16, 2026. [Online]. Available: https://www.who.int/publications/i/item/WHO-FWC-WSH-17.01",
+    "warnings": []
+  },
+  {
+    "number": 44,
+    "key": "ENG_IAEA_GM",
+    "record": {
+      "key": "ENG_IAEA_GM",
+      "title": "Workplace monitoring - External radiation training",
+      "authors": "International Atomic Energy Agency",
+      "year": null,
+      "url": "https://nucleus.iaea.org/sites/orpnet/training/ExternalRadiation/Shared%20Documents/5_workplace%20monitoring%20-%20Final.pdf",
+      "doi": null,
+      "source_type": "official_documentation",
+      "source_locator": "Geiger-Muller detectors slides",
+      "supported_claim": "GM detectors produce counting pulses without energy discrimination; dose-rate interpretation requires suitable instrument calibration, and dead time affects high-rate measurements.",
+      "limitation": "No specific tube or dose conversion is selected or validated in this design.",
+      "verified_on": "2026-09-16",
+      "verification": "Publisher/manufacturer/author source accessed or indexed primary-source text checked; DOI omitted unless verified",
+      "ieee_type": "manual",
+      "organization": "International Atomic Energy Agency",
+      "accessed": "2026-09-16",
+      "verification_url": "https://nucleus.iaea.org/sites/orpnet/training/ExternalRadiation/Shared%20Documents/5_workplace%20monitoring%20-%20Final.pdf",
+      "verification_note": "IAEA slide deck title page; no publication year shown, so n.d. retained.",
+      "ieee_title": "Assessment of Occupational Exposure Due to External Radiation Sources: Workplace Monitoring"
+    },
+    "formatted": "International Atomic Energy Agency. Assessment of Occupational Exposure Due to External Radiation Sources: Workplace Monitoring. (n.d.). Accessed: Sep. 16, 2026. [Online]. Available: https://nucleus.iaea.org/sites/orpnet/training/ExternalRadiation/Shared%20Documents/5_workplace%20monitoring%20-%20Final.pdf",
+    "warnings": []
+  },
+  {
+    "number": 45,
+    "key": "ENG_IAEA_STATS",
+    "record": {
+      "key": "ENG_IAEA_STATS",
+      "title": "Quantifying uncertainty in nuclear analytical measurements, IAEA-TECDOC-1401",
+      "authors": "International Atomic Energy Agency",
+      "year": 2004,
+      "url": "https://pub.iaea.org/MTCD/Publications/PDF/te_1401_web.pdf",
+      "doi": null,
+      "source_type": "official_documentation",
+      "source_locator": "Counting-statistics and uncertainty contributions; Poisson-distribution passages",
+      "supported_claim": "Poisson counting statistics, background, timing and correction terms contribute to uncertainty in nuclear measurements.",
+      "limitation": "This is a general analytical framework, not evidence from a rover radiation experiment.",
+      "verified_on": "2026-09-16",
+      "verification": "Publisher/manufacturer/author source accessed or indexed primary-source text checked; DOI omitted unless verified",
+      "ieee_type": "report",
+      "organization": "International Atomic Energy Agency",
+      "accessed": "2026-09-16",
+      "verification_url": "https://pub.iaea.org/MTCD/Publications/PDF/te_1401_web.pdf",
+      "verification_note": "Official source page/document checked on Sep. 16, 2026; undated pages remain n.d.",
+      "ieee_title": "Quantifying uncertainty in nuclear analytical measurements",
+      "report_number": "IAEA-TECDOC-1401",
+      "publisher_location": "Vienna, Austria",
+      "month": 7
+    },
+    "formatted": "International Atomic Energy Agency, “Quantifying uncertainty in nuclear analytical measurements,” Vienna, Austria, IAEA-TECDOC-1401, Jul. 2004. Accessed: Sep. 16, 2026. [Online]. Available: https://pub.iaea.org/MTCD/Publications/PDF/te_1401_web.pdf",
+    "warnings": []
+  },
+  {
+    "number": 46,
+    "key": "ENG_UVI",
+    "record": {
+      "key": "ENG_UVI",
+      "title": "Global solar UV index: A practical guide",
+      "authors": "WHO, WMO, UNEP and ICNIRP",
+      "year": 2002,
+      "url": "https://www.who.int/publications/i/item/9241590076",
+      "doi": null,
+      "source_type": "official_documentation",
+      "source_locator": "UVI definition, reporting and exposure categories",
+      "supported_claim": "UVI is a weighted solar ultraviolet exposure index. The high category includes values 6–7, while protective recommendations start at 3.",
+      "limitation": "The sensor and calibration remain unspecified. Official supporting explanations: https://www.who.int/news-room/questions-and-answers/item/radiation-the-ultraviolet-%28uv%29-index and https://www.epa.gov/sunsafety/calculating-uv-index-0 .",
+      "verified_on": "2026-09-16",
+      "verification": "Publisher/manufacturer/author source accessed or indexed primary-source text checked; DOI omitted unless verified",
+      "ieee_type": "manual",
+      "organization": "World Health Organization",
+      "accessed": "2026-09-16",
+      "verification_url": "https://www.who.int/publications/i/item/9241590076",
+      "verification_note": "WHO publication record identifies WHO as editor/publisher and describes WMO, UNEP, ICNIRP and BfS as collaborators, not personal authors. Corporate author used consistently.",
+      "ieee_title": "Global Solar UV Index: A Practical Guide"
+    },
+    "formatted": "World Health Organization. Global Solar UV Index: A Practical Guide. (2002). Accessed: Sep. 16, 2026. [Online]. Available: https://www.who.int/publications/i/item/9241590076",
+    "warnings": []
+  },
+  {
+    "number": 47,
+    "key": "ENG_NEO6",
+    "record": {
+      "key": "ENG_NEO6",
+      "title": "NEO-6 u-blox6 GPS Modules Data Sheet GPS.G6-HW-09005-E",
+      "authors": "u-blox AG",
+      "year": 2011,
+      "url": "https://content.u-blox.com/sites/default/files/products/documents/NEO-6_DataSheet_(GPS.G6-HW-09005).pdf",
+      "doi": null,
+      "source_type": "official_documentation",
+      "source_locator": "Section1.3 Table2 and footnotes, page6",
+      "supported_claim": "NEO-6M data-sheet values include 27 s cold/warm start, 1 s hot start, up to 5 Hz navigation, and 2.5 m horizontal CEP under specified static conditions.",
+      "limitation": "CEP denotes 50% containment and is not a 95% radial-error bound.",
+      "verified_on": "2026-09-16",
+      "verification": "Publisher/manufacturer/author source accessed or indexed primary-source text checked; DOI omitted unless verified",
+      "ieee_type": "manual",
+      "organization": "u-blox AG",
+      "accessed": "2026-09-16",
+      "verification_url": "https://content.u-blox.com/sites/default/files/products/documents/NEO-6_DataSheet_(GPS.G6-HW-09005).pdf",
+      "verification_note": "Official PDF p. 24 revision table identifies revision E dated 05/12/2011.",
+      "ieee_title": "NEO-6: u-blox 6 GPS Modules Data Sheet",
+      "document_number": "GPS.G6-HW-09005-E",
+      "date_text": "Dec. 5, 2011"
+    },
+    "formatted": "u-blox AG. NEO-6: u-blox 6 GPS Modules Data Sheet, GPS.G6-HW-09005-E. (Dec. 5, 2011). Accessed: Sep. 16, 2026. [Online]. Available: https://content.u-blox.com/sites/default/files/products/documents/NEO-6_DataSheet_(GPS.G6-HW-09005).pdf",
+    "warnings": []
+  },
+  {
+    "number": 48,
+    "key": "ENG_ESP32",
+    "record": {
+      "key": "ENG_ESP32",
+      "title": "ESP32 Series Datasheet v5.3",
+      "authors": "Espressif Systems",
+      "year": 2026,
+      "url": "https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf",
+      "doi": null,
+      "source_type": "official_documentation",
+      "source_locator": "Features;4.1 CPU and Memory",
+      "supported_claim": "ESP32 family documentation specifies up to 240 MHz LX6 processing and 520 KB on-chip SRAM; external PSRAM support varies by product.",
+      "limitation": "The proposed pipeline offloads YOLO inference. These specifications do not establish onboard detector performance.",
+      "verified_on": "2026-09-16",
+      "verification": "Publisher/manufacturer/author source accessed or indexed primary-source text checked; DOI omitted unless verified",
+      "ieee_type": "manual",
+      "organization": "Espressif Systems",
+      "accessed": "2026-09-16",
+      "verification_url": "https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf",
+      "verification_note": "Official current PDF cover and revision history identify v5.3, July 2026; original undated evidence is enriched only in this overlay.",
+      "ieee_title": "ESP32 Series Datasheet",
+      "version": "5.3",
+      "month": 7
+    },
+    "formatted": "Espressif Systems. ESP32 Series Datasheet, ver. 5.3. (Jul. 2026). Accessed: Sep. 16, 2026. [Online]. Available: https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf",
+    "warnings": []
+  },
+  {
+    "number": 49,
+    "key": "ENG_CAMERA",
+    "record": {
+      "key": "ENG_CAMERA",
+      "title": "ESP32 Camera Driver",
+      "authors": "Espressif Systems",
+      "year": null,
+      "url": "https://github.com/espressif/esp32-camera",
+      "doi": null,
+      "source_type": "official_documentation",
+      "source_locator": "General Information; Important to Remember",
+      "supported_claim": "The driver documentation describes PSRAM requirements, JPEG buffering, and memory pressure when RGB/YUV acquisition and Wi-Fi operate together.",
+      "limitation": "A reproducible experiment must pin the firmware commit and hardware configuration.",
+      "verified_on": "2026-09-16",
+      "verification": "Publisher/manufacturer/author source accessed or indexed primary-source text checked; DOI omitted unless verified",
+      "ieee_type": "software",
+      "organization": "Espressif Systems",
+      "accessed": "2026-09-16",
+      "verification_url": "https://github.com/espressif/esp32-camera",
+      "verification_note": "Official source page/document checked on Sep. 16, 2026; undated pages remain n.d.",
+      "website": "GitHub",
+      "ieee_title": "ESP32 camera driver"
+    },
+    "formatted": "Espressif Systems. “ESP32 camera driver.” GitHub. Software. (n.d.). Accessed: Sep. 16, 2026. [Online]. Available: https://github.com/espressif/esp32-camera",
+    "warnings": []
+  },
+  {
+    "number": 50,
+    "key": "ENG_MJPEG",
+    "record": {
+      "key": "ENG_MJPEG",
+      "title": "ESP32-CAM_MJPEG2SD",
+      "authors": "s60sc and contributors",
+      "year": null,
+      "url": "https://github.com/s60sc/ESP32-CAM_MJPEG2SD",
+      "doi": null,
+      "source_type": "official_documentation",
+      "source_locator": "Purpose: recording-rate table and stated testconditions",
+      "supported_claim": "The software authors report VGA/SVGA recording at 20 FPS and HD at 5 FPS for a specified AI Thinker OV2640 board, SD card, 20 MHz clock and JPEG quality.",
+      "limitation": "This is a software-author benchmark, not a rover result. The motion-detection timing column is not YOLO inference latency.",
+      "verified_on": "2026-09-16",
+      "verification": "Publisher/manufacturer/author source accessed or indexed primary-source text checked; DOI omitted unless verified",
+      "ieee_type": "software",
+      "organization": null,
+      "accessed": "2026-09-16",
+      "verification_url": "https://github.com/s60sc/ESP32-CAM_MJPEG2SD",
+      "verification_note": "Official source page/document checked on Sep. 16, 2026; undated pages remain n.d.",
+      "website": "GitHub",
+      "author_given_family": [
+        {
+          "literal": "s60sc and contributors"
+        }
+      ]
+    },
+    "formatted": "s60sc and contributors. “ESP32-CAM_MJPEG2SD.” GitHub. Software. (n.d.). Accessed: Sep. 16, 2026. [Online]. Available: https://github.com/s60sc/ESP32-CAM_MJPEG2SD",
+    "warnings": []
+  },
+  {
+    "number": 51,
+    "key": "ENG_SCALED",
+    "record": {
+      "key": "ENG_SCALED",
+      "title": "Scaled-YOLOv4: Scaling Cross Stage Partial Network",
+      "authors": "Chien-Yao Wang; Alexey Bochkovskiy; Hong-Yuan Mark Liao",
+      "year": 2021,
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/html/Wang_Scaled-YOLOv4_Scaling_Cross_Stage_Partial_Network_CVPR_2021_paper.html",
+      "doi": "10.1109/CVPR46437.2021.01283",
+      "source_type": "primary_paper",
+      "source_locator": "Abstract; CVPR2021 pp13029-13038",
+      "supported_claim": "The CVPR paper reports YOLOv4-tiny at 22.0% COCO AP, 42.0% AP50 and 443 FPS on an RTX 2080Ti; a separate TensorRT FP16 batch-4 configuration reaches 1774 FPS.",
+      "limitation": "These configurations must not be pooled or interpreted as end-to-end rover timing.",
+      "verified_on": "2026-09-16",
+      "verification": "Publisher/manufacturer/author source accessed or indexed primary-source text checked; DOI omitted unless verified",
+      "ieee_type": "conference",
+      "organization": null,
+      "accessed": "2026-09-16",
+      "verification_url": "https://openaccess.thecvf.com/content/CVPR2021/html/Wang_Scaled-YOLOv4_Scaling_Cross_Stage_Partial_Network_CVPR_2021_paper.html",
+      "verification_note": "IEEE DOI publication pagination is 13024-13033; CVF repository counterpart is 13029-13038. Bibliography uses the DOI publication and its consistent pagination, with the same title/authors/year.",
+      "author_given_family": [
+        {
+          "given": "Chien-Yao",
+          "family": "Wang"
+        },
+        {
+          "given": "Alexey",
+          "family": "Bochkovskiy"
+        },
+        {
+          "given": "Hong-Yuan Mark",
+          "family": "Liao"
+        }
+      ],
+      "venue_abbrev": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
+      "pages": "13024-13033",
+      "month": 6,
+      "ieee_title": "Scaled-YOLOv4: Scaling cross stage partial network"
+    },
+    "formatted": "C.-Y. Wang, A. Bochkovskiy, and H.-Y. M. Liao, “Scaled-YOLOv4: Scaling cross stage partial network,” in Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR), Jun. 2021, pp. 13024–13033, doi: 10.1109/CVPR46437.2021.01283.",
+    "warnings": []
+  },
+  {
+    "number": 52,
+    "key": "ENG_COCO",
+    "record": {
+      "key": "ENG_COCO",
+      "title": "COCO object-detection evaluation implementation",
+      "authors": "COCO dataset authors and contributors",
+      "year": 2015,
+      "url": "https://github.com/cocodataset/cocoapi/blob/master/PythonAPI/pycocotools/cocoeval.py",
+      "doi": null,
+      "source_type": "official_documentation",
+      "source_locator": "Params.setDetParams; summarize",
+      "supported_claim": "The official detection evaluator averages AP across IoU thresholds 0.50 to 0.95 in increments of 0.05; AP50 is a distinct metric.",
+      "limitation": "COCO metrics define evaluation, not disaster-scene capability.",
+      "verified_on": "2026-09-16",
+      "verification": "Publisher/manufacturer/author source accessed or indexed primary-source text checked; DOI omitted unless verified",
+      "ieee_type": "software",
+      "organization": null,
+      "accessed": "2026-09-16",
+      "verification_url": "https://github.com/cocodataset/cocoapi/blob/master/PythonAPI/pycocotools/cocoeval.py",
+      "verification_note": "Cited source code explicitly credits Piotr Dollar and Tsung-Yi Lin, 2015, toolbox version 2.0; not a citation to the 2014 COCO dataset paper.",
+      "website": "GitHub",
+      "author_given_family": [
+        {
+          "given": "Piotr",
+          "family": "Dollár"
+        },
+        {
+          "given": "Tsung-Yi",
+          "family": "Lin"
+        }
+      ],
+      "version": "2.0",
+      "ieee_title": "COCO object-detection evaluation implementation (cocoeval.py)"
+    },
+    "formatted": "P. Dollár and T.-Y. Lin. “COCO object-detection evaluation implementation (cocoeval.py).” GitHub. Software, ver. 2.0. 2015. Accessed: Sep. 16, 2026. [Online]. Available: https://github.com/cocodataset/cocoapi/blob/master/PythonAPI/pycocotools/cocoeval.py",
+    "warnings": []
+  },
+  {
+    "number": 53,
+    "key": "ENG_QUANT",
+    "record": {
+      "key": "ENG_QUANT",
+      "title": "Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference",
+      "authors": "Benoit Jacob et al.",
+      "year": 2018,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Jacob_Quantization_and_Training_CVPR_2018_paper.html",
+      "doi": "10.1109/CVPR.2018.00286",
+      "source_type": "primary_paper",
+      "source_locator": "Abstract and quantization formulation; CVPR2018 pp2704-2713",
+      "supported_claim": "Eight-bit weights and activations can reduce representation size relative to FP32; the paper co-designs training for integer-only inference.",
+      "limitation": "Realized accuracy, storage and speed must be measured on the selected model and execution hardware.",
+      "verified_on": "2026-09-16",
+      "verification": "Publisher/manufacturer/author source accessed or indexed primary-source text checked; DOI omitted unless verified",
+      "ieee_type": "conference",
+      "organization": null,
+      "accessed": "2026-09-16",
+      "verification_url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Jacob_Quantization_and_Training_CVPR_2018_paper.html",
+      "verification_note": "IEEE-deposited Crossref DOI/title/authors/venue/pages match the independently checked CVF version.",
+      "author_given_family": [
+        {
+          "given": "Benoit",
+          "family": "Jacob"
+        },
+        {
+          "given": "Skirmantas",
+          "family": "Kligys"
+        },
+        {
+          "given": "Bo",
+          "family": "Chen"
+        },
+        {
+          "given": "Menglong",
+          "family": "Zhu"
+        },
+        {
+          "given": "Matthew",
+          "family": "Tang"
+        },
+        {
+          "given": "Andrew",
+          "family": "Howard"
+        },
+        {
+          "given": "Hartwig",
+          "family": "Adam"
+        },
+        {
+          "given": "Dmitry",
+          "family": "Kalenichenko"
+        }
+      ],
+      "venue_abbrev": "Proc. IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR)",
+      "pages": "2704-2713",
+      "month": 6,
+      "ieee_title": "Quantization and training of neural networks for efficient integer-arithmetic-only inference"
+    },
+    "formatted": "B. Jacob et al., “Quantization and training of neural networks for efficient integer-arithmetic-only inference,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), Jun. 2018, pp. 2704–2713, doi: 10.1109/CVPR.2018.00286.",
+    "warnings": []
+  },
+  {
+    "number": 54,
+    "key": "ENG_ONNX",
+    "record": {
+      "key": "ENG_ONNX",
+      "title": "Quantize ONNX models",
+      "authors": "ONNX Runtime / Microsoft contributors",
+      "year": null,
+      "url": "https://onnxruntime.ai/docs/performance/model-optimizations/quantization.html",
+      "doi": null,
+      "source_type": "official_documentation",
+      "source_locator": "Static Quantization; Method Selection; FAQ",
+      "supported_claim": "Static quantization uses representative calibration inputs. Runtime speed depends on hardware, operators and quantization overhead.",
+      "limitation": "No calibration dataset or speed improvement has been claimed for the new design.",
+      "verified_on": "2026-09-16",
+      "verification": "Publisher/manufacturer/author source accessed or indexed primary-source text checked; DOI omitted unless verified",
+      "ieee_type": "website",
+      "organization": "Microsoft",
+      "accessed": "2026-09-16",
+      "verification_url": "https://onnxruntime.ai/docs/performance/model-optimizations/quantization.html",
+      "verification_note": "Official source page/document checked on Sep. 16, 2026; undated pages remain n.d.",
+      "website": "ONNX Runtime documentation",
+      "ieee_title": "Quantize ONNX models"
+    },
+    "formatted": "Microsoft. “Quantize ONNX models.” ONNX Runtime documentation. (n.d.). Accessed: Sep. 16, 2026. [Online]. Available: https://onnxruntime.ai/docs/performance/model-optimizations/quantization.html",
+    "warnings": []
+  },
+  {
+    "number": 55,
+    "key": "ENG_MOBILENETV3",
+    "record": {
+      "key": "ENG_MOBILENETV3",
+      "title": "Searching for MobileNetV3",
+      "authors": "Andrew Howard; Mark Sandler; Grace Chu; Liang-Chieh Chen; Bo Chen; Mingxing Tan; Weijun Wang; Yukun Zhu; Ruoming Pang; Vijay Vasudevan; Quoc V. Le; Hartwig Adam",
+      "author_given_family": [
+        {
+          "given": "Andrew",
+          "family": "Howard"
+        },
+        {
+          "given": "Mark",
+          "family": "Sandler"
+        },
+        {
+          "given": "Grace",
+          "family": "Chu"
+        },
+        {
+          "given": "Liang-Chieh",
+          "family": "Chen"
+        },
+        {
+          "given": "Bo",
+          "family": "Chen"
+        },
+        {
+          "given": "Mingxing",
+          "family": "Tan"
+        },
+        {
+          "given": "Weijun",
+          "family": "Wang"
+        },
+        {
+          "given": "Yukun",
+          "family": "Zhu"
+        },
+        {
+          "given": "Ruoming",
+          "family": "Pang"
+        },
+        {
+          "given": "Vijay",
+          "family": "Vasudevan"
+        },
+        {
+          "given": "Quoc V.",
+          "family": "Le"
+        },
+        {
+          "given": "Hartwig",
+          "family": "Adam"
+        }
+      ],
+      "year": 2019,
+      "url": "https://openaccess.thecvf.com/content_ICCV_2019/html/Howard_Searching_for_MobileNetV3_ICCV_2019_paper.html",
+      "doi": "10.1109/ICCV.2019.00140",
+      "source_type": "primary_paper",
+      "source_locator": "Sections 3, 5 and 6.3; Table 6",
+      "supported_claim": "MobileNetV3 provides Small and Large backbones; Section 6.3 evaluates both as SSDLite feature extractors at output strides 16 and 32. These support a concrete compact-detector comparison.",
+      "limitation": "No published phone latency or COCO score is assigned to the rover. DOI omitted because it was not directly verified at an accessible primary DOI record.",
+      "verified_on": "2026-09-16",
+      "verification": "Primary publisher or proceedings page and accessible author full text checked; no Zephyron benchmark transferred.",
+      "publication_type": "conference_paper",
+      "venue": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "pages": "1314-1324",
+      "publisher": "IEEE/CVF",
+      "verification_url": "https://arxiv.org/html/1905.02244v5",
+      "author_order_note": "Author order follows the CVF proceedings page and author manuscript, not reordered secondary indexes.",
+      "ieee_type": "conference",
+      "venue_abbrev": "Proc. IEEE/CVF Int. Conf. Comput. Vis. (ICCV)",
+      "month": 10,
+      "ieee_title": "Searching for MobileNetV3",
+      "verification_note": "IEEE-deposited Crossref record exactly matches title, venue and pp. 1314-1324. Author order remains CVF/author-paper order, despite different middle-author order in the deposit."
+    },
+    "formatted": "A. Howard et al., “Searching for MobileNetV3,” in Proc. IEEE/CVF Int. Conf. Comput. Vis. (ICCV), Oct. 2019, pp. 1314–1324, doi: 10.1109/ICCV.2019.00140.",
+    "warnings": []
+  },
+  {
+    "number": 56,
+    "key": "ENG_SSD",
+    "record": {
+      "key": "ENG_SSD",
+      "title": "SSD: Single Shot MultiBox Detector",
+      "authors": "Wei Liu; Dragomir Anguelov; Dumitru Erhan; Christian Szegedy; Scott Reed; Cheng-Yang Fu; Alexander C. Berg",
+      "author_given_family": [
+        {
+          "given": "Wei",
+          "family": "Liu"
+        },
+        {
+          "given": "Dragomir",
+          "family": "Anguelov"
+        },
+        {
+          "given": "Dumitru",
+          "family": "Erhan"
+        },
+        {
+          "given": "Christian",
+          "family": "Szegedy"
+        },
+        {
+          "given": "Scott",
+          "family": "Reed"
+        },
+        {
+          "given": "Cheng-Yang",
+          "family": "Fu"
+        },
+        {
+          "given": "Alexander C.",
+          "family": "Berg"
+        }
+      ],
+      "year": 2016,
+      "url": "https://link.springer.com/chapter/10.1007/978-3-319-46448-0_2",
+      "doi": "10.1007/978-3-319-46448-0_2",
+      "source_type": "primary_paper",
+      "source_locator": "Sections 2.1 and 2.2; training objective and hard negative mining",
+      "supported_claim": "SSD predicts default-box offsets and class scores at multiple feature-map resolutions. Its objective combines localization and confidence terms normalized by matched anchors, with a stated zero-match convention.",
+      "limitation": "The manuscript uses SSD to specify a proposed training objective; no architecture has been trained on Zephyron data.",
+      "verified_on": "2026-09-16",
+      "verification": "Primary publisher or proceedings page and accessible author full text checked; no Zephyron benchmark transferred.",
+      "publication_type": "conference_paper",
+      "venue": "Computer Vision - ECCV 2016",
+      "series": "Lecture Notes in Computer Science",
+      "volume": "9905",
+      "pages": "21-37",
+      "publisher": "Springer",
+      "verification_url": "https://arxiv.org/html/1512.02325v5",
+      "ieee_type": "chapter",
+      "ieee_title": "SSD: Single shot MultiBox detector",
+      "series_abbrev": "Lecture Notes Comput. Sci.",
+      "publisher_location": "Cham, Switzerland"
+    },
+    "formatted": "W. Liu et al., “SSD: Single shot MultiBox detector,” in Computer Vision - ECCV 2016 (Lecture Notes Comput. Sci., vol. 9905). Cham, Switzerland: Springer, 2016, pp. 21–37, doi: 10.1007/978-3-319-46448-0_2.",
+    "warnings": []
+  },
+  {
+    "number": 57,
+    "key": "ENG_TEMPERATURECAL",
+    "record": {
+      "key": "ENG_TEMPERATURECAL",
+      "title": "On Calibration of Modern Neural Networks",
+      "authors": "Chuan Guo; Geoff Pleiss; Yu Sun; Kilian Q. Weinberger",
+      "author_given_family": [
+        {
+          "given": "Chuan",
+          "family": "Guo"
+        },
+        {
+          "given": "Geoff",
+          "family": "Pleiss"
+        },
+        {
+          "given": "Yu",
+          "family": "Sun"
+        },
+        {
+          "given": "Kilian Q.",
+          "family": "Weinberger"
+        }
+      ],
+      "year": 2017,
+      "url": "https://proceedings.mlr.press/v70/guo17a.html",
+      "doi": null,
+      "source_type": "primary_paper",
+      "source_locator": "Section 4; temperature scaling; Proceedings of the 34th International Conference on Machine Learning",
+      "supported_claim": "Temperature scaling fits a scalar temperature on held-out data for class probabilities; classification scores are not automatically calibrated.",
+      "limitation": "Classification calibration does not establish bounding-box correctness, object recall, or rover safety. Applying it to the proposed detector requires a declared label and sampling definition.",
+      "verified_on": "2026-09-16",
+      "verification": "Primary publisher or proceedings page and accessible author full text checked; no Zephyron benchmark transferred.",
+      "publication_type": "conference_paper",
+      "venue": "Proceedings of the 34th International Conference on Machine Learning",
+      "series": "Proceedings of Machine Learning Research",
+      "volume": "70",
+      "pages": "1321-1330",
+      "publisher": "PMLR",
+      "verification_url": "https://proceedings.mlr.press/v70/guo17a/guo17a.pdf",
+      "ieee_type": "conference",
+      "venue_abbrev": "Proc. 34th Int. Conf. Mach. Learn. (ICML)",
+      "series_abbrev": "Proc. Mach. Learn. Res.",
+      "ieee_title": "On calibration of modern neural networks"
+    },
+    "formatted": "C. Guo, G. Pleiss, Y. Sun, and K. Q. Weinberger, “On calibration of modern neural networks,” in Proc. 34th Int. Conf. Mach. Learn. (ICML) (Proc. Mach. Learn. Res., vol. 70), 2017, pp. 1321–1330. Accessed: Sep. 16, 2026. [Online]. Available: https://proceedings.mlr.press/v70/guo17a.html",
+    "warnings": []
+  },
+  {
+    "number": 58,
+    "key": "ENG_RANDOMFOREST",
+    "record": {
+      "key": "ENG_RANDOMFOREST",
+      "title": "Random Forests",
+      "authors": "Leo Breiman",
+      "author_given_family": [
+        {
+          "given": "Leo",
+          "family": "Breiman"
+        }
+      ],
+      "year": 2001,
+      "url": "https://link.springer.com/article/10.1023/A:1010933404324",
+      "doi": "10.1023/A:1010933404324",
+      "source_type": "primary_paper",
+      "source_locator": "Abstract; regression forests discussion",
+      "supported_claim": "Random forests combine randomized tree predictors and extend to regression. This provides a candidate nonlinear comparison for independently referenced sensor calibration.",
+      "limitation": "This source does not establish conductivity calibration or gas discrimination for the proposed rover. Such use is a new conditional experimental proposal.",
+      "verified_on": "2026-09-16",
+      "verification": "Primary publisher or proceedings page and accessible author full text checked; no Zephyron benchmark transferred.",
+      "publication_type": "journal_article",
+      "venue": "Machine Learning",
+      "volume": "45",
+      "pages": "5-32",
+      "publisher": "Springer",
+      "verification_url": "https://link.springer.com/article/10.1023/A:1010933404324",
+      "ieee_type": "journal",
+      "venue_abbrev": "Mach. Learn.",
+      "ieee_title": "Random forests",
+      "month": 10
+    },
+    "formatted": "L. Breiman, “Random forests,” Mach. Learn., vol. 45, pp. 5–32, Oct. 2001, doi: 10.1023/A:1010933404324.",
+    "warnings": []
+  },
+  {
+    "number": 59,
+    "key": "ENG_BINOM",
+    "record": {
+      "key": "ENG_BINOM",
+      "title": "Exact binomial confidence limits",
+      "authors": "National Institute of Standards and Technology",
+      "year": 2010,
+      "url": "https://itl.nist.gov/div898/software/dataplot/refman2/auxillar/exacbici.htm",
+      "doi": null,
+      "source_type": "official_documentation",
+      "source_locator": "Exact binomial confidence limits documentation",
+      "supported_claim": "Exact binomial intervals quantify uncertainty when binary outcomes are counted.",
+      "limitation": "Zero misses do not imply zero population miss probability. The proposed sample-size calculation assumes independent trials.",
+      "verified_on": "2026-09-16",
+      "verification": "Publisher/manufacturer/author source accessed or indexed primary-source text checked; DOI omitted unless verified",
+      "ieee_type": "website",
+      "organization": "National Institute of Standards and Technology",
+      "accessed": "2026-09-16",
+      "verification_url": "https://itl.nist.gov/div898/software/dataplot/refman2/auxillar/exacbici.htm",
+      "verification_note": "Official NIST page states date created and last updated 10/5/2010; retrieved with web tool after local TLS failure.",
+      "website": "NIST Dataplot",
+      "date_text": "Oct. 5, 2010",
+      "ieee_title": "Exact binomial confidence limits"
+    },
+    "formatted": "National Institute of Standards and Technology. “Exact binomial confidence limits.” NIST Dataplot. Oct. 5, 2010. Accessed: Sep. 16, 2026. [Online]. Available: https://itl.nist.gov/div898/software/dataplot/refman2/auxillar/exacbici.htm",
+    "warnings": []
+  }
+]

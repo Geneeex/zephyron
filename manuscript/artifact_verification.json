@@ -1,0 +1,17 @@
+{
+  "word_file": "word/Zephyron_Research_Manuscript.docx",
+  "word_sha256": "525a2843d1bb9c3b4816f52127a79d5b82d7478e5f337137c654b24f96bf4ff9",
+  "latex_main_sha256": "d23e4df6728748b3894a90d716f042ddc2fb1fb0b439160578f145dee6402f2c",
+  "latex_bibliography_sha256": "71e41b356bea81b2ac273f1e77586ccc89389fc77c6deaf37ac430414ccbbfa4",
+  "word_page_count": 46,
+  "latex_page_count": 49,
+  "author_order": [
+    "Sabik Bin Sultan",
+    "Shafi Bin Sultan",
+    "Safwan Sadad"
+  ],
+  "scope": "Existing author-revised manuscript files, copied without content changes. JSON metadata paths were converted to repository-relative paths.",
+  "paper_record": "https://arxiv.org/abs/2609.25709v1",
+  "version_note": "The local editable files are supporting author manuscripts. A byte-for-byte equivalence to the arXiv source archive has not been established.",
+  "pdf_files_included": 0
+}

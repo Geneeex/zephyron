@@ -1,0 +1,82 @@
+{
+  "design_id": "DAHVSzCCrnI",
+  "view_url": "https://www.canva.com/d/IDTTD9Ce011n5H1",
+  "authorship": "Native editable Canva design; imported from original authored layout and revised in Canva.",
+  "page_count": 15,
+  "canvas_pixels": [
+    1600,
+    900
+  ],
+  "included_render_pixels": [
+    596,
+    335
+  ],
+  "resolution_note": "Native preview exports; obtain publication-resolution exports from the Canva master before submission.",
+  "local_layout_sources": [
+    "subsystem_diagrams.html",
+    "diagram_specs.json"
+  ],
+  "source_note": "Local layout sources are authoring references, not Canva exports; use native_diagram_text.txt and the Canva master for final wording.",
+  "files": [
+    {
+      "path": "native_renders/CANVA_NATIVE_F01.png",
+      "sha256": "0c73e115528c7af0fdbf8cf34f3c66e0c8668666cabb53c6c11e896c86e1aa82"
+    },
+    {
+      "path": "native_renders/CANVA_NATIVE_F02.png",
+      "sha256": "5432d030ea8610a21c7ddf050b5e76bc91269acbb5e10c2bbdfe1c890612ca27"
+    },
+    {
+      "path": "native_renders/CANVA_NATIVE_F03.png",
+      "sha256": "5a935d0567eae9f25c84da2627301dfd708a63efb7eedd1490d4982a3c37942f"
+    },
+    {
+      "path": "native_renders/CANVA_NATIVE_F04.png",
+      "sha256": "e7b39d3b63588a7333ffc15ac81d6f3bec5f439c35fda4dc24269f21608e5945"
+    },
+    {
+      "path": "native_renders/CANVA_NATIVE_F05.png",
+      "sha256": "e216fed8d4f65beceef92f8141192573cab1266e908ab74b2a47c9f239c4e6b1"
+    },
+    {
+      "path": "native_renders/CANVA_NATIVE_F06.png",
+      "sha256": "1b2034a5690a70b5562c9e44959f60ca3928af907a8c1b9b8fea7d3e9426d029"
+    },
+    {
+      "path": "native_renders/CANVA_NATIVE_F07.png",
+      "sha256": "4809142edf6ad857fe5972c2e6899351eb4799e03fffc142d087b54f3e46cce9"
+    },
+    {
+      "path": "native_renders/CANVA_NATIVE_F08.png",
+      "sha256": "0f635f07804dad9ecbd00bc4827b3c10b406bbd56b5ec146b03f9e1d426f00e8"
+    },
+    {
+      "path": "native_renders/CANVA_NATIVE_F09.png",
+      "sha256": "5db430a5b898a77bac9d10664c51bb5366bceed109d73148b958704d07d43585"
+    },
+    {
+      "path": "native_renders/CANVA_NATIVE_F10.png",
+      "sha256": "19776e1e2f2b9a753f918af1823d0b78566755e8661bd74fc6a0394d70351b33"
+    },
+    {
+      "path": "native_renders/CANVA_NATIVE_F11.png",
+      "sha256": "7f234bbac00ff636442c6f7c3226cca0245a32ba7907f0a4b4365a848698dea5"
+    },
+    {
+      "path": "native_renders/CANVA_NATIVE_F12.png",
+      "sha256": "a7927ebb04985c75dabcfe575dd345faed12e65f77f2466126182c2d032c2581"
+    },
+    {
+      "path": "native_renders/CANVA_NATIVE_F13.png",
+      "sha256": "0c792f1969267c7a3f4b5304904c00295540f968e2bcf4b694c1ea97d3566f7d"
+    },
+    {
+      "path": "native_renders/CANVA_NATIVE_F14.png",
+      "sha256": "28c32c55b0d3aa1e320e7795109ef53d49448fb80f3717fa823d5d824786629a"
+    },
+    {
+      "path": "native_renders/CANVA_NATIVE_F15.png",
+      "sha256": "9f5639f97fc02613c4570681dc051662884293dd2c934075a2b7748778320914"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "scene": "M01 | Environmental water sampling",
+    "frame": 1,
+    "image": "research/blender/renders/M01.png",
+    "status": "Illustrative Blender scene of a proposed task; not a field test or sensor result",
+    "public_model_verification": "research/blender/model_verification.json",
+    "render_version_note": "Existing manuscript render predates the public model label-typeface substitution to Blender builtin Bfont."
+  },
+  {
+    "scene": "M02 | Controlled obstacle approach",
+    "frame": 1,
+    "image": "research/blender/renders/M02.png",
+    "status": "Illustrative Blender scene of a proposed task; not a field test or sensor result",
+    "public_model_verification": "research/blender/model_verification.json",
+    "render_version_note": "Existing manuscript render predates the public model label-typeface substitution to Blender builtin Bfont."
+  },
+  {
+    "scene": "M03 | Gas leak reconnaissance",
+    "frame": 1,
+    "image": "research/blender/renders/M03.png",
+    "status": "Illustrative Blender scene of a proposed task; not a field test or sensor result",
+    "public_model_verification": "research/blender/model_verification.json",
+    "render_version_note": "Existing manuscript render predates the public model label-typeface substitution to Blender builtin Bfont."
+  },
+  {
+    "scene": "M04 | Radiation survey",
+    "frame": 1,
+    "image": "research/blender/renders/M04.png",
+    "status": "Illustrative Blender scene of a proposed task; not a field test or sensor result",
+    "public_model_verification": "research/blender/model_verification.json",
+    "render_version_note": "Existing manuscript render predates the public model label-typeface substitution to Blender builtin Bfont."
+  },
+  {
+    "scene": "M05 | Stationary solar and UV monitoring",
+    "frame": 1,
+    "image": "research/blender/renders/M05.png",
+    "status": "Illustrative Blender scene of a proposed task; not a field test or sensor result",
+    "public_model_verification": "research/blender/model_verification.json",
+    "render_version_note": "Existing manuscript render predates the public model label-typeface substitution to Blender builtin Bfont."
+  },
+  {
+    "scene": "M06 | Supervised visual reconnaissance",
+    "frame": 1,
+    "image": "research/blender/renders/M06.png",
+    "status": "Illustrative Blender scene of a proposed task; not a field test or sensor result",
+    "public_model_verification": "research/blender/model_verification.json",
+    "render_version_note": "Existing manuscript render predates the public model label-typeface substitution to Blender builtin Bfont."
+  },
+  {
+    "scene": "M07 | Manipulator retrieval",
+    "frame": 96,
+    "image": "research/blender/renders/M07.png",
+    "status": "Illustrative Blender scene of a proposed task; not a field test or sensor result",
+    "public_model_verification": "research/blender/model_verification.json",
+    "render_version_note": "Existing manuscript render predates the public model label-typeface substitution to Blender builtin Bfont."
+  },
+  {
+    "scene": "M08 | Communications and logging",
+    "frame": 1,
+    "image": "research/blender/renders/M08.png",
+    "status": "Illustrative Blender scene of a proposed task; not a field test or sensor result",
+    "public_model_verification": "research/blender/model_verification.json",
+    "render_version_note": "Existing manuscript render predates the public model label-typeface substitution to Blender builtin Bfont."
+  },
+  {
+    "scene": "M09 | Orthographic design baseline",
+    "frame": 1,
+    "image": "research/blender/renders/M09.png",
+    "status": "Illustrative Blender scene of a proposed task; not a field test or sensor result",
+    "public_model_verification": "research/blender/model_verification.json",
+    "render_version_note": "Existing manuscript render predates the public model label-typeface substitution to Blender builtin Bfont."
+  }
+]

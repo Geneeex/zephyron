@@ -1,0 +1,35 @@
+# Generated checks, plots and environment files
+/build/
+/.venv/
+/venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.mplconfig/
+.plot_dependencies/
+*.egg-info/
+
+# Local editors, credentials and operating-system files
+.env
+.env.*
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+~$*
+
+# Private manuscript compilation and Blender autosaves
+*.pdf
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.blend1
+*.blend2
+
+# Release archives are uploaded as release assets, not committed inside themselves
+*.zip

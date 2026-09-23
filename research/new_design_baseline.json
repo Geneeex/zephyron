@@ -1,0 +1,54 @@
+{
+  "version": "NEW-DESIGN-BASELINE-2026-09-16",
+  "evidence_status": "Selected design values and analytical estimates; not as-built measurements",
+  "geometry_mm": {
+    "wheel_diameter": 165,
+    "wheel_tread": 75,
+    "wheelbase": 570,
+    "track_center_to_center": 538,
+    "overall_wheel_footprint_length": 735,
+    "overall_wheel_footprint_width": 613,
+    "chassis_length": 600,
+    "chassis_width": 390,
+    "ground_clearance": 130,
+    "cowl_top_height": 450,
+    "solar_panel_hinge_height": 720
+  },
+  "mass_budget_kg": {
+    "dry_target": 10,
+    "payload_target": 2,
+    "gross_model_mass": 12
+  },
+  "selected_components": {
+    "motor": "4 × Pololu 4755, 100:1 nominal reduction, 12 V, encoder",
+    "battery": "Bioenno BLF-1206A, manufacturer label 12 V and 6 Ah; 72 Wh conservative energy basis",
+    "solar": "Newpowa NPA20S-12J, 20 W, 395 × 305 × 23 mm",
+    "charger": "Proposed BQ24650-based solar CC/CV design matched to the LiFePO4 pack; not as-built",
+    "motor_supply": "Proposed regulated 12 V rail; current limiting and undervoltage handling required"
+  },
+  "operating_assumptions": {
+    "command_speed_m_s": 0.35,
+    "modeled_grade_deg": 10,
+    "rolling_resistance_coefficient": 0.04,
+    "motor_rail_efficiency": 0.9,
+    "usable_battery_fraction": 0.8,
+    "auxiliary_battery_power_W": 5,
+    "drive_battery_power_nominal_W": 35,
+    "pv_combined_derating": 0.75,
+    "drive_current_continuous_limit_per_motor_A": 1.3,
+    "modelled_wheel_load_sharing": "Equal traction among four wheels; no skid-turning loss or soft-soil sinkage included"
+  },
+  "arm": {
+    "upper_link_m": 0.146,
+    "forearm_m": 0.264,
+    "grasp_payload_kg": "0.15-0.25 analytical scenarios only; not rating",
+    "upper_link_mass_kg_assumed": 0.12,
+    "forearm_mass_kg_assumed": 0.16,
+    "hand_mass_kg_assumed": 0.13,
+    "dynamic_design_factor_assumed": 2
+  },
+  "geometry_notes": {
+    "ground_clearance": "The 130 mm value is a selected nominal central-chassis clearance target; it is not a uniform underbody clearance or obstacle-traversal rating. See Blender mission_reopen_verification.json for minimum modeled assembly clearances.",
+    "solar_panel_hinge_height": "720 mm is the selected upper panel hinge/reference height. The modeled frame and laminate extend slightly above this point; it is not the maximum external height."
+  }
+}

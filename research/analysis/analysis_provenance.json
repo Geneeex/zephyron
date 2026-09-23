@@ -1,0 +1,355 @@
+{
+  "evidence_status": "Analytical scenarios; no experimental observations",
+  "baseline_snapshot": {
+    "version": "NEW-DESIGN-BASELINE-2026-09-16",
+    "evidence_status": "Selected design values and analytical estimates; not as-built measurements",
+    "geometry_mm": {
+      "wheel_diameter": 165,
+      "wheel_tread": 75,
+      "wheelbase": 570,
+      "track_center_to_center": 538,
+      "overall_wheel_footprint_length": 735,
+      "overall_wheel_footprint_width": 613,
+      "chassis_length": 600,
+      "chassis_width": 390,
+      "ground_clearance": 130,
+      "cowl_top_height": 450,
+      "solar_panel_hinge_height": 720
+    },
+    "mass_budget_kg": {
+      "dry_target": 10,
+      "payload_target": 2,
+      "gross_model_mass": 12
+    },
+    "selected_components": {
+      "motor": "4 \u00d7 Pololu 4755, 100:1 nominal reduction, 12 V, encoder",
+      "battery": "Bioenno BLF-1206A, manufacturer label 12 V and 6 Ah; 72 Wh conservative energy basis",
+      "solar": "Newpowa NPA20S-12J, 20 W, 395 \u00d7 305 \u00d7 23 mm",
+      "charger": "Proposed BQ24650-based solar CC/CV design matched to the LiFePO4 pack; not as-built",
+      "motor_supply": "Proposed regulated 12 V rail; current limiting and undervoltage handling required"
+    },
+    "operating_assumptions": {
+      "command_speed_m_s": 0.35,
+      "modeled_grade_deg": 10,
+      "rolling_resistance_coefficient": 0.04,
+      "motor_rail_efficiency": 0.9,
+      "usable_battery_fraction": 0.8,
+      "auxiliary_battery_power_W": 5,
+      "drive_battery_power_nominal_W": 35,
+      "pv_combined_derating": 0.75,
+      "drive_current_continuous_limit_per_motor_A": 1.3,
+      "modelled_wheel_load_sharing": "Equal traction among four wheels; no skid-turning loss or soft-soil sinkage included"
+    },
+    "arm": {
+      "upper_link_m": 0.146,
+      "forearm_m": 0.264,
+      "grasp_payload_kg": "0.15-0.25 analytical scenarios only; not rating",
+      "upper_link_mass_kg_assumed": 0.12,
+      "forearm_mass_kg_assumed": 0.16,
+      "hand_mass_kg_assumed": 0.13,
+      "dynamic_design_factor_assumed": 2
+    },
+    "geometry_notes": {
+      "ground_clearance": "The 130 mm value is a selected nominal central-chassis clearance target; it is not a uniform underbody clearance or obstacle-traversal rating. See Blender mission_reopen_verification.json for minimum modeled assembly clearances.",
+      "solar_panel_hinge_height": "720 mm is the selected upper panel hinge/reference height. The modeled frame and laminate extend slightly above this point; it is not the maximum external height."
+    }
+  },
+  "scenario_registry_snapshot": {
+    "version": "ZEPHYRON-ANALYTICAL-SCENARIOS-2026-09-16",
+    "evidence_status": "Selected component specifications and declared analytical grids; no observations",
+    "component_specs": {
+      "motor": {
+        "source_key": "ENG_MOTOR",
+        "selected_product": "Pololu 4755",
+        "count": 4,
+        "nominal_voltage_V": 12,
+        "free_speed_rpm": 100,
+        "free_current_A": 0.2,
+        "extrapolated_stall_current_A": 5.5,
+        "extrapolated_stall_torque_kgf_cm": 34,
+        "continuous_gearbox_torque_kgf_cm": 10,
+        "continuous_current_fraction_of_stall": 0.25
+      },
+      "battery": {
+        "source_key": "ENG_BATTERY",
+        "selected_product": "Bioenno BLF-1206A",
+        "label_voltage_V": 12,
+        "capacity_Ah": 6,
+        "energy_convention": "Manufacturer 12 V label multiplied by 6 Ah; not measured delivered energy"
+      },
+      "pv": {
+        "source_key": "ENG_PANEL",
+        "selected_product": "Newpowa NPA20S-12J",
+        "nameplate_W": 20,
+        "power_temperature_coefficient_per_K": -0.0038,
+        "reference_cell_temperature_C": 25,
+        "reference_irradiance_W_m2": 1000
+      },
+      "tds": {
+        "source_keys": [
+          "ENG_TDS",
+          "ENG_TDS_CODE"
+        ],
+        "full_scale_ppm": 1000,
+        "full_scale_spec_fraction": 0.1,
+        "conversion_coefficients_descending": [
+          133.42,
+          -255.86,
+          857.39,
+          0
+        ],
+        "conversion_multiplier": 0.5,
+        "temperature_coefficient_per_C": 0.02,
+        "reference_temperature_C": 25
+      }
+    },
+    "constants": {
+      "gravity_m_s2": 9.81,
+      "kgf_cm_to_Nm": 0.0980665
+    },
+    "energy": {
+      "drive_duty_percent": [
+        0,
+        100,
+        1
+      ],
+      "irradiance_W_m2": [
+        0,
+        250,
+        500,
+        1000
+      ],
+      "mission_hours": [
+        2,
+        4,
+        6,
+        8,
+        20
+      ],
+      "plotted_mission_hours": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "mission_irradiance_W_m2": [
+        0,
+        500,
+        1000
+      ],
+      "summary_duty_fraction": 0.25,
+      "summary_mission_h": 6,
+      "summary_irradiance_W_m2": 500
+    },
+    "pv": {
+      "cell_temperature_C": [
+        25,
+        40,
+        50,
+        60
+      ],
+      "irradiance_grid_W_m2": [
+        0,
+        1000,
+        20
+      ],
+      "standalone_controller_efficiency_assumed": 0.9,
+      "standalone_efficiency_scope": "Separate temperature sensitivity column only; never multiplied by combined mission derating",
+      "recharge_irradiance_W_m2": [
+        200,
+        400,
+        600,
+        800,
+        1000
+      ]
+    },
+    "mobility": {
+      "grade_grid_deg": [
+        0,
+        20,
+        1
+      ],
+      "wheel_diameter_grid_mm": [
+        145,
+        185,
+        1
+      ],
+      "radius_mismatch_fraction": [
+        0,
+        0.005,
+        0.01,
+        0.02
+      ],
+      "center_path_grid_m": [
+        0,
+        10,
+        0.1
+      ]
+    },
+    "radiation": {
+      "rate_counts_s": [
+        0.2,
+        1,
+        5,
+        20
+      ],
+      "integration_s": [
+        1,
+        2,
+        5,
+        10,
+        20,
+        30,
+        60,
+        120,
+        300,
+        600
+      ],
+      "background_signal_rate_cps": [
+        0.2,
+        1,
+        5
+      ],
+      "background_rate_cps": [
+        0.2,
+        1
+      ],
+      "sample_duration_s": [
+        10,
+        30,
+        60,
+        120,
+        300
+      ],
+      "background_duration_s": [
+        60,
+        300
+      ]
+    },
+    "tds": {
+      "indicated_ppm": [
+        50,
+        100,
+        200,
+        300,
+        400,
+        500,
+        600,
+        800,
+        1000
+      ],
+      "voltage_V": [
+        0.5,
+        1,
+        1.5,
+        2
+      ],
+      "temperature_C": 25,
+      "ADC_reference_V_assumed": 5,
+      "ADC_bits_assumed": 10,
+      "temperature_standard_uncertainty_C_assumed": 0.5
+    },
+    "vision": {
+      "capture_fps": [
+        5,
+        10,
+        20
+      ],
+      "link_Mbps": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "inference_ms": [
+        25,
+        50,
+        100,
+        200
+      ],
+      "frame_size_bytes_assumed": 40000,
+      "decode_ms_assumed": 20,
+      "postprocessing_ms_assumed": 10,
+      "display_ms_assumed": 20,
+      "timing_scope": "Per accepted frame, zero prior queue; service overload requires throttling/discard; capture FPS is not delivered FPS",
+      "partial_throughput_scope": "Upper bound from capture, transfer and inference bottlenecks only; excludes other stages, overhead, contention and concurrency constraints"
+    },
+    "confidence": {
+      "trial_grid": [
+        1,
+        200,
+        1
+      ],
+      "one_sided_confidence": 0.95,
+      "upper_miss_probability_target": 0.05,
+      "annotation_trials": [
+        5,
+        15,
+        59
+      ]
+    },
+    "arm": {
+      "grasp_payload_kg": [
+        0,
+        0.05,
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3
+      ],
+      "workspace_angle_grid_deg": [
+        0,
+        360,
+        1
+      ],
+      "plotted_payload_band_kg": [
+        0.15,
+        0.25
+      ]
+    }
+  },
+  "derived_parameters": {
+    "energy_Wh": 72,
+    "usable_Wh": 57.6,
+    "auxiliary_W": 5,
+    "drive_W": 35,
+    "pv_W": 20,
+    "pv_derating": 0.75,
+    "radius_m": 0.0825,
+    "track_m": 0.538,
+    "mass_kg": 12,
+    "gravity": 9.81,
+    "rolling": 0.04,
+    "speed_m_s": 0.35,
+    "stall_Nm": 3.334261,
+    "gearbox_Nm": 0.980665,
+    "current_guidance_A": 1.375
+  },
+  "input_snapshot_hashes": {
+    "baseline": "e6b9315a49856028a8250c0ebcabb7177fe7086d2ad397c6837f6cdd793280d3",
+    "scenarios": "c34888bdfbb8da0e827fab0ce9fffca8f35b75c1048f21135850f1ed6989ff38"
+  },
+  "source_hashes": {
+    "build_engineering_analysis.py": "936017bdaa1dfd5b6c2c63b12fd132a229388c519af22b97bd6d7e53d70f63e8",
+    "engineering_models.py": "5f16239f5ed548fb4884b7de41176722263aa07e1645301292205594875403e3"
+  },
+  "datasets": {
+    "energy_duty_sweep.csv": "847408e305bd83d8c6761befcf53f44b68cab1c4b94249094fbc4ab96dd4c46c",
+    "energy_mission_duty_limits.csv": "df6b214013e4a738a36155baa4e193739b59cc8370dc5ddc7e62f040cbf67ed3",
+    "pv_irradiance_temperature.csv": "502855961125ddf7924ec80d408115360a828445ca4e09dbefbf85d76cd80e9e",
+    "solar_recharge_lower_bound.csv": "8a5bab900d9301654f1a2b17c38ac4d0b0a21b09d8b2362b509b35f6fa8a59d4",
+    "grade_load.csv": "dd10f768b9a4b98d330e6284cb7a0dade0643f699b0b82df9e6acfd772b83e20",
+    "wheel_diameter_speed.csv": "4e4f1c84d8ea9a209e64d9810baf319f65b5e659d700f03327e6438b5cc7263d",
+    "odometry_mismatch_paths.csv": "122333f76ec7d99d501d53780e1e8814da3261eeb77b0b8b7a55cde401f8da55",
+    "gm_counting_time.csv": "1a86923cf29efddf8b2203703266f30f234281bfd3d49088433cd5e1b4028871",
+    "gm_background_scenario.csv": "7dd4cb062e080dcd5ff2c49c5a6ff9830b6c1f8b659b376b2403c5384cb7eab5",
+    "tds_fullscale_spec.csv": "520a0ffcbd4bb6b070f07fdd847099a852d5c66a851e3e529a72debfffca84d6",
+    "tds_partial_uncertainty.csv": "918deaf1ad2bc721f859efc797e47011f8a3f0b887440a4579561a707ff3d1eb",
+    "vision_latency_scenarios.csv": "942f688861b672ae20973da457956160fc94291b1b8bf236d480bf6500b47ebe",
+    "zero_miss_confidence.csv": "66caedbfa90f675d64cda8239e11e77cd6bf435a4101851426b259cafdd0a431",
+    "arm_torque_budget.csv": "1af04875f9255be917d69cd5e108a960f146072559ab7da33baf4ecc9798bbd9",
+    "arm_unconstrained_workspace.csv": "43faea662ab322de06342fd9628110d13f1b361a2e31040b96608f81d3ab2bc3",
+    "baseline_parameters.csv": "66bdcd904fbc2c722410f98ab6cd4379dacae8a0368f86b5fff98a707d11a267"
+  }
+}
