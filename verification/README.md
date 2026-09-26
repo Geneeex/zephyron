@@ -14,7 +14,7 @@ This directory records the checks performed while preparing the initial public s
 | [Blender portability](../research/blender/model_verification.json) | Fresh native-file reopen, packed assets, scene inventory and relative paths |
 | [Manuscript integrity](../manuscript/artifact_verification.json) | Word and LaTeX source hashes, author order and content counts |
 
-The preparation reports are a historical snapshot. To obtain fresh evidence after editing, run `python scripts/verify_repository.py --figures`. The [live GitHub Actions page](https://github.com/SABIKGIT/zephyron/actions/workflows/verify.yml) records hosted verification separately.
+The preparation reports are a historical snapshot. To obtain fresh evidence after editing, run `python scripts/verify_repository.py --figures`. The [live GitHub Actions page](https://github.com/Geneeex/zephyron/actions/workflows/verify.yml) records hosted verification separately.
 
 The root [file manifest](../SUPPORTING_FILES_MANIFEST.json) records every distributed file except itself. Check the current published snapshot with:
 

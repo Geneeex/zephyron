@@ -26,8 +26,8 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 1390,
-      "sha256": "c3b0636554b06e9a9f79db8664046e1e25c9f86bcc471258cda11ebf07a025ba"
+      "bytes": 1388,
+      "sha256": "6ffcffcb8794c6b202d2c8b29dfd2631559c39ff70f8fb91177dfcaf42236488"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -51,8 +51,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8224,
-      "sha256": "c711332d6cbf33279cf6a634bf3031c9dbc81451668a3cfcd035d647d2e3311d"
+      "bytes": 8219,
+      "sha256": "4732dc23e77997df9830cc2e23301192b070cf4bee62cc896e629f08b3c10e01"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -126,8 +126,8 @@
     },
     {
       "path": "docs/UPLOAD_TO_GITHUB.md",
-      "bytes": 2748,
-      "sha256": "bb4b815085f38df15834b52558e7e47545b29bd3721fe051b3a4b0370fe6e84c"
+      "bytes": 2744,
+      "sha256": "39ce304ac8e0f3d319677dd57ccd2adc5773b976e5b3c60ba4a6133f53349ce6"
     },
     {
       "path": "manuscript/artifact_verification.json",
@@ -931,8 +931,8 @@
     },
     {
       "path": "verification/README.md",
-      "bytes": 2669,
-      "sha256": "73075ec41749beda5ece11769ead94dc6dad247ee2fd0ae388c1cd0757f9497f"
+      "bytes": 2668,
+      "sha256": "ebaeadc43e66a57762b8c6b15605530f882d36cd4e12bcbd0be8cfe83e96c009"
     },
     {
       "path": "verification/import_provenance.json",
