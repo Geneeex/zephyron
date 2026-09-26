@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use these supporting materials, please cite the Zephyron preprint."
 type: software
-url: "https://github.com/SABIKGIT/zephyron"
-repository-code: "https://github.com/SABIKGIT/zephyron"
+url: "https://github.com/Geneeex/zephyron"
+repository-code: "https://github.com/Geneeex/zephyron"
 title: "Zephyron research companion: analytical models, software checks and editable design assets"
 authors:
   - family-names: "Sultan"

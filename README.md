@@ -5,7 +5,7 @@
 **Solar-assisted mobility · Environmental reconnaissance · Distributed visual inference**
 
 [![Paper](https://img.shields.io/badge/arXiv-2609.25709-B31B1B)](https://arxiv.org/abs/2609.25709)
-[![Verification](https://github.com/SABIKGIT/zephyron/actions/workflows/verify.yml/badge.svg)](https://github.com/SABIKGIT/zephyron/actions/workflows/verify.yml)
+[![Verification](https://github.com/Geneeex/zephyron/actions/workflows/verify.yml/badge.svg)](https://github.com/Geneeex/zephyron/actions/workflows/verify.yml)
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](docs/REPRODUCIBILITY.md)
 [![Code license](https://img.shields.io/badge/Code-MIT-3DA639)](docs/LICENSING.md)
 [![Content license](https://img.shields.io/badge/Content-CC_BY_4.0-56B4C7)](docs/LICENSING.md)
@@ -88,7 +88,7 @@ The [Canva diagram master](https://www.canva.com/d/IDTTD9Ce011n5H1) contains edi
 
 ## Verification and contribution
 
-Fresh [publication verification](verification/publication_checks.json) passed **45 software checks**, reproduced **16/16 CSV datasets byte for byte**, and regenerated **all nine analytical figure pairs** on Windows with Python 3.12. The [GitHub Actions workflow](https://github.com/SABIKGIT/zephyron/actions/workflows/verify.yml) verifies the file manifest and runs the same calculation and figure checks after each push or pull request. Historical preparation reports remain separately labelled.
+Fresh [publication verification](verification/publication_checks.json) passed **45 software checks**, reproduced **16/16 CSV datasets byte for byte**, and regenerated **all nine analytical figure pairs** on Windows with Python 3.12. The [GitHub Actions workflow](https://github.com/Geneeex/zephyron/actions/workflows/verify.yml) verifies the file manifest and runs the same calculation and figure checks after each push or pull request. Historical preparation reports remain separately labelled.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for changes to assumptions, tests and future measured datasets. Keep calculated, simulated and experimentally measured evidence explicitly labelled.
 
@@ -96,4 +96,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for changes to assumptions, tests and fut
 
 Original code is under the [MIT License](LICENSE), with copyright notice **Sabik Bin Sultan**. Original documentation and visuals are under **CC BY 4.0** as detailed in [the licensing guide](docs/LICENSING.md); the paper retains all three author credits. Third-party materials keep their original licenses.
 
-This project is maintained at **[SABIKGIT/zephyron](https://github.com/SABIKGIT/zephyron)**. For future updates, follow [the GitHub publishing guide](docs/UPLOAD_TO_GITHUB.md). Use Git or GitHub Desktop for the complete repository because the Word manuscript exceeds GitHub's browser upload limit. No PDF files are included.
+This project is maintained at **[Geneeex/zephyron](https://github.com/Geneeex/zephyron)**. For future updates, follow [the GitHub publishing guide](docs/UPLOAD_TO_GITHUB.md). Use Git or GitHub Desktop for the complete repository because the Word manuscript exceeds GitHub's browser upload limit. No PDF files are included.

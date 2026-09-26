@@ -1,11 +1,11 @@
 # Maintaining the Zephyron repository
 
-The public repository is **[SABIKGIT/zephyron](https://github.com/SABIKGIT/zephyron)**. It accompanies **[arXiv:2609.25709](https://arxiv.org/abs/2609.25709)**.
+The public repository is **[Geneeex/zephyron](https://github.com/Geneeex/zephyron)**. It accompanies **[arXiv:2609.25709](https://arxiv.org/abs/2609.25709)**.
 
 ## Prepare an update
 
 ```sh
-git clone https://github.com/SABIKGIT/zephyron.git
+git clone https://github.com/Geneeex/zephyron.git
 cd zephyron
 git switch -c research-update
 ```
@@ -39,7 +39,7 @@ git push -u origin research-update
 
 `--write` records files known to Git, excluding the manifest itself. Stage new files first. Generated `build/` outputs and environments stay excluded by `.gitignore`. Do not refresh checksums to hide unexplained changes.
 
-Open a pull request to `main` and inspect [GitHub Actions](https://github.com/SABIKGIT/zephyron/actions/workflows/verify.yml). The workflow checks distribution integrity, software, tables and figure generation, then uploads verification outputs as a downloadable artifact.
+Open a pull request to `main` and inspect [GitHub Actions](https://github.com/Geneeex/zephyron/actions/workflows/verify.yml). The workflow checks distribution integrity, software, tables and figure generation, then uploads verification outputs as a downloadable artifact.
 
 ## Archive and attribution
 
